@@ -1,14 +1,20 @@
-# AI Infrastructure Acceleration
+# The Compute Grid
 
-Public GitHub Pages draft.
+Public GitHub Pages research page.
 
 ## Publish
-Create a public GitHub repository named `ai-infra-acceleration`, push this folder to `main`, then enable:
+Create a public GitHub repository named `compute-grid`, push this folder to `main`, then enable:
 
 Settings -> Pages -> Deploy from branch -> main / root.
 
 Expected free URL:
-`https://HasanAIResearch.github.io/ai-infra-acceleration/`
+`https://HasanAIResearch.github.io/compute-grid/`
+
+## Positioning
+
+The public thesis:
+
+AI is becoming a physical infrastructure race across compute, power, land, cooling, interconnection, silicon, and capital.
 
 ## Public-Safety Checklist
 
