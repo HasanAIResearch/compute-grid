@@ -3,6 +3,7 @@
 Public GitHub Pages research page.
 
 ## Publish
+
 Create a public GitHub repository named `compute-grid`, push this folder to `main`, then enable:
 
 Settings -> Pages -> Deploy from branch -> main / root.
