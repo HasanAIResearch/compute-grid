@@ -421,6 +421,22 @@
       line-height: 1.45;
       margin-top: 10px;
     }
+    .specialist-card {
+      min-height: 260px;
+    }
+    .component {
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 850;
+      line-height: 1.35;
+      margin: 8px 0 10px;
+    }
+    .supplier-note {
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.45;
+      margin-top: 9px;
+    }
     .split {
       display: grid;
       grid-template-columns: .95fr 1.05fr;
@@ -635,13 +651,24 @@
       <div class="layers" id="beneficiaryLayers"></div>
     </section>
 
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Specialist chokepoints</span>
+          <h2>The less obvious suppliers</h2>
+          <p>The famous AI stocks are only the visible layer. Some of the stronger bottlenecks sit inside passive components, electrical gear, optical modules, substrates, thermal systems, backup power, and construction capacity.</p>
+        </div>
+      </div>
+      <div class="layers" id="specialistLayers"></div>
+    </section>
+
     <section class="section panel">
       <span class="section-label">Methodology and sources</span>
       <h2>How to read this dashboard</h2>
       <div class="source-grid">
         <div class="source"><b>Composite score.</b><br>Manual weighted score from capex momentum, power queue pressure, bottleneck breadth, and beneficiary dispersion.</div>
         <div class="source"><b>Data freshness.</b><br>Public-source dashboard, updated manually. Values are rounded and should be refreshed before investment reuse.</div>
-        <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA/data-center power work, Goldman Sachs power-demand estimates, SemiAnalysis energy bottleneck work.</div>
+        <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA/data-center power work, Goldman Sachs power-demand estimates, SemiAnalysis energy bottleneck work, EE News Europe MLCC coverage, MarketsandMarkets data-center power/cooling supplier lists, SemiconductorX/ABF substrate references, Cignal AI/LightCounting optical supplier lists.</div>
         <div class="source"><b>Limitations.</b><br>Queue capacity is not guaranteed build capacity. Tickers show exposure, not valuation or timing attractiveness.</div>
       </div>
       <footer>Not investment advice. This page is public research commentary about the physical AI infrastructure buildout and its supply-chain constraints.</footer>
@@ -696,6 +723,72 @@
       { title: "Networking / Interconnect", tickers: ["ANET", "AVGO", "MRVL", "APH"], why: "Scale-out AI clusters need high-speed switching, optics, and connectors.", risk: "Risk: architecture shifts and customer digestion periods." },
       { title: "Power / Grid", tickers: ["GEV", "ETN", "VRT", "PWR", "HUBB", "POWL"], why: "Electrical equipment, grid upgrades, power systems, and construction become gating assets.", risk: "Risk: backlog quality, supply execution, and rate-sensitive multiples." },
       { title: "Firm Power / Facilities", tickers: ["CEG", "VST", "NEE", "DLR", "EQIX", "MOD", "TT", "CARR"], why: "Firm power, data-center sites, cooling systems, and thermal equipment support capacity growth.", risk: "Risk: regulation, power prices, and project-specific delays." }
+    ];
+
+    const specialistLayers = [
+      {
+        title: "MLCC / Passive Components",
+        component: "Multilayer ceramic capacitors, tantalum capacitors, inductors, high-reliability passives",
+        tickers: ["Murata 6981.T", "TDK 6762.T", "Taiyo Yuden 6976.T", "Yageo 2327.TW", "Samsung Electro-Mechanics 009150.KS", "Kyocera 6971.T"],
+        why: "AI servers increase passive component count and quality requirements. Supply is concentrated in Japanese, Korean, and Taiwanese specialists.",
+        risk: "Caution: passive components are cyclical; pricing power can fade when inventory normalizes."
+      },
+      {
+        title: "Transformers / Switchgear",
+        component: "Medium-voltage switchgear, dry-type transformers, UPS, substations, protection gear",
+        tickers: ["ETN", "Schneider SU.PA", "ABB", "Siemens Energy ENR.DE", "GEV", "Hitachi 6501.T", "HD Hyundai Electric 267260.KS", "Hyosung Heavy 298040.KS", "POWL", "HUBB"],
+        why: "Data centers need grid interconnects, electrical rooms, switchgear, transformers, and power distribution before compute can be energized.",
+        risk: "Caution: backlog is strong, but execution, supply constraints, and utility approval timing matter."
+      },
+      {
+        title: "Advanced Substrates",
+        component: "ABF substrates, interposers, high-end PCBs, advanced packaging supply chain",
+        tickers: ["Ibiden 4062.T", "Shinko 6967.T", "Unimicron 3037.TW", "Nan Ya PCB 8046.TW", "AT&S ATS.VI", "Samsung Electro-Mechanics 009150.KS", "TSM"],
+        why: "AI accelerators and HBM packages need advanced substrates and packaging capacity, which can bottleneck even when wafer supply exists.",
+        risk: "Caution: supplier share and profitability can shift with packaging architecture and customer qualification."
+      },
+      {
+        title: "Optical Modules / Photonics",
+        component: "800G/1.6T optical modules, lasers, photodetectors, transceivers, optical engines",
+        tickers: ["COHR", "LITE", "FN", "Eoptolink 300502.SZ", "Zhongji Innolight 300308.SZ", "CIEN", "AVGO", "MRVL"],
+        why: "Scale-out AI clusters move huge traffic east-west, making optical modules and photonics a high-growth infrastructure layer.",
+        risk: "Caution: optics can be brutally competitive; Chinese suppliers can compress margins after early premium phases."
+      },
+      {
+        title: "Connectors / Cables",
+        component: "High-speed connectors, backplanes, copper cable assemblies, fiber, power connectors",
+        tickers: ["APH", "TEL", "Bel Fuse BELFA/BELFB", "Sumitomo Electric 5802.T", "Furukawa Electric 5801.T"],
+        why: "Dense AI racks require high-speed, high-reliability physical interconnect and power connectivity across servers and clusters.",
+        risk: "Caution: exposure varies by product mix; some key suppliers such as Molex and Samtec are private."
+      },
+      {
+        title: "Power Semiconductors",
+        component: "SiC/GaN/power MOSFETs, rectifiers, power modules, power-management devices",
+        tickers: ["Infineon IFX.DE", "ON", "STM", "ROHM 6963.T", "Mitsubishi Electric 6503.T", "Fuji Electric 6504.T", "VSH"],
+        why: "AI power density raises demand for efficient conversion, switching, and power management from grid edge to rack.",
+        risk: "Caution: some names are more auto/industrial exposed than pure data-center exposed."
+      },
+      {
+        title: "Liquid Cooling / Thermal",
+        component: "CDUs, heat exchangers, chillers, rear-door cooling, liquid loops, thermal services",
+        tickers: ["VRT", "MOD", "Schneider SU.PA", "nVent NVT", "Alfa Laval ALFA.ST", "TT", "CARR", "JCI", "Danfoss private"],
+        why: "Higher rack density makes air cooling insufficient in many AI deployments, lifting the value of liquid and precision cooling suppliers.",
+        risk: "Caution: not every HVAC company has equal direct exposure to high-density AI cooling."
+      },
+      {
+        title: "Backup / On-site Power",
+        component: "Gensets, turbines, fuel cells, microgrids, batteries, behind-the-meter power",
+        tickers: ["CAT", "CMI", "Rolls-Royce RR.L", "Mitsubishi Heavy 7011.T", "Bloom Energy BE", "Generac GNRC", "Fluence FLNC"],
+        why: "Power scarcity pushes operators toward backup generation, microgrids, fuel cells, and flexible power architectures.",
+        risk: "Caution: economics depend on regulation, emissions rules, fuel cost, and customer adoption."
+      },
+      {
+        title: "EPC / Construction Capacity",
+        component: "Electrical contracting, mechanical contracting, grid construction, commissioning, data-center buildout",
+        tickers: ["PWR", "EME", "FIX", "STRL", "PRIM", "MTZ", "J"],
+        why: "Even with equipment and power secured, specialist builders and electrical/mechanical contractors can become schedule bottlenecks.",
+        risk: "Caution: margins depend on project mix, labor availability, execution, and contract discipline."
+      }
     ];
 
     const capexSeries = [
@@ -762,6 +855,18 @@
       `).join("");
     }
 
+    function renderSpecialists() {
+      document.getElementById("specialistLayers").innerHTML = specialistLayers.map(layer => `
+        <article class="layer-card specialist-card">
+          <h3>${layer.title}</h3>
+          <div class="component">${layer.component}</div>
+          <p>${layer.why}</p>
+          <div class="tickers">${layer.tickers.map(t => `<span class="ticker">${t}</span>`).join("")}</div>
+          <div class="supplier-note">${layer.risk}</div>
+        </article>
+      `).join("");
+    }
+
     function renderCapexChart() {
       const svg = document.getElementById("capexChart");
       const w = 720, h = 360, pad = 48;
@@ -804,6 +909,7 @@
     renderHeatmap();
     renderFlow();
     renderLayers();
+    renderSpecialists();
     renderCapexChart();
   </script>
 </body>
