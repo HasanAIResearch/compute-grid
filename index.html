@@ -1,20 +1,810 @@
-<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>The Compute Grid: Where AI Hits the Real World</title><meta name="description" content="A public research dashboard on the physical layer of AI: compute, power, interconnection, silicon, cooling, land, and capital bottlenecks."><style>
-:root{--bg:#f5f7fa;--ink:#121826;--muted:#627084;--panel:#fff;--line:#d8dee8;--hot:#e11d48;--amber:#d97706;--blue:#2563eb;--green:#16a34a;}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:Segoe UI,Roboto,Arial,sans-serif} header{background:#101827;color:#fff;padding:26px 32px 22px} main{max-width:1180px;margin:0 auto;padding:20px} h1{font-size:34px;margin:0;letter-spacing:0} h2{font-size:18px;margin:0 0 12px} .sub{color:#cbd5e1;margin-top:8px;line-height:1.5} .badge{display:inline-block;border:1px solid #475569;border-radius:999px;padding:4px 10px;margin-bottom:12px;color:#e2e8f0;font-size:12px} .hero{display:grid;grid-template-columns:310px 1fr;gap:18px;margin-top:18px} .panel,.signal{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px} .heat{display:grid;place-items:center;text-align:center;min-height:250px} .heat .num{font-size:78px;font-weight:800;color:var(--hot);line-height:1} .heat .label{font-size:20px;font-weight:700;margin-top:6px} .heat p{color:var(--muted);line-height:1.45} .signals{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:14px} .signal-top{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:13px} .signal-top b{color:var(--ink);font-size:22px} .bar{height:8px;background:#edf1f7;border-radius:999px;margin:10px 0;overflow:hidden} .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--hot))} .metric{font-size:22px;font-weight:750} .change{font-size:13px;color:var(--green);font-weight:700;margin-top:3px} p{color:var(--muted);line-height:1.5} .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px} svg{width:100%;height:auto} .chart text{font-size:11px;fill:#667085} .chart polyline{fill:none;stroke:var(--blue);stroke-width:4} .chart circle{fill:#fff;stroke:var(--blue);stroke-width:3} table{width:100%;border-collapse:collapse;background:#fff} th,td{padding:10px;border-bottom:1px solid #edf1f5;text-align:left;vertical-align:top} th{font-size:12px;color:#475569;background:#f1f5f9;position:sticky;top:0} td.num{text-align:right;font-variant-numeric:tabular-nums} .tablewrap{max-height:430px;overflow:auto;border:1px solid var(--line);border-radius:8px} .note{border-left:4px solid var(--amber);background:#fffaf0} footer{color:#64748b;font-size:12px;margin:20px 0} @media(max-width:900px){.hero,.grid{grid-template-columns:1fr}.signals{grid-template-columns:1fr 1fr}} @media(max-width:620px){.signals{grid-template-columns:1fr} h1{font-size:28px} main{padding:12px}}
-</style></head><body><header><span class='badge'>Research note · generated 2026-07-02</span><h1>The Compute Grid</h1><div class='sub'>Where AI hits the real world: compute, power, interconnection, silicon, cooling, land, and capital. This page tracks the physical bottlenecks behind the AI buildout.</div></header><main>
-<section class='hero'><div class='panel heat'><div class='num'>94</div><div class='label'>Buildout pressure high</div><p>Composite compute-grid pressure score from capex, platform revenue, data-center power queue, and new project starts. A score above 75 means the physical buildout is still intensifying.</p></div><div class='panel'><h2>Active U.S. generation interconnection queue</h2><svg class='chart' viewBox='0 0 600 290' role='img' aria-label='active generation queue capacity by year'><line x1='40' y1='240' x2='570' y2='240' stroke='#cbd5e1'/><line x1='40' y1='40' x2='40' y2='240' stroke='#cbd5e1'/><polyline points='40.0,212.95586808923375 105.0,200.56256062075656 170.0,193.9282250242483 235.0,158.59117361784675 300.0,149.05431619786614 365.0,159.37439379243452 430.0,131.77740058195926 495.0,50.0 560.0,153.43113482056253'/><circle cx='40.0' cy='212.95586808923375' r='4'><title>2018: 58.7 GW</title></circle><circle cx='105.0' cy='200.56256062075656' r='4'><title>2019: 85.6 GW</title></circle><circle cx='170.0' cy='193.9282250242483' r='4'><title>2020: 100.0 GW</title></circle><circle cx='235.0' cy='158.59117361784675' r='4'><title>2021: 176.7 GW</title></circle><circle cx='300.0' cy='149.05431619786614' r='4'><title>2022: 197.4 GW</title></circle><circle cx='365.0' cy='159.37439379243452' r='4'><title>2023: 175.0 GW</title></circle><circle cx='430.0' cy='131.77740058195926' r='4'><title>2024: 234.9 GW</title></circle><circle cx='495.0' cy='50.0' r='4'><title>2025: 412.4 GW</title></circle><circle cx='560.0' cy='153.43113482056253' r='4'><title>2026: 187.9 GW</title></circle><text x='40.0' y='268' text-anchor='middle'>2018</text><text x='105.0' y='268' text-anchor='middle'>2019</text><text x='170.0' y='268' text-anchor='middle'>2020</text><text x='235.0' y='268' text-anchor='middle'>2021</text><text x='300.0' y='268' text-anchor='middle'>2022</text><text x='365.0' y='268' text-anchor='middle'>2023</text><text x='430.0' y='268' text-anchor='middle'>2024</text><text x='495.0' y='268' text-anchor='middle'>2025</text><text x='560.0' y='268' text-anchor='middle'>2026</text><text x='40' y='28'>GW requested</text></svg><p>Interconnection.fyi default active-generation view shows 7,954 active requests totaling ~1.74 TW. Texas is the largest state in the filtered view at ~456 GW.</p></div></section>
-<section class='signals'>
-<section class='signal'><div class='signal-top'><span>Hyperscaler infrastructure spend</span><b>100</b></div><div class='bar'><i style='width:100%'></i></div><div class='metric'>$148B/qtr</div><div class='change'>+91% YoY</div><p>Microsoft, Alphabet, Amazon, Meta, Oracle capex remains at record intensity.</p></section>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Compute Grid: Where AI Hits the Real World</title>
+  <meta name="description" content="A dark public research dashboard on the physical layer of AI: compute, power, grid, cooling, memory, networking, land, and capital bottlenecks.">
+  <style>
+    :root {
+      --bg: #060914;
+      --bg-2: #0a1020;
+      --panel: #0d1424;
+      --panel-2: #111b2f;
+      --panel-3: #101827;
+      --line: #22314c;
+      --line-2: #334766;
+      --ink: #eef5ff;
+      --muted: #91a4bf;
+      --soft: #c8d7ea;
+      --blue: #4ea1ff;
+      --cyan: #38d7ff;
+      --green: #42d392;
+      --amber: #f7b955;
+      --red: #ff5573;
+      --purple: #a78bfa;
+      --shadow: rgba(0, 0, 0, .35);
+    }
+    * { box-sizing: border-box; }
+    html { color-scheme: dark; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(78, 161, 255, .16), transparent 32rem),
+        radial-gradient(circle at 88% 8%, rgba(167, 139, 250, .13), transparent 28rem),
+        linear-gradient(180deg, #050815 0%, #080d19 48%, #050812 100%);
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    a { color: inherit; }
+    .wrap {
+      width: min(1240px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header {
+      padding: 28px 0 18px;
+      border-bottom: 1px solid rgba(124, 155, 200, .18);
+    }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 26px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--soft);
+      font-size: 13px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background:
+        linear-gradient(135deg, rgba(56, 215, 255, .95), rgba(167, 139, 250, .9));
+      box-shadow: 0 0 30px rgba(78, 161, 255, .25);
+      position: relative;
+    }
+    .brand-mark:after {
+      content: "";
+      position: absolute;
+      inset: 9px;
+      border: 2px solid rgba(5, 9, 20, .8);
+      border-radius: 4px;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+    .chip {
+      border: 1px solid rgba(145, 164, 191, .28);
+      background: rgba(17, 27, 47, .78);
+      border-radius: 999px;
+      color: var(--soft);
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(40px, 7vw, 82px);
+      line-height: .95;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      max-width: 780px;
+      color: #b8c9de;
+      font-size: clamp(17px, 2vw, 22px);
+      line-height: 1.45;
+      margin: 18px 0 0;
+    }
+    .thesis {
+      margin-top: 22px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .metric-card,
+    .panel,
+    .signal,
+    .layer-card {
+      background: linear-gradient(180deg, rgba(17, 27, 47, .96), rgba(11, 18, 32, .96));
+      border: 1px solid rgba(124, 155, 200, .22);
+      border-radius: 12px;
+      box-shadow: 0 20px 40px var(--shadow);
+    }
+    .metric-card {
+      padding: 14px;
+      min-height: 94px;
+    }
+    .metric-card span,
+    .section-label {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+      font-weight: 850;
+    }
+    .metric-card b {
+      display: block;
+      margin-top: 8px;
+      font-size: 24px;
+      line-height: 1;
+    }
+    .metric-card em {
+      display: block;
+      color: var(--soft);
+      font-style: normal;
+      font-size: 12px;
+      line-height: 1.35;
+      margin-top: 8px;
+    }
+    .panel {
+      padding: 18px;
+    }
+    .command {
+      display: grid;
+      grid-template-columns: 230px 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+    .gauge {
+      width: 210px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      margin: 0 auto;
+      background:
+        radial-gradient(circle at center, #08101e 0 58%, transparent 59%),
+        conic-gradient(var(--red) 0 94%, rgba(55, 70, 100, .45) 94% 100%);
+      box-shadow: 0 0 34px rgba(255, 85, 115, .18);
+    }
+    .gauge-inner {
+      width: 145px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background: #09111f;
+      border: 1px solid rgba(255, 255, 255, .08);
+      display: grid;
+      place-items: center;
+      text-align: center;
+    }
+    .gauge strong {
+      font-size: 50px;
+      line-height: .9;
+    }
+    .gauge span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .read h2,
+    section h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+    .read p,
+    .panel p,
+    .signal p,
+    .layer-card p {
+      color: var(--muted);
+      line-height: 1.5;
+      margin: 0;
+    }
+    .read ul {
+      margin: 14px 0 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 10px;
+    }
+    .read li {
+      color: var(--soft);
+      line-height: 1.35;
+      padding-left: 18px;
+      position: relative;
+    }
+    .read li:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .55em;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 18px rgba(56, 215, 255, .55);
+    }
+    main { padding: 20px 0 42px; }
+    .section {
+      margin-top: 18px;
+    }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+    .section-head p {
+      max-width: 740px;
+      color: var(--muted);
+      margin: 6px 0 0;
+      line-height: 1.45;
+    }
+    .signal-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .signal {
+      padding: 14px;
+      min-height: 168px;
+      position: relative;
+      overflow: hidden;
+    }
+    .signal:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(78, 161, 255, .08), transparent 48%);
+      pointer-events: none;
+    }
+    .signal-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      position: relative;
+    }
+    .signal h3 {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.25;
+    }
+    .score {
+      color: var(--ink);
+      font-size: 28px;
+      font-weight: 850;
+      line-height: 1;
+    }
+    .bar {
+      height: 7px;
+      border-radius: 999px;
+      background: rgba(145, 164, 191, .14);
+      overflow: hidden;
+      margin: 12px 0;
+      position: relative;
+    }
+    .bar i {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--cyan), var(--purple), var(--red));
+    }
+    .tagline {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      position: relative;
+    }
+    .tag {
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 11px;
+      font-weight: 800;
+      color: #07101c;
+      background: var(--green);
+    }
+    .tag.medium { background: var(--amber); }
+    .tag.hot { background: var(--red); color: #fff; }
+    .tag.cool { background: var(--cyan); }
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .chart-wrap {
+      min-height: 360px;
+    }
+    svg { display: block; width: 100%; height: auto; }
+    .axis, .tick { stroke: rgba(145, 164, 191, .35); }
+    .chart-text { fill: var(--muted); font-size: 12px; }
+    .chart-label { fill: var(--soft); font-size: 13px; font-weight: 700; }
+    .heatmap {
+      overflow-x: auto;
+      border: 1px solid rgba(124, 155, 200, .18);
+      border-radius: 10px;
+    }
+    table {
+      width: 100%;
+      min-width: 860px;
+      border-collapse: collapse;
+      background: rgba(7, 12, 24, .52);
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid rgba(124, 155, 200, .14);
+      text-align: left;
+      vertical-align: middle;
+      font-size: 13px;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      color: var(--soft);
+      background: #0d1525;
+      font-size: 11px;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+    .cell {
+      border-radius: 7px;
+      padding: 8px 9px;
+      color: #06101c;
+      font-weight: 850;
+      text-align: center;
+      min-width: 72px;
+    }
+    .s1 { background: #43d392; }
+    .s2 { background: #badb66; }
+    .s3 { background: #f7b955; }
+    .s4 { background: #ff7d57; color: #fff; }
+    .s5 { background: #ff5573; color: #fff; }
+    .s6 { background: #a78bfa; color: #fff; }
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(8, minmax(0, 1fr));
+      gap: 8px;
+    }
+    .node {
+      border: 1px solid rgba(124, 155, 200, .24);
+      border-radius: 10px;
+      padding: 12px 10px;
+      background: rgba(17, 27, 47, .9);
+      min-height: 86px;
+    }
+    .node b { display: block; font-size: 14px; }
+    .node span { display: block; color: var(--muted); font-size: 12px; line-height: 1.35; margin-top: 6px; }
+    .node.hot { border-color: rgba(255, 85, 115, .7); box-shadow: inset 0 0 0 1px rgba(255, 85, 115, .15); }
+    .node.warn { border-color: rgba(247, 185, 85, .6); }
+    .layers {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .layer-card {
+      padding: 15px;
+      min-height: 230px;
+    }
+    .layer-card h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .tickers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 12px 0;
+    }
+    .ticker {
+      border: 1px solid rgba(145, 164, 191, .25);
+      background: rgba(78, 161, 255, .08);
+      color: var(--soft);
+      border-radius: 7px;
+      padding: 5px 7px;
+      font-size: 12px;
+      font-weight: 850;
+    }
+    .risk {
+      color: var(--amber);
+      font-size: 12px;
+      line-height: 1.45;
+      margin-top: 10px;
+    }
+    .split {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 14px;
+    }
+    .priority-list {
+      display: grid;
+      gap: 10px;
+    }
+    .priority {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 12px;
+      align-items: start;
+      border-top: 1px solid rgba(124, 155, 200, .14);
+      padding-top: 10px;
+    }
+    .rank {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      background: rgba(56, 215, 255, .12);
+      border: 1px solid rgba(56, 215, 255, .35);
+      color: var(--cyan);
+    }
+    .priority b { display: block; margin-bottom: 4px; }
+    .priority span { color: var(--muted); line-height: 1.45; font-size: 13px; }
+    .source-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .source {
+      border: 1px solid rgba(124, 155, 200, .16);
+      border-radius: 10px;
+      padding: 12px;
+      color: var(--muted);
+      background: rgba(7, 12, 24, .54);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+      padding: 18px 0 0;
+    }
+    @media (max-width: 1040px) {
+      .hero,
+      .dashboard-grid,
+      .split,
+      .command { grid-template-columns: 1fr; }
+      .signal-grid,
+      .layers,
+      .thesis,
+      .source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 22px, 1240px); }
+      .topbar { align-items: flex-start; flex-direction: column; }
+      .chips { justify-content: flex-start; }
+      .signal-grid,
+      .layers,
+      .thesis,
+      .source-grid,
+      .flow { grid-template-columns: 1fr; }
+      .panel { padding: 14px; }
+      .gauge { width: 185px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand"><span class="brand-mark"></span> Hasan AI Research</div>
+        <div class="chips">
+          <span class="chip">Research Dashboard</span>
+          <span class="chip">Updated Jul 2026</span>
+          <span class="chip">Public Sources</span>
+          <span class="chip">Not Investment Advice</span>
+        </div>
+      </div>
+      <div class="hero">
+        <div>
+          <h1>The Compute Grid</h1>
+          <p class="subtitle">AI is moving from a model race into a physical infrastructure race. The hard constraints are now power, grid access, cooling, memory, networking, land, and capital delivery.</p>
+          <div class="thesis">
+            <div class="metric-card"><span>Pressure Score</span><b>94 / 100</b><em>Physical buildout pressure remains extreme.</em></div>
+            <div class="metric-card"><span>Dominant Constraint</span><b>Power</b><em>Grid access and firm supply gate timelines.</em></div>
+            <div class="metric-card"><span>Spending Momentum</span><b>Rising</b><em>Capex is growing faster than platform revenue.</em></div>
+            <div class="metric-card"><span>Beneficiary Breadth</span><b>Broad</b><em>The trade reaches beyond GPUs into grid and cooling.</em></div>
+          </div>
+        </div>
+        <div class="panel command">
+          <div class="gauge" aria-label="Compute grid pressure score 94 out of 100">
+            <div class="gauge-inner"><div><strong>94</strong><span>Pressure</span></div></div>
+          </div>
+          <div class="read">
+            <span class="section-label">Current read</span>
+            <h2>The bottleneck has shifted from demand to delivery capacity.</h2>
+            <p>AI demand is still strong, but the investable question is now whether physical infrastructure can arrive fast enough.</p>
+            <ul>
+              <li>Hyperscaler capex is still expanding across cloud, AI clusters, and data-center capacity.</li>
+              <li>Power, interconnection, and cooling are becoming harder constraints than software demand.</li>
+              <li>Beneficiaries spread across chips, memory, equipment, grid, construction, and firm power.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<section class='signal'><div class='signal-top'><span>Spending momentum</span><b>95</b></div><div class='bar'><i style='width:95%'></i></div><div class='metric'>+14% QoQ</div><div class='change'>Still rising</div><p>Quarterly spend is still accelerating instead of normalizing.</p></section>
+  <main class="wrap">
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Now signals</span>
+          <h2>What matters now</h2>
+          <p>Near-term signals track whether the buildout is still pressing against physical constraints.</p>
+        </div>
+      </div>
+      <div class="signal-grid" id="nowSignals"></div>
+    </section>
 
-<section class='signal'><div class='signal-top'><span>Platform demand</span><b>75</b></div><div class='bar'><i style='width:75%'></i></div><div class='metric'>$448B/qtr</div><div class='change'>+20% YoY</div><p>Cloud/platform revenue still supports capex, but growth is slower than capex.</p></section>
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Forward signals</span>
+          <h2>What matters next</h2>
+          <p>The next phase is about who can secure power, equipment, cooling, and site capacity before competitors.</p>
+        </div>
+      </div>
+      <div class="signal-grid" id="futureSignals"></div>
+    </section>
 
-<section class='signal'><div class='signal-top'><span>Data-center power queue</span><b>100</b></div><div class='bar'><i style='width:100%'></i></div><div class='metric'>23.5 GW</div><div class='change'>+172%</div><p>Power/interconnection demand is the strongest physical proof of the buildout.</p></section>
+    <section class="section dashboard-grid">
+      <div class="panel chart-wrap">
+        <span class="section-label">Capital intensity</span>
+        <h2>Hyperscaler Infrastructure Spend</h2>
+        <p>Illustrative quarterly index of AI/cloud infrastructure capex. The key point is direction: spending is still rising and pressuring the supply chain.</p>
+        <svg id="capexChart" viewBox="0 0 720 360" role="img" aria-label="Quarterly infrastructure spend bars and year over year growth line"></svg>
+      </div>
+      <div class="panel">
+        <span class="section-label">Constraint flow</span>
+        <h2>From AI demand to revenue</h2>
+        <p>Each node has to clear before model demand becomes usable capacity. The red and amber nodes are where delays can compound.</p>
+        <div class="flow" id="flowNodes"></div>
+      </div>
+    </section>
 
-<section class='signal'><div class='signal-top'><span>New project starts</span><b>83</b></div><div class='bar'><i style='width:83%'></i></div><div class='metric'>82 projects</div><div class='change'>+26%</div><p>The pipeline remains broad, not just one or two mega-projects.</p></section>
-</section>
-<section class='grid'><div class='panel'><h2>Where The Bottleneck Is</h2><div class='tablewrap'><table><thead><tr><th>Bottleneck</th><th class='num'>Severity</th><th>Public tickers</th><th>Why it matters</th></tr></thead><tbody><tr><td>Power &amp; grid interconnection</td><td class='num'>97</td><td>GEV, ETN, VRT, PWR, CEG, POWL, HUBB</td><td>Queue friction, transformers, switchgear, transmission and firm power are now gating data-center timelines.</td></tr><tr><td>HBM / DRAM</td><td class='num'>92</td><td>MU, 000660.KS, 005930.KS, DRAM</td><td>AI servers consume much more high-bandwidth memory; supply stays tight if accelerator demand keeps compounding.</td></tr><tr><td>EUV &amp; semicap tools</td><td class='num'>86</td><td>ASML, LRCX, AMAT, 8035.T</td><td>Advanced-node and packaging capacity expansion depends on long-lead equipment.</td></tr><tr><td>MLCC / passives</td><td class='num'>82</td><td>6981.T, 6762.T, 6976.T, 2327.TW, 009150.KS</td><td>Next-gen AI boards use thousands more capacitors and power components.</td></tr><tr><td>Networking / optical / connectors</td><td class='num'>78</td><td>AVGO, ANET, MRVL, APH</td><td>Scale-out clusters need faster switching, optics, and high-density interconnect.</td></tr></tbody></table></div></div><div class='panel'><h2>Investment Map</h2><div class='tablewrap'><table><thead><tr><th>Ticker</th><th>Theme</th><th>Role</th><th>Signal</th><th>Comment</th></tr></thead><tbody><tr><td><b>MSFT</b></td><td>Hyperscaler</td><td>Core</td><td>Strong</td><td>High-quality AI capex platform</td></tr><tr><td><b>META</b></td><td>Hyperscaler</td><td>Core</td><td>Strong</td><td>Large-scale AI infrastructure spender</td></tr><tr><td><b>AMZN</b></td><td>Hyperscaler</td><td>Core</td><td>Positive</td><td>AWS capex beneficiary</td></tr><tr><td><b>ORCL</b></td><td>Hyperscaler / Stargate</td><td>Core+</td><td>High upside</td><td>Aggressive AI infrastructure exposure</td></tr><tr><td><b>AVGO</b></td><td>AI networking / silicon</td><td>Satellite</td><td>Positive</td><td>Cleaner than many high-growth names</td></tr><tr><td><b>MU / DRAM</b></td><td>HBM / memory</td><td>Tactical</td><td>Mixed</td><td>Theme strong; cyclical and valuation-sensitive</td></tr><tr><td><b>GEV / ETN / VRT</b></td><td>Power equipment</td><td>Watch</td><td>Strong theme</td><td>Grid bottleneck beneficiaries</td></tr><tr><td><b>PWR / CEG</b></td><td>Transmission / firm power</td><td>Watch</td><td>Strong theme</td><td>Power buildout and nuclear/firm capacity</td></tr></tbody></table></div></div></section>
-<section class='panel note' style='margin-top:14px'><h2>Methodology Notes</h2><p>This page is a public research dashboard built from public web sources and manually curated signal weights. It is illustrative research, not investment advice. Some values are rounded, and interconnection queue capacity should not be interpreted as capacity that will definitely be built.</p></section>
-<footer>Sources checked: interconnection.fyi embedded page data; public AI capex dashboard values; Works in Progress grid-interconnection article; Bessemer AI data-center stack article. Values are rounded and should be independently verified before reuse.</footer>
-</main></body></html>
+    <section class="section panel">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Heat map</span>
+          <h2>AI Infrastructure Bottleneck Matrix</h2>
+          <p>Severity is not only today's shortage. Duration, replacement difficulty, and public-market exposure decide how investable each constraint is.</p>
+        </div>
+      </div>
+      <div class="heatmap">
+        <table>
+          <thead>
+            <tr>
+              <th>Constraint</th>
+              <th>Severity</th>
+              <th>Duration</th>
+              <th>Capex Sensitivity</th>
+              <th>Market Exposure</th>
+              <th>Replacement Difficulty</th>
+              <th>Why it matters</th>
+            </tr>
+          </thead>
+          <tbody id="heatmapRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div class="panel">
+        <span class="section-label">Priority map</span>
+        <h2>Simple read-through</h2>
+        <div class="priority-list">
+          <div class="priority"><div class="rank">1</div><div><b>Power and interconnection are the gating layer.</b><span>If AI demand keeps rising, the scarce asset becomes fast access to firm power and grid capacity.</span></div></div>
+          <div class="priority"><div class="rank">2</div><div><b>Memory, packaging, and networking decide cluster scale.</b><span>GPUs are visible, but HBM, CoWoS-like packaging, switching, optics, and connectors decide how much compute can be deployed.</span></div></div>
+          <div class="priority"><div class="rank">3</div><div><b>Cooling and construction become second-order winners.</b><span>Higher rack density drives liquid cooling, thermal systems, modular power, and specialist builders.</span></div></div>
+          <div class="priority"><div class="rank">4</div><div><b>Hyperscalers with power access gain strategic advantage.</b><span>Balance sheet strength matters, but so does the ability to secure land, power, and suppliers early.</span></div></div>
+        </div>
+      </div>
+      <div class="panel">
+        <span class="section-label">Future scenario</span>
+        <h2>What would change the thesis?</h2>
+        <div class="priority-list">
+          <div class="priority"><div class="rank">A</div><div><b>Cooling scenario</b><span>If capex slows while cloud revenue stays strong, the pressure score falls and the page should shift from buildout scarcity to margin recovery.</span></div></div>
+          <div class="priority"><div class="rank">B</div><div><b>Acceleration scenario</b><span>If power deals, sovereign AI programs, and custom silicon orders expand together, the grid/power winners should move higher in the beneficiary stack.</span></div></div>
+          <div class="priority"><div class="rank">C</div><div><b>Bottleneck rotation</b><span>If power improves but HBM, packaging, or optics stay tight, the constraint moves back toward semiconductor suppliers.</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Beneficiaries</span>
+          <h2>Who benefits if the Compute Grid expands?</h2>
+          <p>This is a research map, not a buy list. The strongest setups are where demand exposure, scarcity, pricing power, and execution quality overlap.</p>
+        </div>
+      </div>
+      <div class="layers" id="beneficiaryLayers"></div>
+    </section>
+
+    <section class="section panel">
+      <span class="section-label">Methodology and sources</span>
+      <h2>How to read this dashboard</h2>
+      <div class="source-grid">
+        <div class="source"><b>Composite score.</b><br>Manual weighted score from capex momentum, power queue pressure, bottleneck breadth, and beneficiary dispersion.</div>
+        <div class="source"><b>Data freshness.</b><br>Public-source dashboard, updated manually. Values are rounded and should be refreshed before investment reuse.</div>
+        <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA/data-center power work, Goldman Sachs power-demand estimates, SemiAnalysis energy bottleneck work.</div>
+        <div class="source"><b>Limitations.</b><br>Queue capacity is not guaranteed build capacity. Tickers show exposure, not valuation or timing attractiveness.</div>
+      </div>
+      <footer>Not investment advice. This page is public research commentary about the physical AI infrastructure buildout and its supply-chain constraints.</footer>
+    </section>
+  </main>
+
+  <script>
+    const nowSignals = [
+      { name: "Hyperscaler capex", score: 100, direction: "Rising", confidence: "High", text: "The major platforms continue to spend heavily on AI clusters and cloud capacity." },
+      { name: "Power queue", score: 97, direction: "Severe", confidence: "High", text: "Interconnection and power availability are now core schedule constraints." },
+      { name: "HBM tightness", score: 90, direction: "Tight", confidence: "Medium", text: "AI servers pull memory demand into a higher-value, higher-complexity segment." },
+      { name: "Networking load", score: 84, direction: "Rising", confidence: "Medium", text: "Scale-out clusters need more switching, optics, and high-density interconnect." },
+      { name: "Project starts", score: 82, direction: "Broad", confidence: "Medium", text: "The pipeline is not only one flagship project; it spans regions and operators." }
+    ];
+
+    const futureSignals = [
+      { name: "Grid equipment", score: 96, direction: "Strategic", confidence: "High", text: "Transformers, switchgear, and electrical gear can keep lead times elevated." },
+      { name: "Firm power", score: 91, direction: "Rising", confidence: "Medium", text: "Nuclear, gas, and long-duration power deals become strategic inputs." },
+      { name: "Liquid cooling", score: 86, direction: "Rising", confidence: "Medium", text: "Higher rack density increases thermal complexity and vendor value." },
+      { name: "Custom silicon", score: 76, direction: "Expanding", confidence: "Medium", text: "ASICs reduce some GPU pressure but increase design and supply-chain complexity." },
+      { name: "Sovereign AI", score: 74, direction: "Expanding", confidence: "Medium", text: "Governments increasingly treat compute as national infrastructure." }
+    ];
+
+    const bottlenecks = [
+      ["Power generation", [95, 88, 94, 82, 86], "Firm power access decides whether new AI capacity can actually come online."],
+      ["Interconnection", [98, 92, 88, 76, 91], "Queue delays and grid upgrades can delay even fully funded projects."],
+      ["Transformers / switchgear", [94, 89, 91, 88, 87], "Electrical equipment has direct exposure and can face long replacement cycles."],
+      ["Cooling", [83, 78, 82, 72, 74], "Rack density pushes thermal design toward liquid and precision cooling."],
+      ["Land / permitting", [79, 82, 66, 58, 71], "Sites with power, fiber, water, and permissions are scarce."],
+      ["GPUs / accelerators", [88, 74, 86, 95, 78], "Accelerators remain central, but not the only bottleneck."],
+      ["HBM / DRAM", [92, 84, 88, 82, 80], "AI memory content rises sharply per server generation."],
+      ["Advanced packaging", [90, 86, 87, 80, 84], "High-end packaging limits how fast advanced AI chips can scale."],
+      ["Optical networking", [82, 73, 79, 78, 70], "Cluster scale demands faster switching, optics, and connectors."],
+      ["Skilled labor", [76, 81, 68, 45, 73], "Construction, electrical, and commissioning teams can become local bottlenecks."]
+    ];
+
+    const flowNodes = [
+      ["AI demand", "Inference and training workload growth", "cool"],
+      ["Capex", "Cloud budgets and data-center commitments", "cool"],
+      ["Chips", "GPU and custom silicon supply", "warn"],
+      ["Memory", "HBM, DRAM, packaging capacity", "hot"],
+      ["Network", "Switching, optics, connectors", "warn"],
+      ["Power", "Generation and interconnection", "hot"],
+      ["Cooling", "Liquid and thermal systems", "warn"],
+      ["Revenue", "Usable capacity sold to customers", "cool"]
+    ];
+
+    const layers = [
+      { title: "Demand Owners", tickers: ["MSFT", "AMZN", "GOOGL", "META", "ORCL"], why: "Own cloud platforms, AI demand, distribution, and customer budgets.", risk: "Risk: capex intensity can pressure margins if revenue lags." },
+      { title: "Compute Silicon", tickers: ["NVDA", "AMD", "AVGO", "MRVL"], why: "Supply accelerators, custom silicon, and AI compute/network silicon.", risk: "Risk: valuation, customer concentration, and ASIC substitution." },
+      { title: "Memory / Packaging", tickers: ["MU", "SK Hynix", "Samsung", "TSM", "ASML", "AMAT", "LRCX"], why: "Benefit from HBM, advanced nodes, packaging, and fab equipment intensity.", risk: "Risk: cyclical memory pricing and tool-order timing." },
+      { title: "Networking / Interconnect", tickers: ["ANET", "AVGO", "MRVL", "APH"], why: "Scale-out AI clusters need high-speed switching, optics, and connectors.", risk: "Risk: architecture shifts and customer digestion periods." },
+      { title: "Power / Grid", tickers: ["GEV", "ETN", "VRT", "PWR", "HUBB", "POWL"], why: "Electrical equipment, grid upgrades, power systems, and construction become gating assets.", risk: "Risk: backlog quality, supply execution, and rate-sensitive multiples." },
+      { title: "Firm Power / Facilities", tickers: ["CEG", "VST", "NEE", "DLR", "EQIX", "MOD", "TT", "CARR"], why: "Firm power, data-center sites, cooling systems, and thermal equipment support capacity growth.", risk: "Risk: regulation, power prices, and project-specific delays." }
+    ];
+
+    const capexSeries = [
+      { q: "Q1'24", spend: 78, yoy: 37 },
+      { q: "Q2'24", spend: 86, yoy: 45 },
+      { q: "Q3'24", spend: 95, yoy: 58 },
+      { q: "Q4'24", spend: 108, yoy: 72 },
+      { q: "Q1'25", spend: 121, yoy: 83 },
+      { q: "Q2'25", spend: 132, yoy: 86 },
+      { q: "Q3'25", spend: 141, yoy: 90 },
+      { q: "Q4'25", spend: 148, yoy: 91 }
+    ];
+
+    function tagClass(value) {
+      if (value === "Severe" || value === "Strategic" || value === "Tight") return "tag hot";
+      if (value === "Rising" || value === "Expanding") return "tag medium";
+      return "tag cool";
+    }
+
+    function renderSignals(target, data) {
+      document.getElementById(target).innerHTML = data.map(item => `
+        <article class="signal">
+          <div class="signal-top"><h3>${item.name}</h3><div class="score">${item.score}</div></div>
+          <div class="bar"><i style="width:${item.score}%"></i></div>
+          <div class="tagline"><span class="${tagClass(item.direction)}">${item.direction}</span><span class="tag">${item.confidence}</span></div>
+          <p>${item.text}</p>
+        </article>
+      `).join("");
+    }
+
+    function scoreClass(score) {
+      if (score >= 93) return "s6";
+      if (score >= 88) return "s5";
+      if (score >= 80) return "s4";
+      if (score >= 72) return "s3";
+      if (score >= 62) return "s2";
+      return "s1";
+    }
+
+    function renderHeatmap() {
+      document.getElementById("heatmapRows").innerHTML = bottlenecks.map(row => `
+        <tr>
+          <td><b>${row[0]}</b></td>
+          ${row[1].map(score => `<td><div class="cell ${scoreClass(score)}" title="Score ${score}/100">${score}</div></td>`).join("")}
+          <td>${row[2]}</td>
+        </tr>
+      `).join("");
+    }
+
+    function renderFlow() {
+      document.getElementById("flowNodes").innerHTML = flowNodes.map(([name, text, state]) => `
+        <div class="node ${state}"><b>${name}</b><span>${text}</span></div>
+      `).join("");
+    }
+
+    function renderLayers() {
+      document.getElementById("beneficiaryLayers").innerHTML = layers.map(layer => `
+        <article class="layer-card">
+          <h3>${layer.title}</h3>
+          <p>${layer.why}</p>
+          <div class="tickers">${layer.tickers.map(t => `<span class="ticker">${t}</span>`).join("")}</div>
+          <div class="risk">${layer.risk}</div>
+        </article>
+      `).join("");
+    }
+
+    function renderCapexChart() {
+      const svg = document.getElementById("capexChart");
+      const w = 720, h = 360, pad = 48;
+      const maxSpend = 160, maxYoy = 100;
+      const innerW = w - pad * 2;
+      const innerH = h - pad * 2;
+      const step = innerW / capexSeries.length;
+      const barW = step * .56;
+      const ySpend = value => pad + innerH - (value / maxSpend) * innerH;
+      const yYoy = value => pad + innerH - (value / maxYoy) * innerH;
+      const points = capexSeries.map((d, i) => `${pad + i * step + step / 2},${yYoy(d.yoy)}`).join(" ");
+      const bars = capexSeries.map((d, i) => {
+        const x = pad + i * step + (step - barW) / 2;
+        const y = ySpend(d.spend);
+        const bh = pad + innerH - y;
+        return `<rect x="${x}" y="${y}" width="${barW}" height="${bh}" rx="5" fill="url(#barGrad)"><title>${d.q}: spend index ${d.spend}</title></rect>
+          <text class="chart-text" x="${x + barW / 2}" y="${h - 18}" text-anchor="middle">${d.q}</text>`;
+      }).join("");
+      svg.innerHTML = `
+        <defs>
+          <linearGradient id="barGrad" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#38d7ff"/>
+            <stop offset="100%" stop-color="#4ea1ff"/>
+          </linearGradient>
+        </defs>
+        <line class="axis" x1="${pad}" y1="${pad + innerH}" x2="${w - pad}" y2="${pad + innerH}"/>
+        <line class="axis" x1="${pad}" y1="${pad}" x2="${pad}" y2="${pad + innerH}"/>
+        <text class="chart-label" x="${pad}" y="24">Spend index</text>
+        <text class="chart-label" x="${w - pad}" y="24" text-anchor="end">YoY growth line</text>
+        ${[40,80,120,160].map(v => `<line class="tick" x1="${pad}" y1="${ySpend(v)}" x2="${w - pad}" y2="${ySpend(v)}"/><text class="chart-text" x="12" y="${ySpend(v)+4}">${v}</text>`).join("")}
+        ${bars}
+        <polyline points="${points}" fill="none" stroke="#ff5573" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        ${capexSeries.map((d, i) => `<circle cx="${pad + i * step + step / 2}" cy="${yYoy(d.yoy)}" r="5" fill="#ff5573"><title>${d.q}: YoY growth ${d.yoy}%</title></circle>`).join("")}
+        <text class="chart-text" x="${w - 160}" y="${pad + 22}" fill="#ff5573">YoY growth</text>
+      `;
+    }
+
+    renderSignals("nowSignals", nowSignals);
+    renderSignals("futureSignals", futureSignals);
+    renderHeatmap();
+    renderFlow();
+    renderLayers();
+    renderCapexChart();
+  </script>
+</body>
+</html>
