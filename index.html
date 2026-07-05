@@ -508,6 +508,30 @@
       display: grid;
       gap: 10px;
     }
+    .institutional-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .lens-card {
+      border: 1px solid rgba(124, 155, 200, .16);
+      border-radius: 10px;
+      padding: 13px;
+      background: rgba(7, 12, 24, .54);
+      min-height: 128px;
+    }
+    .lens-card b {
+      display: block;
+      color: var(--ink);
+      margin-bottom: 7px;
+      font-size: 15px;
+    }
+    .lens-card span {
+      color: var(--muted);
+      display: block;
+      font-size: 13px;
+      line-height: 1.45;
+    }
     .priority {
       display: grid;
       grid-template-columns: 42px 1fr;
@@ -593,6 +617,7 @@
       .layers,
       .thesis,
       .daily-pulse,
+      .institutional-grid,
       .source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     }
@@ -604,6 +629,7 @@
       .layers,
       .thesis,
       .daily-pulse,
+      .institutional-grid,
       .source-grid,
       .flow { grid-template-columns: 1fr; }
       .panel { padding: 14px; }
@@ -618,7 +644,6 @@
         <div class="brand"><span class="brand-mark"></span> Hasan AI Research</div>
         <div class="chips">
           <span class="chip">Research Dashboard</span>
-          <a class="chip" href="/compute-grid/infrastructure-map/">Infrastructure Map</a>
           <span class="chip">Updated 05 Jul 2026</span>
           <span class="chip">Public Sources</span>
           <span class="chip">Not Investment Advice</span>
@@ -743,6 +768,22 @@
           <div class="priority"><div class="rank">B</div><div><b>Acceleration scenario</b><span>If power deals, sovereign AI programs, and custom silicon orders expand together, the grid/power winners should move higher in the beneficiary stack.</span></div></div>
           <div class="priority"><div class="rank">C</div><div><b>Bottleneck rotation</b><span>If power improves but HBM, packaging, or optics stay tight, the constraint moves back toward semiconductor suppliers.</span></div></div>
         </div>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Institutional lens</span>
+          <h2>Delivery lens for the AI buildout</h2>
+          <p>The useful institutional framing belongs here: track what is announced, what is buildable, what can be energized, and what can turn into revenue.</p>
+        </div>
+      </div>
+      <div class="institutional-grid">
+        <div class="lens-card"><b>Capacity math</b><span>Start with AI demand, then force it through power, interconnection, equipment, cooling, land, labor, and commissioning gates.</span></div>
+        <div class="lens-card"><b>Delivery proof</b><span>Separate press releases from permitted sites, equipment orders, construction progress, and energized megawatts.</span></div>
+        <div class="lens-card"><b>Bottleneck rotation</b><span>If GPUs loosen but HBM, optics, switchgear, cooling, or EPC capacity remains tight, the winners rotate down the stack.</span></div>
+        <div class="lens-card"><b>Exposure purity</b><span>Prefer direct bottleneck suppliers when the theme is hot; treat diversified names as lower-purity read-throughs unless AI backlog is visible.</span></div>
       </div>
     </section>
 
