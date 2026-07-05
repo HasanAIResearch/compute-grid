@@ -502,6 +502,28 @@
       font-size: 12px;
       line-height: 1.45;
     }
+    .source-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .source-link {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid rgba(124, 155, 200, .22);
+      background: rgba(78, 161, 255, .08);
+      color: var(--soft);
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .source-link:hover {
+      border-color: rgba(56, 215, 255, .55);
+      color: var(--ink);
+    }
     footer {
       color: var(--muted);
       font-size: 12px;
@@ -691,6 +713,18 @@
         <div class="source"><b>Data freshness.</b><br>Public-source dashboard, updated manually. YTD badges use Yahoo Finance adjusted-close history through the latest available close checked during this update; values are rounded and should be refreshed before investment reuse.</div>
         <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA/data-center power work, Goldman Sachs power-demand estimates, SemiAnalysis energy bottleneck work, EE News Europe MLCC coverage, MarketsandMarkets data-center power/cooling supplier lists, SemiconductorX/ABF substrate references, Cignal AI/LightCounting optical supplier lists.</div>
         <div class="source"><b>Limitations.</b><br>Queue capacity is not guaranteed build capacity. Tickers show exposure, not valuation or timing attractiveness.</div>
+      </div>
+      <div class="source-links" aria-label="Sources used">
+        <a class="source-link" href="https://www.interconnection.fyi/" target="_blank" rel="noopener">Interconnection.fyi</a>
+        <a class="source-link" href="https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks" target="_blank" rel="noopener">IEA data centres</a>
+        <a class="source-link" href="https://www.datacenterdynamics.com/en/news/goldman-sachs-data-center-power-demand-to-grow-165-by-2030/" target="_blank" rel="noopener">Goldman / DCD power demand</a>
+        <a class="source-link" href="https://newsletter.semianalysis.com/p/ai-datacenter-energy-dilemma-race" target="_blank" rel="noopener">SemiAnalysis energy bottleneck</a>
+        <a class="source-link" href="https://www.eenewseurope.com/en/ai-drives-mlcc-shortage/" target="_blank" rel="noopener">EE News Europe MLCC</a>
+        <a class="source-link" href="https://www.marketsandmarkets.com/ResearchInsight/data-center-power-market.asp" target="_blank" rel="noopener">MarketsandMarkets power</a>
+        <a class="source-link" href="https://www.marketsandmarkets.com/ResearchInsight/data-center-liquid-cooling-market.asp" target="_blank" rel="noopener">MarketsandMarkets cooling</a>
+        <a class="source-link" href="https://semiconductorx.com/packaging-substrates-interposers.html" target="_blank" rel="noopener">SemiconductorX substrates</a>
+        <a class="source-link" href="https://cignal.ai/2025/01/over-20-million-400g-800g-datacom-optical-module-shipments-expected-for-2024/" target="_blank" rel="noopener">Cignal AI optics</a>
+        <a class="source-link" href="https://finance.yahoo.com/" target="_blank" rel="noopener">Yahoo Finance YTD data</a>
       </div>
       <footer>Not investment advice. This page is public research commentary about the physical AI infrastructure buildout and its supply-chain constraints.</footer>
     </section>
