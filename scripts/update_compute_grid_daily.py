@@ -24,22 +24,39 @@ PRIVATE_LABELS = {
 
 SYMBOL_OVERRIDES = {
     "ABB Ltd ABBN.SW": "ABBN.SW",
+    "Ajinomoto 2802.T": "2802.T",
     "Alfa Laval ALFA.ST": "ALFA.ST",
+    "Amkor AMKR": "AMKR",
+    "ASE Technology ASX": "ASX",
+    "Astera Labs ALAB": "ALAB",
+    "BE Semiconductor BESI.AS": "BESI.AS",
     "Bel Fuse BELFB": "BELFB",
     "Bloom Energy BE": "BE",
+    "Delta Electronics 2308.TW": "2308.TW",
+    "Ecolab ECL": "ECL",
     "Eoptolink 300502.SZ": "300502.SZ",
+    "Freeport-McMoRan FCX": "FCX",
     "Fuji Electric 6504.T": "6504.T",
     "Furukawa Electric 5801.T": "5801.T",
+    "Hanmi Semi 042700.KS": "042700.KS",
     "HD Hyundai Electric 267260.KS": "267260.KS",
     "Hitachi 6501.T": "6501.T",
     "Hyosung Heavy 298040.KS": "298040.KS",
     "Ibiden 4062.T": "4062.T",
     "Infineon IFX.DE": "IFX.DE",
+    "Kulicke & Soffa KLIC": "KLIC",
+    "Kurita Water 6370.T": "6370.T",
     "Kyocera 6971.T": "6971.T",
+    "Linde LIN": "LIN",
+    "Lynas LYC.AX": "LYC.AX",
+    "MP Materials MP": "MP",
     "Mitsubishi Electric 6503.T": "6503.T",
     "Mitsubishi Heavy 7011.T": "7011.T",
     "Murata 6981.T": "6981.T",
+    "Munters MTRS.ST": "MTRS.ST",
+    "MYR Group MYRG": "MYRG",
     "Nan Ya PCB 8046.TW": "8046.TW",
+    "Organo 6368.T": "6368.T",
     "ROHM 6963.T": "6963.T",
     "Rolls-Royce RR.L": "RR.L",
     "SK Hynix 000660.KS": "000660.KS",
@@ -47,11 +64,18 @@ SYMBOL_OVERRIDES = {
     "Samsung Electronics 005930.KS": "005930.KS",
     "Schneider SU.PA": "SU.PA",
     "Shinko 6967.T": "6967.T",
+    "Shin-Etsu 4063.T": "4063.T",
     "Siemens Energy ENR.DE": "ENR.DE",
+    "SUMCO 3436.T": "3436.T",
     "Sumitomo Electric 5802.T": "5802.T",
     "TDK 6762.T": "6762.T",
     "Taiyo Yuden 6976.T": "6976.T",
+    "Tokyo Electron 8035.T": "8035.T",
+    "Tokyo Ohka Kogyo 4186.T": "4186.T",
     "Unimicron 3037.TW": "3037.TW",
+    "Veolia VIE.PA": "VIE.PA",
+    "Walsin 2492.TW": "2492.TW",
+    "Xylem XYL": "XYL",
     "Yageo 2327.TW": "2327.TW",
     "Zhongji Innolight 300308.SZ": "300308.SZ",
 }
@@ -68,7 +92,7 @@ def label_to_symbol(label: str) -> str | None:
 
 
 def extract_ytd_map(html: str) -> dict[str, float | None]:
-    match = re.search(r"const ytdMap = (\{.*?\n    \});", html, re.S)
+    match = re.search(r"const ytdMap = (\{.*?\n\s*\});", html, re.S)
     if not match:
         raise RuntimeError("Could not find const ytdMap block")
     return json.loads(match.group(1))
@@ -150,7 +174,7 @@ def main() -> int:
     if not args.skip_ytd:
         values = extract_ytd_map(html)
         values, failures = refresh_ytd(values, now.year, args.pause)
-        html = re.sub(r"const ytdMap = \{.*?\n    \};", format_js_map(values), html, count=1, flags=re.S)
+        html = re.sub(r"const ytdMap = \{.*?\n\s*\};", format_js_map(values), html, count=1, flags=re.S)
 
     html_path.write_text(html, encoding="utf-8")
     print(f"Updated {html_path}")

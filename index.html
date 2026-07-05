@@ -1044,7 +1044,7 @@
       <div class="source-grid">
         <div class="source"><b>Composite score.</b><br>Manual weighted score from capex momentum, power queue pressure, bottleneck breadth, and beneficiary dispersion.</div>
         <div class="source"><b>Data freshness.</b><br>Public-source dashboard, updated manually. YTD badges use Yahoo Finance adjusted-close history through the latest available close checked during this update; values are rounded and should be refreshed before investment reuse.</div>
-        <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA Energy and AI data-center electricity projections, Goldman Sachs data-center power-demand estimates, SemiAnalysis energy bottleneck work, EE News Europe MLCC coverage, MarketsandMarkets data-center power/cooling supplier lists, SemiconductorX/ABF substrate references, Cignal AI/LightCounting optical supplier lists.</div>
+        <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA Energy and AI data-center electricity projections, Goldman Sachs data-center power-demand estimates, SemiAnalysis energy bottleneck work, EE News Europe MLCC coverage, MarketsandMarkets data-center power/cooling supplier lists, SemiconductorX/ABF substrate references, Cignal AI/LightCounting optical supplier lists, water-utility and critical-materials supplier references.</div>
         <div class="source"><b>Limitations.</b><br>Queue capacity is not guaranteed build capacity. Tickers show exposure, not valuation or timing attractiveness.</div>
       </div>
       <div class="source-links" aria-label="Sources used">
@@ -1111,9 +1111,9 @@
 
     const layers = [
       { title: "Demand Owners", tickers: ["MSFT", "AMZN", "GOOGL", "META", "ORCL"], why: "Own cloud platforms, AI demand, distribution, and customer budgets.", risk: "Risk: capex intensity can pressure margins if revenue lags." },
-      { title: "Compute Silicon", tickers: ["NVDA", "AMD", "AVGO", "MRVL"], why: "Supply accelerators, custom silicon, and AI compute/network silicon.", risk: "Risk: valuation, customer concentration, and ASIC substitution." },
-      { title: "Memory / Packaging", tickers: ["MU", "SK Hynix 000660.KS", "Samsung Electronics 005930.KS", "TSM", "ASML", "AMAT", "LRCX"], why: "Benefit from HBM, advanced nodes, packaging, and fab equipment intensity.", risk: "Risk: cyclical memory pricing and tool-order timing." },
-      { title: "Networking / Interconnect", tickers: ["ANET", "AVGO", "MRVL", "APH"], why: "Scale-out AI clusters need high-speed switching, optics, and connectors.", risk: "Risk: architecture shifts and customer digestion periods." },
+      { title: "Compute Silicon", tickers: ["NVDA", "AMD", "AVGO", "MRVL", "INTC"], why: "Supply accelerators, custom silicon, and AI compute/network silicon.", risk: "Risk: valuation, customer concentration, and ASIC substitution." },
+      { title: "Memory / Packaging", tickers: ["MU", "SK Hynix 000660.KS", "Samsung Electronics 005930.KS", "TSM", "ASML", "AMAT", "LRCX", "Tokyo Electron 8035.T", "Hanmi Semi 042700.KS"], why: "Benefit from HBM, advanced nodes, packaging, and fab equipment intensity.", risk: "Risk: cyclical memory pricing and tool-order timing." },
+      { title: "Networking / Interconnect", tickers: ["ANET", "AVGO", "MRVL", "APH", "Astera Labs ALAB", "CSCO"], why: "Scale-out AI clusters need high-speed switching, optics, and connectors.", risk: "Risk: architecture shifts and customer digestion periods." },
       { title: "Power / Grid", tickers: ["GEV", "ETN", "VRT", "PWR", "HUBB", "POWL"], why: "Electrical equipment, grid upgrades, power systems, and construction become gating assets.", risk: "Risk: backlog quality, supply execution, and rate-sensitive multiples." },
       { title: "Firm Power / Facilities", tickers: ["CEG", "VST", "NEE", "DLR", "EQIX", "MOD", "TT", "CARR"], why: "Firm power, data-center sites, cooling systems, and thermal equipment support capacity growth.", risk: "Risk: regulation, power prices, and project-specific delays." }
     ];
@@ -1122,7 +1122,7 @@
       {
         title: "MLCC / Passive Components",
         component: "Multilayer ceramic capacitors, tantalum capacitors, inductors, high-reliability passives",
-        tickers: ["Murata 6981.T", "TDK 6762.T", "Taiyo Yuden 6976.T", "Yageo 2327.TW", "Samsung Electro-Mechanics 009150.KS", "Kyocera 6971.T"],
+        tickers: ["Murata 6981.T", "TDK 6762.T", "Taiyo Yuden 6976.T", "Yageo 2327.TW", "Samsung Electro-Mechanics 009150.KS", "Kyocera 6971.T", "Walsin 2492.TW"],
         why: "AI servers increase passive component count and quality requirements. Supply is concentrated in Japanese, Korean, and Taiwanese specialists.",
         risk: "Caution: passive components are cyclical; pricing power can fade when inventory normalizes."
       },
@@ -1136,9 +1136,16 @@
       {
         title: "Advanced Substrates",
         component: "ABF substrates, interposers, high-end PCBs, advanced packaging supply chain",
-        tickers: ["Ibiden 4062.T", "Shinko 6967.T", "Unimicron 3037.TW", "Nan Ya PCB 8046.TW", "AT&S ATS.VI", "Samsung Electro-Mechanics 009150.KS", "TSM"],
-        why: "AI accelerators and HBM packages need advanced substrates and packaging capacity, which can bottleneck even when wafer supply exists.",
+        tickers: ["Ibiden 4062.T", "Shinko 6967.T", "Unimicron 3037.TW", "Nan Ya PCB 8046.TW", "AT&S ATS.VI", "Samsung Electro-Mechanics 009150.KS", "Ajinomoto 2802.T", "ASE Technology ASX", "Amkor AMKR", "BE Semiconductor BESI.AS", "Kulicke & Soffa KLIC", "TSM"],
+        why: "AI accelerators and HBM packages need advanced substrates, ABF materials, OSAT capacity, and bonding tools even when wafer supply exists.",
         risk: "Caution: supplier share and profitability can shift with packaging architecture and customer qualification."
+      },
+      {
+        title: "Fab Materials / Inputs",
+        component: "Silicon wafers, EUV photoresist, copper, specialty gases, and critical minerals",
+        tickers: ["Shin-Etsu 4063.T", "SUMCO 3436.T", "Tokyo Ohka Kogyo 4186.T", "Freeport-McMoRan FCX", "Linde LIN", "MP Materials MP", "Lynas LYC.AX"],
+        why: "Advanced fabs and AI data centers rely on upstream materials that are harder to substitute when demand accelerates.",
+        risk: "Caution: some inputs have broad industrial exposure and can be driven by non-AI cycles."
       },
       {
         title: "Optical Modules / Photonics",
@@ -1164,9 +1171,16 @@
       {
         title: "Liquid Cooling / Thermal",
         component: "CDUs, heat exchangers, chillers, rear-door cooling, liquid loops, thermal services",
-        tickers: ["VRT", "MOD", "Schneider SU.PA", "nVent NVT", "Alfa Laval ALFA.ST", "TT", "CARR", "JCI", "Danfoss private"],
+        tickers: ["VRT", "MOD", "Schneider SU.PA", "nVent NVT", "Alfa Laval ALFA.ST", "Delta Electronics 2308.TW", "Munters MTRS.ST", "TT", "CARR", "JCI", "Danfoss private"],
         why: "Higher rack density makes air cooling insufficient in many AI deployments, lifting the value of liquid and precision cooling suppliers.",
         risk: "Caution: not every HVAC company has equal direct exposure to high-density AI cooling."
+      },
+      {
+        title: "Water / Fab Utilities",
+        component: "Ultrapure-water systems, industrial water treatment, pumps, utilities, and recycling",
+        tickers: ["Ecolab ECL", "Kurita Water 6370.T", "Veolia VIE.PA", "Xylem XYL", "Organo 6368.T"],
+        why: "Leading-edge fabs and dense AI campuses need reliable water treatment, cooling water, and utility infrastructure.",
+        risk: "Caution: exposure is often diversified and depends on local permitting, water stress, and project timing."
       },
       {
         title: "Backup / On-site Power",
@@ -1178,7 +1192,7 @@
       {
         title: "EPC / Construction Capacity",
         component: "Electrical contracting, mechanical contracting, grid construction, commissioning, data-center buildout",
-        tickers: ["PWR", "EME", "FIX", "STRL", "PRIM", "MTZ", "J"],
+        tickers: ["PWR", "EME", "FIX", "MYR Group MYRG", "STRL", "PRIM", "MTZ", "J"],
         why: "Even with equipment and power secured, specialist builders and electrical/mechanical contractors can become schedule bottlenecks.",
         risk: "Caution: margins depend on project mix, labor availability, execution, and contract discipline."
       }
@@ -1209,10 +1223,15 @@
       "AMZN": 7.1,
       "ANET": 19.8,
       "APH": 18.2,
+      "ASE Technology ASX": 148.3,
       "ASML": 52.6,
       "AT&S ATS.VI": 517.4,
       "AVGO": 4.1,
+      "Ajinomoto 2802.T": 86.5,
       "Alfa Laval ALFA.ST": 27.8,
+      "Amkor AMKR": 62.8,
+      "Astera Labs ALAB": 126.3,
+      "BE Semiconductor BESI.AS": 84.3,
       "Bel Fuse BELFB": 54.6,
       "Bloom Energy BE": 174.5,
       "CARR": 32.0,
@@ -1221,15 +1240,19 @@
       "CIEN": 71.7,
       "CMI": 27.6,
       "COHR": 71.5,
+      "CSCO": 49.0,
       "DLR": 13.3,
       "Danfoss private": null,
+      "Delta Electronics 2308.TW": 109.6,
       "EME": 21.4,
       "EQIX": 32.5,
       "ETN": 22.5,
+      "Ecolab ECL": 8.5,
       "Eoptolink 300502.SZ": 72.9,
       "FIX": 73.7,
       "FN": 4.2,
       "Fluence FLNC": -26.1,
+      "Freeport-McMoRan FCX": 18.0,
       "Fuji Electric 6504.T": 13.1,
       "Furukawa Electric 5801.T": 282.1,
       "GEV": 64.1,
@@ -1237,29 +1260,39 @@
       "Generac GNRC": 79.1,
       "HD Hyundai Electric 267260.KS": 16.1,
       "HUBB": 5.8,
+      "Hanmi Semi 042700.KS": 61.4,
       "Hitachi 6501.T": -8.4,
       "Hyosung Heavy 298040.KS": 80.1,
+      "INTC": 205.6,
       "Ibiden 4062.T": 226.7,
       "Infineon IFX.DE": 103.8,
       "J": -5.0,
       "JCI": 15.8,
+      "Kulicke & Soffa KLIC": 152.2,
+      "Kurita Water 6370.T": 44.6,
       "Kyocera 6971.T": 77.5,
       "LITE": 88.6,
       "LRCX": 90.3,
+      "Linde LIN": 28.2,
+      "Lynas LYC.AX": 49.1,
       "META": -10.2,
       "MOD": 64.0,
+      "MP Materials MP": -3.0,
       "MRVL": 174.7,
       "MSFT": -17.1,
       "MTZ": 64.0,
       "MU": 209.4,
+      "MYR Group MYRG": 91.0,
       "Mitsubishi Electric 6503.T": 24.8,
       "Mitsubishi Heavy 7011.T": -8.6,
+      "Munters MTRS.ST": -8.7,
       "Murata 6981.T": 235.9,
       "NEE": 10.7,
       "NVDA": 3.3,
       "Nan Ya PCB 8046.TW": 401.0,
       "ON": 60.9,
       "ORCL": -27.9,
+      "Organo 6368.T": 19.3,
       "POWL": 109.8,
       "PRIM": -32.4,
       "PWR": 52.1,
@@ -1268,9 +1301,11 @@
       "SK Hynix 000660.KS": 258.9,
       "STM": 150.7,
       "STRL": 119.6,
+      "SUMCO 3436.T": 252.5,
       "Samsung Electro-Mechanics 009150.KS": 636.7,
       "Samsung Electronics 005930.KS": 141.4,
       "Schneider SU.PA": 20.0,
+      "Shin-Etsu 4063.T": 42.0,
       "Shinko 6967.T": null,
       "Siemens Energy ENR.DE": 37.5,
       "Sumitomo Electric 5802.T": 60.6,
@@ -1279,10 +1314,15 @@
       "TSM": 36.5,
       "TT": 20.7,
       "Taiyo Yuden 6976.T": 465.9,
+      "Tokyo Electron 8035.T": 100.1,
+      "Tokyo Ohka Kogyo 4186.T": 81.4,
       "Unimicron 3037.TW": 342.5,
       "VRT": 71.2,
       "VSH": 202.6,
       "VST": -8.3,
+      "Veolia VIE.PA": 29.9,
+      "Walsin 2492.TW": 352.2,
+      "Xylem XYL": -13.2,
       "Yageo 2327.TW": 336.7,
       "Zhongji Innolight 300308.SZ": 79.2,
       "nVent NVT": 42.9
