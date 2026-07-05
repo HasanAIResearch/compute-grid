@@ -414,6 +414,27 @@
       padding: 5px 7px;
       font-size: 12px;
       font-weight: 850;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.15;
+    }
+    .ticker em {
+      font-style: normal;
+      border-radius: 999px;
+      padding: 2px 5px;
+      font-size: 10px;
+      color: #06101c;
+      background: var(--muted);
+      min-width: 38px;
+      text-align: center;
+    }
+    .ticker.up em { background: rgba(66, 211, 146, .95); }
+    .ticker.down em { background: rgba(255, 85, 115, .95); color: #fff; }
+    .ticker.na em { background: rgba(145, 164, 191, .26); color: var(--soft); }
+    .ticker .label {
+      max-width: 190px;
+      overflow-wrap: anywhere;
     }
     .risk {
       color: var(--amber);
@@ -667,7 +688,7 @@
       <h2>How to read this dashboard</h2>
       <div class="source-grid">
         <div class="source"><b>Composite score.</b><br>Manual weighted score from capex momentum, power queue pressure, bottleneck breadth, and beneficiary dispersion.</div>
-        <div class="source"><b>Data freshness.</b><br>Public-source dashboard, updated manually. Values are rounded and should be refreshed before investment reuse.</div>
+        <div class="source"><b>Data freshness.</b><br>Public-source dashboard, updated manually. YTD badges use Yahoo Finance adjusted-close history through the latest available close checked during this update; values are rounded and should be refreshed before investment reuse.</div>
         <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA/data-center power work, Goldman Sachs power-demand estimates, SemiAnalysis energy bottleneck work, EE News Europe MLCC coverage, MarketsandMarkets data-center power/cooling supplier lists, SemiconductorX/ABF substrate references, Cignal AI/LightCounting optical supplier lists.</div>
         <div class="source"><b>Limitations.</b><br>Queue capacity is not guaranteed build capacity. Tickers show exposure, not valuation or timing attractiveness.</div>
       </div>
@@ -719,7 +740,7 @@
     const layers = [
       { title: "Demand Owners", tickers: ["MSFT", "AMZN", "GOOGL", "META", "ORCL"], why: "Own cloud platforms, AI demand, distribution, and customer budgets.", risk: "Risk: capex intensity can pressure margins if revenue lags." },
       { title: "Compute Silicon", tickers: ["NVDA", "AMD", "AVGO", "MRVL"], why: "Supply accelerators, custom silicon, and AI compute/network silicon.", risk: "Risk: valuation, customer concentration, and ASIC substitution." },
-      { title: "Memory / Packaging", tickers: ["MU", "SK Hynix", "Samsung", "TSM", "ASML", "AMAT", "LRCX"], why: "Benefit from HBM, advanced nodes, packaging, and fab equipment intensity.", risk: "Risk: cyclical memory pricing and tool-order timing." },
+      { title: "Memory / Packaging", tickers: ["MU", "SK Hynix 000660.KS", "Samsung Electronics 005930.KS", "TSM", "ASML", "AMAT", "LRCX"], why: "Benefit from HBM, advanced nodes, packaging, and fab equipment intensity.", risk: "Risk: cyclical memory pricing and tool-order timing." },
       { title: "Networking / Interconnect", tickers: ["ANET", "AVGO", "MRVL", "APH"], why: "Scale-out AI clusters need high-speed switching, optics, and connectors.", risk: "Risk: architecture shifts and customer digestion periods." },
       { title: "Power / Grid", tickers: ["GEV", "ETN", "VRT", "PWR", "HUBB", "POWL"], why: "Electrical equipment, grid upgrades, power systems, and construction become gating assets.", risk: "Risk: backlog quality, supply execution, and rate-sensitive multiples." },
       { title: "Firm Power / Facilities", tickers: ["CEG", "VST", "NEE", "DLR", "EQIX", "MOD", "TT", "CARR"], why: "Firm power, data-center sites, cooling systems, and thermal equipment support capacity growth.", risk: "Risk: regulation, power prices, and project-specific delays." }
@@ -736,7 +757,7 @@
       {
         title: "Transformers / Switchgear",
         component: "Medium-voltage switchgear, dry-type transformers, UPS, substations, protection gear",
-        tickers: ["ETN", "Schneider SU.PA", "ABB", "Siemens Energy ENR.DE", "GEV", "Hitachi 6501.T", "HD Hyundai Electric 267260.KS", "Hyosung Heavy 298040.KS", "POWL", "HUBB"],
+        tickers: ["ETN", "Schneider SU.PA", "ABB Ltd ABBN.SW", "Siemens Energy ENR.DE", "GEV", "Hitachi 6501.T", "HD Hyundai Electric 267260.KS", "Hyosung Heavy 298040.KS", "POWL", "HUBB"],
         why: "Data centers need grid interconnects, electrical rooms, switchgear, transformers, and power distribution before compute can be energized.",
         risk: "Caution: backlog is strong, but execution, supply constraints, and utility approval timing matter."
       },
@@ -757,7 +778,7 @@
       {
         title: "Connectors / Cables",
         component: "High-speed connectors, backplanes, copper cable assemblies, fiber, power connectors",
-        tickers: ["APH", "TEL", "Bel Fuse BELFA/BELFB", "Sumitomo Electric 5802.T", "Furukawa Electric 5801.T"],
+        tickers: ["APH", "TEL", "Bel Fuse BELFB", "Sumitomo Electric 5802.T", "Furukawa Electric 5801.T"],
         why: "Dense AI racks require high-speed, high-reliability physical interconnect and power connectivity across servers and clusters.",
         risk: "Caution: exposure varies by product mix; some key suppliers such as Molex and Samtec are private."
       },
@@ -801,6 +822,92 @@
       { q: "Q3'25", spend: 141, yoy: 90 },
       { q: "Q4'25", spend: 148, yoy: 91 }
     ];
+
+    const ytdMap = {
+      "ABB Ltd ABBN.SW": 44.8,
+      "AMAT": 124.8,
+      "AMD": 131.7,
+      "AMZN": 7.1,
+      "ANET": 19.8,
+      "APH": 18.2,
+      "ASML": 52.6,
+      "AT&S ATS.VI": 517.4,
+      "AVGO": 4.1,
+      "Alfa Laval ALFA.ST": 27.8,
+      "Bel Fuse BELFB": 54.6,
+      "Bloom Energy BE": 174.5,
+      "CARR": 32.0,
+      "CAT": 61.7,
+      "CEG": -34.5,
+      "CIEN": 71.7,
+      "CMI": 27.6,
+      "COHR": 71.5,
+      "DLR": 13.3,
+      "Danfoss private": null,
+      "EME": 21.4,
+      "EQIX": 32.5,
+      "ETN": 22.5,
+      "Eoptolink 300502.SZ": 72.9,
+      "FIX": 73.7,
+      "FN": 4.2,
+      "Fluence FLNC": -26.1,
+      "Fuji Electric 6504.T": 13.1,
+      "Furukawa Electric 5801.T": 282.1,
+      "GEV": 64.1,
+      "GOOGL": 14.4,
+      "Generac GNRC": 79.1,
+      "HD Hyundai Electric 267260.KS": 16.1,
+      "HUBB": 5.8,
+      "Hitachi 6501.T": -8.4,
+      "Hyosung Heavy 298040.KS": 80.1,
+      "Ibiden 4062.T": 226.7,
+      "Infineon IFX.DE": 103.8,
+      "J": -5.0,
+      "JCI": 15.8,
+      "Kyocera 6971.T": 77.5,
+      "LITE": 88.6,
+      "LRCX": 90.3,
+      "META": -10.2,
+      "MOD": 64.0,
+      "MRVL": 174.7,
+      "MSFT": -17.1,
+      "MTZ": 64.0,
+      "MU": 209.4,
+      "Mitsubishi Electric 6503.T": 24.8,
+      "Mitsubishi Heavy 7011.T": -8.6,
+      "Murata 6981.T": 235.9,
+      "NEE": 10.7,
+      "NVDA": 3.3,
+      "Nan Ya PCB 8046.TW": 401.0,
+      "ON": 60.9,
+      "ORCL": -27.9,
+      "POWL": 109.8,
+      "PRIM": -32.4,
+      "PWR": 52.1,
+      "ROHM 6963.T": 163.3,
+      "Rolls-Royce RR.L": 25.7,
+      "SK Hynix 000660.KS": 258.9,
+      "STM": 150.7,
+      "STRL": 119.6,
+      "Samsung Electro-Mechanics 009150.KS": 636.7,
+      "Samsung Electronics 005930.KS": 141.4,
+      "Schneider SU.PA": 20.0,
+      "Shinko 6967.T": null,
+      "Siemens Energy ENR.DE": 37.5,
+      "Sumitomo Electric 5802.T": 60.6,
+      "TDK 6762.T": 66.0,
+      "TEL": -14.8,
+      "TSM": 36.5,
+      "TT": 20.7,
+      "Taiyo Yuden 6976.T": 465.9,
+      "Unimicron 3037.TW": 342.5,
+      "VRT": 71.2,
+      "VSH": 202.6,
+      "VST": -8.3,
+      "Yageo 2327.TW": 336.7,
+      "Zhongji Innolight 300308.SZ": 79.2,
+      "nVent NVT": 42.9
+    };
 
     function tagClass(value) {
       if (value === "Severe" || value === "Strategic" || value === "Tight") return "tag hot";
@@ -849,7 +956,7 @@
         <article class="layer-card">
           <h3>${layer.title}</h3>
           <p>${layer.why}</p>
-          <div class="tickers">${layer.tickers.map(t => `<span class="ticker">${t}</span>`).join("")}</div>
+          <div class="tickers">${layer.tickers.map(renderTicker).join("")}</div>
           <div class="risk">${layer.risk}</div>
         </article>
       `).join("");
@@ -861,10 +968,17 @@
           <h3>${layer.title}</h3>
           <div class="component">${layer.component}</div>
           <p>${layer.why}</p>
-          <div class="tickers">${layer.tickers.map(t => `<span class="ticker">${t}</span>`).join("")}</div>
+          <div class="tickers">${layer.tickers.map(renderTicker).join("")}</div>
           <div class="supplier-note">${layer.risk}</div>
         </article>
       `).join("");
+    }
+
+    function renderTicker(label) {
+      const value = Object.prototype.hasOwnProperty.call(ytdMap, label) ? ytdMap[label] : null;
+      const cls = value === null ? "na" : value >= 0 ? "up" : "down";
+      const text = value === null ? "YTD n/a" : `${value >= 0 ? "+" : ""}${value.toFixed(1)}%`;
+      return `<span class="ticker ${cls}" title="${label} YTD ${text}"><span class="label">${label}</span><em>${text}</em></span>`;
     }
 
     function renderCapexChart() {
