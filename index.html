@@ -153,6 +153,44 @@
       line-height: 1.35;
       margin-top: 8px;
     }
+    .daily-pulse {
+      display: grid;
+      grid-template-columns: .9fr .9fr 1.4fr 1.2fr;
+      gap: 10px;
+      margin-top: 16px;
+      padding: 10px;
+      border: 1px solid rgba(124, 155, 200, .16);
+      border-radius: 12px;
+      background: rgba(7, 12, 24, .52);
+      box-shadow: 0 20px 40px var(--shadow);
+    }
+    .pulse-item {
+      border: 1px solid rgba(124, 155, 200, .14);
+      border-radius: 8px;
+      padding: 10px 11px;
+      background: rgba(17, 27, 47, .72);
+      min-width: 0;
+    }
+    .pulse-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 850;
+      letter-spacing: .08em;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+    .pulse-item b {
+      display: block;
+      color: var(--ink);
+      font-size: 13px;
+      line-height: 1.25;
+      overflow-wrap: anywhere;
+    }
+    .pulse-item strong {
+      color: var(--cyan);
+      font-weight: 850;
+    }
     .panel {
       padding: 18px;
     }
@@ -553,6 +591,7 @@
       .signal-grid,
       .layers,
       .thesis,
+      .daily-pulse,
       .source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     }
@@ -563,6 +602,7 @@
       .signal-grid,
       .layers,
       .thesis,
+      .daily-pulse,
       .source-grid,
       .flow { grid-template-columns: 1fr; }
       .panel { padding: 14px; }
@@ -577,7 +617,7 @@
         <div class="brand"><span class="brand-mark"></span> Hasan AI Research</div>
         <div class="chips">
           <span class="chip">Research Dashboard</span>
-          <span class="chip">Updated Jul 2026</span>
+          <span class="chip">Updated 05 Jul 2026</span>
           <span class="chip">Public Sources</span>
           <span class="chip">Not Investment Advice</span>
         </div>
@@ -608,6 +648,12 @@
             </ul>
           </div>
         </div>
+      </div>
+      <div class="daily-pulse" aria-label="Daily pulse">
+        <div class="pulse-item"><span>Daily pulse</span><b data-pulse="date">05 Jul 2026</b></div>
+        <div class="pulse-item"><span>Pressure</span><b data-pulse="pressure">High / stable</b></div>
+        <div class="pulse-item"><span>Main change</span><b data-pulse="change">Power and interconnection remain the gating layer.</b></div>
+        <div class="pulse-item"><span>Market data</span><b data-pulse="market"><strong>YTD</strong> badges refreshed from public prices.</b></div>
       </div>
     </div>
   </header>
@@ -959,7 +1005,7 @@
       "Yageo 2327.TW": 336.7,
       "Zhongji Innolight 300308.SZ": 79.2,
       "nVent NVT": 42.9
-    };
+};
 
     function tagClass(value) {
       if (value === "Severe" || value === "Strategic" || value === "Tight") return "tag hot";
