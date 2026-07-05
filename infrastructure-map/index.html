@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Infrastructure Map | Hasan AI Research</title>
+  <meta name="description" content="A public research map of the AI infrastructure stack from demand and compute to power, cooling, construction, and revenue conversion.">
+  <style>
+    :root {
+      --bg: #060914;
+      --panel: #0d1424;
+      --panel-2: #111b2f;
+      --line: #22314c;
+      --ink: #eef5ff;
+      --muted: #91a4bf;
+      --soft: #c8d7ea;
+      --blue: #4ea1ff;
+      --cyan: #38d7ff;
+      --green: #42d392;
+      --amber: #f7b955;
+      --red: #ff5573;
+      --purple: #a78bfa;
+      --shadow: rgba(0, 0, 0, .35);
+    }
+    * { box-sizing: border-box; }
+    html { color-scheme: dark; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 18% 0%, rgba(78, 161, 255, .16), transparent 32rem),
+        radial-gradient(circle at 88% 10%, rgba(66, 211, 146, .12), transparent 30rem),
+        linear-gradient(180deg, #050815 0%, #080d19 52%, #050812 100%);
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    a { color: inherit; }
+    .wrap {
+      width: min(1240px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header {
+      padding: 28px 0 18px;
+      border-bottom: 1px solid rgba(124, 155, 200, .18);
+    }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 26px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--soft);
+      font-size: 13px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, rgba(56, 215, 255, .95), rgba(167, 139, 250, .9));
+      box-shadow: 0 0 30px rgba(78, 161, 255, .25);
+      position: relative;
+    }
+    .brand-mark:after {
+      content: "";
+      position: absolute;
+      inset: 9px;
+      border: 2px solid rgba(5, 9, 20, .8);
+      border-radius: 4px;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+    .chip {
+      border: 1px solid rgba(145, 164, 191, .28);
+      background: rgba(17, 27, 47, .78);
+      border-radius: 999px;
+      color: var(--soft);
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 750;
+      text-decoration: none;
+    }
+    .chip.active {
+      border-color: rgba(56, 215, 255, .55);
+      color: var(--ink);
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr .8fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(40px, 7vw, 78px);
+      line-height: .95;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      max-width: 760px;
+      color: #b8c9de;
+      font-size: clamp(17px, 2vw, 22px);
+      line-height: 1.45;
+      margin: 18px 0 0;
+    }
+    .panel,
+    .map-node,
+    .signal,
+    .layer-row {
+      background: linear-gradient(180deg, rgba(17, 27, 47, .96), rgba(11, 18, 32, .96));
+      border: 1px solid rgba(124, 155, 200, .22);
+      border-radius: 12px;
+      box-shadow: 0 20px 40px var(--shadow);
+    }
+    .panel { padding: 18px; }
+    .section-label {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+      font-weight: 850;
+    }
+    .read h2,
+    section h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+    .read p,
+    .panel p,
+    .signal p,
+    .map-node p,
+    .layer-row p {
+      color: var(--muted);
+      line-height: 1.5;
+      margin: 0;
+    }
+    .read-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .read-item {
+      border-top: 1px solid rgba(124, 155, 200, .16);
+      padding-top: 10px;
+    }
+    .read-item b {
+      display: block;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+    main { padding: 20px 0 42px; }
+    .section { margin-top: 18px; }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: end;
+      margin-bottom: 12px;
+    }
+    .section-head p {
+      color: var(--muted);
+      margin: 6px 0 0;
+      max-width: 780px;
+      line-height: 1.45;
+    }
+    .signals {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .signal {
+      min-height: 128px;
+      padding: 14px;
+    }
+    .signal span {
+      color: var(--muted);
+      display: block;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .signal b {
+      display: block;
+      font-size: 24px;
+      line-height: 1;
+      margin: 10px 0 8px;
+    }
+    .map {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .map-node {
+      min-height: 172px;
+      padding: 14px;
+      position: relative;
+      overflow: hidden;
+    }
+    .map-node:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 4px;
+      background: var(--blue);
+    }
+    .map-node.hot:before { background: var(--red); }
+    .map-node.warn:before { background: var(--amber); }
+    .map-node.cool:before { background: var(--green); }
+    .map-node h3 {
+      margin: 2px 0 8px;
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+    .map-node .role {
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+    .tag {
+      border: 1px solid rgba(145, 164, 191, .22);
+      border-radius: 999px;
+      color: var(--soft);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 7px;
+      background: rgba(8, 15, 29, .62);
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 14px;
+    }
+    .framework {
+      display: grid;
+      gap: 10px;
+    }
+    .framework-row {
+      display: grid;
+      grid-template-columns: 128px 1fr;
+      gap: 12px;
+      border-top: 1px solid rgba(124, 155, 200, .15);
+      padding-top: 10px;
+    }
+    .framework-row b { color: var(--ink); }
+    .framework-row span {
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .layers {
+      display: grid;
+      gap: 10px;
+    }
+    .layer-row {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr .9fr;
+      gap: 12px;
+      padding: 14px;
+      align-items: start;
+    }
+    .layer-row h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .layer-row b {
+      color: var(--soft);
+      display: block;
+      font-size: 12px;
+      letter-spacing: .06em;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+    .source-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .source {
+      border: 1px solid rgba(124, 155, 200, .16);
+      border-radius: 10px;
+      padding: 12px;
+      color: var(--muted);
+      background: rgba(7, 12, 24, .54);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .source b { color: var(--soft); }
+    .source-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .source-link {
+      border: 1px solid rgba(124, 155, 200, .22);
+      background: rgba(78, 161, 255, .08);
+      color: var(--soft);
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .legal-disclaimer {
+      border: 1px solid rgba(255, 209, 102, .28);
+      background: linear-gradient(135deg, rgba(255, 209, 102, .08), rgba(7, 12, 24, .68));
+      border-radius: 10px;
+      margin-top: 14px;
+      padding: 14px;
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+      padding: 18px 0 0;
+    }
+    @media (max-width: 1040px) {
+      .hero,
+      .two-col,
+      .layer-row { grid-template-columns: 1fr; }
+      .signals,
+      .map,
+      .source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 22px, 1240px); }
+      .topbar { align-items: flex-start; flex-direction: column; }
+      .chips { justify-content: flex-start; }
+      .signals,
+      .map,
+      .source-grid,
+      .framework-row { grid-template-columns: 1fr; }
+      .panel { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand"><span class="brand-mark"></span> Hasan AI Research</div>
+        <div class="chips">
+          <a class="chip" href="/compute-grid/">Dashboard</a>
+          <span class="chip active">Infrastructure Map</span>
+          <span class="chip">Updated Jul 2026</span>
+          <span class="chip">Not Investment Advice</span>
+        </div>
+      </div>
+      <div class="hero">
+        <div>
+          <h1>AI Infrastructure Map</h1>
+          <p class="subtitle">A public-source map of how AI demand becomes real-world capacity: chips, memory, networking, power, cooling, construction, and the final revenue conversion layer.</p>
+          <div class="signals">
+            <div class="signal"><span>Core message</span><b>Delivery stack</b><p>The scarce asset is not only models. It is the ability to energize, cool, connect, and build usable compute.</p></div>
+            <div class="signal"><span>Main gate</span><b>Power</b><p>Generation, interconnection, equipment lead times, and site access decide how quickly AI capacity arrives.</p></div>
+            <div class="signal"><span>Market lens</span><b>Exposure map</b><p>Companies are examples of infrastructure exposure, not buy/sell/hold recommendations.</p></div>
+            <div class="signal"><span>Update link</span><b>Dashboard</b><p>The main Compute Grid page remains the daily pulse and market-data layer.</p></div>
+          </div>
+        </div>
+        <div class="panel read">
+          <span class="section-label">Institutional frame</span>
+          <h2>Demand is visible. Delivery is the constraint.</h2>
+          <p>Institutional research increasingly frames AI as an infrastructure buildout: capex must pass through physical gates before it becomes revenue-producing capacity.</p>
+          <div class="read-list">
+            <div class="read-item"><b>Planned capacity is not delivered capacity.</b><p>Permits, grid queues, transformers, labor, and equipment timing can separate announcements from energized sites.</p></div>
+            <div class="read-item"><b>Bottlenecks rotate.</b><p>When one layer improves, scarcity can move to memory, optics, switchgear, cooling, or construction capacity.</p></div>
+            <div class="read-item"><b>Beneficiaries are broader than GPUs.</b><p>The buildout reaches semiconductors, electrical equipment, utilities, power systems, cooling, data centers, and builders.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section panel">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Supply chain map</span>
+          <h2>From AI demand to usable capacity</h2>
+          <p>Each layer has to clear before AI demand becomes working infrastructure. The color bar marks where constraint risk is most important today.</p>
+        </div>
+      </div>
+      <div class="map" id="stackMap"></div>
+    </section>
+
+    <section class="section two-col">
+      <div class="panel">
+        <span class="section-label">Read-through</span>
+        <h2>What makes this institutional?</h2>
+        <div class="framework">
+          <div class="framework-row"><b>Capacity math</b><span>Start from compute demand, but force it through power, site, equipment, and construction gates.</span></div>
+          <div class="framework-row"><b>Time horizons</b><span>Separate near-term bridge solutions from medium-term grid expansion and long-term nuclear or behind-the-meter power.</span></div>
+          <div class="framework-row"><b>Delivery risk</b><span>Track what is announced, what is permitted, what is under construction, and what is actually energized.</span></div>
+          <div class="framework-row"><b>Exposure purity</b><span>Distinguish direct bottleneck suppliers from broad industrials where AI is only part of the business.</span></div>
+        </div>
+      </div>
+      <div class="panel">
+        <span class="section-label">Best use</span>
+        <h2>How this page complements the dashboard</h2>
+        <div class="framework">
+          <div class="framework-row"><b>Dashboard</b><span>Daily pulse, YTD badges, heat map, and the current pressure score.</span></div>
+          <div class="framework-row"><b>Map</b><span>Stable mental model of the physical AI stack and where bottlenecks can appear.</span></div>
+          <div class="framework-row"><b>Future page</b><span>A focused Power & Grid Watch can go deeper into regional power markets if needed.</span></div>
+          <div class="framework-row"><b>Compliance</b><span>Keep this as education and infrastructure research, not a ranked investment list.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Layer detail</span>
+          <h2>Where the bottlenecks show up</h2>
+          <p>Representative companies are included to make the stack concrete. They are exposure examples only.</p>
+        </div>
+      </div>
+      <div class="layers" id="layerRows"></div>
+    </section>
+
+    <section class="section panel">
+      <span class="section-label">Sources and limitations</span>
+      <h2>How to read this map</h2>
+      <div class="source-grid">
+        <div class="source"><b>Institutional pattern.</b><br>Built from public institutional research framing: demand, capacity, power, delivery timing, and ecosystem beneficiaries.</div>
+        <div class="source"><b>Company labels.</b><br>Companies are examples of supply-chain exposure. They are not ranked, rated, or presented as investment advice.</div>
+        <div class="source"><b>Data freshness.</b><br>This is a structural map. Daily market movement stays on the main Compute Grid dashboard.</div>
+        <div class="source"><b>Limitations.</b><br>Exposure purity differs by company. Some suppliers are private, diversified, regional, or dependent on project timing.</div>
+      </div>
+      <div class="source-links" aria-label="Sources used">
+        <a class="source-link" href="https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027" target="_blank" rel="noopener">Goldman data-center power</a>
+        <a class="source-link" href="https://www.blackrock.com/us/individual/insights/energy-and-the-ai-buildout" target="_blank" rel="noopener">BlackRock AI buildout</a>
+        <a class="source-link" href="https://am.jpmorgan.com/jp/en/asset-management/institutional/insights/market-insights/market-updates/on-the-minds-of-investors/energy-infrastructure-ais-power-play/" target="_blank" rel="noopener">J.P. Morgan power play</a>
+        <a class="source-link" href="https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers" target="_blank" rel="noopener">McKinsey compute race</a>
+        <a class="source-link" href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" target="_blank" rel="noopener">IEA Energy and AI</a>
+        <a class="source-link" href="https://newsletter.semianalysis.com/p/ai-datacenter-energy-dilemma-race" target="_blank" rel="noopener">SemiAnalysis energy</a>
+      </div>
+      <div class="legal-disclaimer">
+        <b>Legal disclaimer.</b> This page is general educational research commentary only. It is not investment advice, a buy/sell/hold recommendation, a solicitation, an offer, or personal financial analysis. It reflects public information and independent commentary, not the views of any employer, exchange, issuer, broker, or regulator.
+      </div>
+      <footer>Public research map. No investment advice, no trading recommendation, and no employer or exchange endorsement implied.</footer>
+    </section>
+  </main>
+
+  <script>
+    const stack = [
+      { layer: "AI Demand", state: "cool", role: "Models, inference, training, enterprise adoption", text: "Demand starts with workloads, but demand alone does not create usable capacity.", tags: ["Hyperscalers", "AI labs", "Enterprise workloads"] },
+      { layer: "Compute Silicon", state: "warn", role: "GPUs, accelerators, ASICs, network silicon", text: "Accelerators remain central, while custom silicon and networking chips shape cost and supply diversity.", tags: ["NVDA", "AMD", "AVGO", "MRVL"] },
+      { layer: "Memory / Packaging", state: "hot", role: "HBM, DRAM, advanced substrates, packaging", text: "Cluster scale depends on high-bandwidth memory and advanced packaging capacity, not only wafers.", tags: ["MU", "SK Hynix", "Samsung", "TSM", "ASML"] },
+      { layer: "Networking", state: "warn", role: "Switches, optics, connectors, cables", text: "East-west traffic inside AI clusters lifts the importance of optical modules, switching, and physical interconnect.", tags: ["ANET", "COHR", "LITE", "APH", "TEL"] },
+      { layer: "Electrical Gear", state: "hot", role: "Transformers, switchgear, UPS, substations", text: "Data centers cannot become revenue capacity until electrical rooms, grid equipment, and protection gear are ready.", tags: ["ETN", "Schneider", "ABB", "GEV", "POWL"] },
+      { layer: "Power Supply", state: "hot", role: "Generation, interconnection, behind-the-meter power", text: "Power availability and connection timing decide where capacity can be built and how quickly it can be energized.", tags: ["CEG", "VST", "NEE", "CAT", "CMI"] },
+      { layer: "Cooling / Thermal", state: "warn", role: "Liquid cooling, chillers, CDUs, thermal services", text: "Higher rack density pushes the stack toward liquid cooling and more complex thermal system design.", tags: ["VRT", "MOD", "TT", "CARR", "JCI"] },
+      { layer: "Site / Construction", state: "warn", role: "Land, permits, EPC, mechanical and electrical labor", text: "Even when equipment exists, specialist builders and permitting determine the final delivery schedule.", tags: ["PWR", "EME", "FIX", "STRL", "PRIM"] }
+    ];
+
+    const detail = [
+      { name: "Demand owners", bottleneck: "Capex budgets, cloud revenue conversion, AI monetization pace.", exposure: "MSFT, AMZN, GOOGL, META, ORCL" },
+      { name: "Silicon and memory", bottleneck: "Accelerators, HBM, advanced packaging, tool intensity.", exposure: "NVDA, AMD, MU, TSM, ASML, AMAT, LRCX" },
+      { name: "Physical connectivity", bottleneck: "Switching, optics, connectors, cables, backplanes.", exposure: "ANET, AVGO, MRVL, COHR, LITE, APH, TEL" },
+      { name: "Grid and power equipment", bottleneck: "Transformers, switchgear, UPS, interconnection equipment.", exposure: "ETN, Schneider, ABB, GEV, HUBB, POWL" },
+      { name: "Power and sites", bottleneck: "Firm power, behind-the-meter generation, colocation capacity.", exposure: "CEG, VST, NEE, DLR, EQIX, CAT, CMI" },
+      { name: "Cooling and construction", bottleneck: "Liquid cooling, thermal systems, skilled EPC capacity.", exposure: "VRT, MOD, TT, CARR, PWR, EME, FIX" }
+    ];
+
+    function renderMap() {
+      document.getElementById("stackMap").innerHTML = stack.map(item => `
+        <article class="map-node ${item.state}">
+          <h3>${item.layer}</h3>
+          <div class="role">${item.role}</div>
+          <p>${item.text}</p>
+          <div class="tag-list">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div>
+        </article>
+      `).join("");
+    }
+
+    function renderLayers() {
+      document.getElementById("layerRows").innerHTML = detail.map(item => `
+        <article class="layer-row">
+          <div><h3>${item.name}</h3><p>Structural layer in the AI infrastructure stack.</p></div>
+          <div><b>Bottleneck lens</b><p>${item.bottleneck}</p></div>
+          <div><b>Examples</b><p>${item.exposure}</p></div>
+        </article>
+      `).join("");
+    }
+
+    renderMap();
+    renderLayers();
+  </script>
+</body>
+</html>
