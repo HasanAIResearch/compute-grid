@@ -508,6 +508,78 @@
       display: grid;
       gap: 10px;
     }
+    .quick-charts {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .quick-chart {
+      border: 1px solid rgba(124, 155, 200, .18);
+      border-radius: 10px;
+      padding: 12px;
+      background: rgba(7, 12, 24, .54);
+      min-height: 160px;
+    }
+    .quick-chart-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: start;
+      margin-bottom: 8px;
+    }
+    .quick-chart span {
+      color: var(--muted);
+      display: block;
+      font-size: 10px;
+      font-weight: 850;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .quick-chart b {
+      color: var(--ink);
+      display: block;
+      font-size: 17px;
+      line-height: 1.15;
+      margin-top: 4px;
+    }
+    .quick-chart em {
+      border: 1px solid rgba(56, 215, 255, .28);
+      border-radius: 999px;
+      color: var(--cyan);
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 850;
+      padding: 4px 7px;
+      white-space: nowrap;
+    }
+    .quick-chart svg {
+      display: block;
+      width: 100%;
+      height: 74px;
+      margin-top: 8px;
+    }
+    .quick-chart p {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+      margin: 8px 0 0;
+    }
+    .spark-axis {
+      stroke: rgba(145, 164, 191, .22);
+      stroke-width: 1;
+    }
+    .spark-line {
+      fill: none;
+      stroke-width: 3.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .spark-fill {
+      opacity: .14;
+    }
+    .spark-bar {
+      rx: 3;
+    }
     .institutional-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -617,6 +689,7 @@
       .layers,
       .thesis,
       .daily-pulse,
+      .quick-charts,
       .institutional-grid,
       .source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -629,6 +702,7 @@
       .layers,
       .thesis,
       .daily-pulse,
+      .quick-charts,
       .institutional-grid,
       .source-grid,
       .flow { grid-template-columns: 1fr; }
@@ -686,6 +760,17 @@
   </header>
 
   <main class="wrap">
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Quick charts</span>
+          <h2>Fast visual read</h2>
+          <p>Small refresh-friendly charts for the first scan: capex direction, power pressure, memory tightness, and cooling demand.</p>
+        </div>
+      </div>
+      <div class="quick-charts" id="quickCharts"></div>
+    </section>
+
     <section class="section">
       <div class="section-head">
         <div>
@@ -964,6 +1049,13 @@
       { q: "Q4'25", spend: 148, yoy: 91 }
     ];
 
+    const quickCharts = [
+      { title: "Capex", label: "Hyperscaler spend", value: "Uptrend", note: "Infrastructure budgets are still rising.", color: "#38d7ff", type: "bar", data: [78, 86, 95, 108, 121, 132, 141, 148] },
+      { title: "Power", label: "Grid pressure", value: "Severe", note: "Power and interconnection remain the gating layer.", color: "#ff5573", type: "line", data: [72, 78, 82, 86, 91, 94, 96, 98] },
+      { title: "Memory", label: "HBM / packaging", value: "Tight", note: "Cluster scale depends on memory and packaging capacity.", color: "#a78bfa", type: "line", data: [62, 70, 76, 82, 86, 88, 90, 92] },
+      { title: "Cooling", label: "Rack density", value: "Rising", note: "Thermal complexity rises with higher rack power.", color: "#42d392", type: "bar", data: [46, 52, 58, 63, 70, 76, 81, 86] }
+    ];
+
     const ytdMap = {
       "ABB Ltd ABBN.SW": 44.8,
       "AMAT": 124.8,
@@ -1122,6 +1214,42 @@
       return `<span class="ticker ${cls}" title="${label} YTD ${text}"><span class="label">${label}</span><em>${text}</em></span>`;
     }
 
+    function miniChart(item) {
+      const w = 240, h = 74, pad = 8;
+      const min = Math.min(...item.data);
+      const max = Math.max(...item.data);
+      const span = Math.max(1, max - min);
+      const x = index => pad + index * ((w - pad * 2) / (item.data.length - 1));
+      const y = value => h - pad - ((value - min) / span) * (h - pad * 2);
+      const grid = [0.25, 0.5, 0.75].map(p => `<line class="spark-axis" x1="${pad}" y1="${h * p}" x2="${w - pad}" y2="${h * p}"/>`).join("");
+      if (item.type === "bar") {
+        const gap = 5;
+        const barW = ((w - pad * 2) / item.data.length) - gap;
+        const bars = item.data.map((value, index) => {
+          const bx = pad + index * ((w - pad * 2) / item.data.length) + gap / 2;
+          const by = y(value);
+          return `<rect class="spark-bar" x="${bx}" y="${by}" width="${barW}" height="${h - pad - by}" fill="${item.color}"><title>${value}</title></rect>`;
+        }).join("");
+        return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${item.label} mini bar chart">${grid}${bars}</svg>`;
+      }
+      const points = item.data.map((value, index) => `${x(index)},${y(value)}`).join(" ");
+      const fill = `${pad},${h - pad} ${points} ${w - pad},${h - pad}`;
+      return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${item.label} mini line chart">${grid}<polygon class="spark-fill" points="${fill}" fill="${item.color}"/><polyline class="spark-line" points="${points}" stroke="${item.color}"/></svg>`;
+    }
+
+    function renderQuickCharts() {
+      document.getElementById("quickCharts").innerHTML = quickCharts.map(item => `
+        <article class="quick-chart">
+          <div class="quick-chart-head">
+            <div><span>${item.label}</span><b>${item.title}</b></div>
+            <em>${item.value}</em>
+          </div>
+          ${miniChart(item)}
+          <p>${item.note}</p>
+        </article>
+      `).join("");
+    }
+
     function renderCapexChart() {
       const svg = document.getElementById("capexChart");
       const w = 720, h = 360, pad = 48;
@@ -1161,6 +1289,7 @@
 
     renderSignals("nowSignals", nowSignals);
     renderSignals("futureSignals", futureSignals);
+    renderQuickCharts();
     renderHeatmap();
     renderFlow();
     renderLayers();
