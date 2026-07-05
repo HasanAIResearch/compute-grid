@@ -580,6 +580,47 @@
     .spark-bar {
       rx: 3;
     }
+    .power-math {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .power-stat {
+      border: 1px solid rgba(124, 155, 200, .16);
+      border-radius: 10px;
+      padding: 13px;
+      background: rgba(7, 12, 24, .54);
+      min-height: 132px;
+    }
+    .power-stat span {
+      color: var(--muted);
+      display: block;
+      font-size: 10px;
+      font-weight: 850;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .power-stat b {
+      color: var(--ink);
+      display: block;
+      font-size: 28px;
+      line-height: 1;
+      margin-top: 9px;
+    }
+    .power-stat p {
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.38;
+      margin: 9px 0 0;
+    }
+    .power-stat em {
+      color: var(--cyan);
+      display: block;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 850;
+      margin-top: 8px;
+    }
     .institutional-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -690,6 +731,7 @@
       .thesis,
       .daily-pulse,
       .quick-charts,
+      .power-math,
       .institutional-grid,
       .source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -703,6 +745,7 @@
       .thesis,
       .daily-pulse,
       .quick-charts,
+      .power-math,
       .institutional-grid,
       .source-grid,
       .flow { grid-template-columns: 1fr; }
@@ -769,6 +812,22 @@
         </div>
       </div>
       <div class="quick-charts" id="quickCharts"></div>
+    </section>
+
+    <section class="section panel">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Power math</span>
+          <h2>The size of the electricity need</h2>
+          <p>These source-backed numbers make the physical constraint visible: data centers are moving from a niche load to a power-system planning problem.</p>
+        </div>
+      </div>
+      <div class="power-math">
+        <div class="power-stat"><span>Global data centers</span><b>415 TWh</b><p>Estimated 2024 electricity consumption for data centers globally.</p><em>IEA Energy and AI</em></div>
+        <div class="power-stat"><span>2030 base case</span><b>945 TWh</b><p>IEA base-case projection, just under 3% of global electricity consumption.</p><em>+530 TWh implied</em></div>
+        <div class="power-stat"><span>US peak share</span><b>4.1% -> 8.5%</b><p>Goldman Sachs projects US data centers' peak-summer demand share rising from 2025 to 2027.</p><em>US grid pressure</em></div>
+        <div class="power-stat"><span>US capacity adds</span><b>6.4 -> 36.3 GW</b><p>Realized 2024 additions vs scheduled 2027 additions in Goldman Sachs Research.</p><em>Buildout acceleration</em></div>
+      </div>
     </section>
 
     <section class="section">
@@ -900,12 +959,14 @@
       <div class="source-grid">
         <div class="source"><b>Composite score.</b><br>Manual weighted score from capex momentum, power queue pressure, bottleneck breadth, and beneficiary dispersion.</div>
         <div class="source"><b>Data freshness.</b><br>Public-source dashboard, updated manually. YTD badges use Yahoo Finance adjusted-close history through the latest available close checked during this update; values are rounded and should be refreshed before investment reuse.</div>
-        <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA/data-center power work, Goldman Sachs power-demand estimates, SemiAnalysis energy bottleneck work, EE News Europe MLCC coverage, MarketsandMarkets data-center power/cooling supplier lists, SemiconductorX/ABF substrate references, Cignal AI/LightCounting optical supplier lists.</div>
+        <div class="source"><b>Source anchors.</b><br>Interconnection.fyi queue data, public company filings/commentary, IEA Energy and AI data-center electricity projections, Goldman Sachs data-center power-demand estimates, SemiAnalysis energy bottleneck work, EE News Europe MLCC coverage, MarketsandMarkets data-center power/cooling supplier lists, SemiconductorX/ABF substrate references, Cignal AI/LightCounting optical supplier lists.</div>
         <div class="source"><b>Limitations.</b><br>Queue capacity is not guaranteed build capacity. Tickers show exposure, not valuation or timing attractiveness.</div>
       </div>
       <div class="source-links" aria-label="Sources used">
         <a class="source-link" href="https://www.interconnection.fyi/" target="_blank" rel="noopener">Interconnection.fyi</a>
         <a class="source-link" href="https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks" target="_blank" rel="noopener">IEA data centres</a>
+        <a class="source-link" href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" target="_blank" rel="noopener">IEA Energy and AI</a>
+        <a class="source-link" href="https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027" target="_blank" rel="noopener">Goldman US power demand</a>
         <a class="source-link" href="https://www.datacenterdynamics.com/en/news/goldman-sachs-data-center-power-demand-to-grow-165-by-2030/" target="_blank" rel="noopener">Goldman / DCD power demand</a>
         <a class="source-link" href="https://newsletter.semianalysis.com/p/ai-datacenter-energy-dilemma-race" target="_blank" rel="noopener">SemiAnalysis energy bottleneck</a>
         <a class="source-link" href="https://www.eenewseurope.com/en/ai-drives-mlcc-shortage/" target="_blank" rel="noopener">EE News Europe MLCC</a>
