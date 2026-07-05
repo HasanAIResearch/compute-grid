@@ -621,6 +621,72 @@
       font-weight: 850;
       margin-top: 8px;
     }
+    .power-balance {
+      border-top: 1px solid rgba(124, 155, 200, .14);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+      padding-top: 14px;
+    }
+    .balance-box {
+      border: 1px solid rgba(124, 155, 200, .16);
+      border-radius: 10px;
+      padding: 13px;
+      background: rgba(7, 12, 24, .54);
+    }
+    .balance-box h3 {
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+    .balance-box p {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+      margin: 10px 0 0;
+    }
+    .balance-row {
+      display: grid;
+      grid-template-columns: 88px minmax(0, 1fr) 82px;
+      gap: 10px;
+      align-items: center;
+      margin-top: 8px;
+    }
+    .balance-row span {
+      color: var(--soft);
+      font-size: 12px;
+      font-weight: 750;
+    }
+    .balance-track {
+      height: 11px;
+      background: rgba(17, 27, 47, .95);
+      border: 1px solid rgba(124, 155, 200, .16);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .balance-track i {
+      display: block;
+      height: 100%;
+      background: var(--cyan);
+    }
+    .balance-row b {
+      color: var(--ink);
+      font-size: 12px;
+      text-align: right;
+    }
+    .gap-callout {
+      border: 1px solid rgba(255, 85, 115, .26);
+      border-radius: 10px;
+      color: var(--soft);
+      background: rgba(255, 85, 115, .07);
+      font-size: 13px;
+      line-height: 1.45;
+      margin-top: 12px;
+      padding: 12px;
+    }
+    .gap-callout b {
+      color: var(--ink);
+    }
     .institutional-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -732,6 +798,7 @@
       .daily-pulse,
       .quick-charts,
       .power-math,
+      .power-balance,
       .institutional-grid,
       .source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -746,6 +813,7 @@
       .daily-pulse,
       .quick-charts,
       .power-math,
+      .power-balance,
       .institutional-grid,
       .source-grid,
       .flow { grid-template-columns: 1fr; }
@@ -817,17 +885,34 @@
     <section class="section panel">
       <div class="section-head">
         <div>
-          <span class="section-label">Power math</span>
-          <h2>The size of the electricity need</h2>
-          <p>These source-backed numbers make the physical constraint visible: data centers are moving from a niche load to a power-system planning problem.</p>
+          <span class="section-label">Power balance</span>
+          <h2>Electricity demand vs delivery</h2>
+          <p>A simple read: how much electricity data centers use now, what they are expected to need, what new capacity is scheduled, and where the delivery risk sits.</p>
         </div>
       </div>
       <div class="power-math">
-        <div class="power-stat"><span>Global data centers</span><b>415 TWh</b><p>Estimated 2024 electricity consumption for data centers globally.</p><em>IEA Energy and AI</em></div>
-        <div class="power-stat"><span>2030 base case</span><b>945 TWh</b><p>IEA base-case projection, just under 3% of global electricity consumption.</p><em>+530 TWh implied</em></div>
-        <div class="power-stat"><span>US peak share</span><b>4.1% -> 8.5%</b><p>Goldman Sachs projects US data centers' peak-summer demand share rising from 2025 to 2027.</p><em>US grid pressure</em></div>
-        <div class="power-stat"><span>US capacity adds</span><b>6.4 -> 36.3 GW</b><p>Realized 2024 additions vs scheduled 2027 additions in Goldman Sachs Research.</p><em>Buildout acceleration</em></div>
+        <div class="power-stat"><span>Electricity now</span><b>415 TWh/yr</b><p>Estimated global data-center electricity consumption in 2024.</p><em>IEA Energy and AI</em></div>
+        <div class="power-stat"><span>Expected electricity</span><b>945 TWh/yr</b><p>IEA 2030 base case, just under 3% of global electricity consumption.</p><em>More than double</em></div>
+        <div class="power-stat"><span>New demand needed</span><b>+530 TWh/yr</b><p>Implied extra annual electricity need from 2024 to 2030.</p><em>945 - 415</em></div>
+        <div class="power-stat"><span>US scheduled adds</span><b>36.3 GW</b><p>Scheduled 2027 data-center capacity additions, after 6.4 GW realized in 2024.</p><em>Goldman Sachs</em></div>
       </div>
+      <div class="power-balance">
+        <div class="balance-box">
+          <h3>Demand step-up</h3>
+          <div class="balance-row"><span>2024 use</span><div class="balance-track"><i style="width:44%"></i></div><b>415 TWh</b></div>
+          <div class="balance-row"><span>2030 need</span><div class="balance-track"><i style="width:100%"></i></div><b>945 TWh</b></div>
+          <div class="balance-row"><span>New need</span><div class="balance-track"><i style="width:56%;background:var(--amber)"></i></div><b>+530 TWh</b></div>
+          <p>The global demand question is not whether data centers need more power. It is whether grids, generation, and transmission can arrive fast enough.</p>
+        </div>
+        <div class="balance-box">
+          <h3>US delivery risk</h3>
+          <div class="balance-row"><span>2024 add</span><div class="balance-track"><i style="width:18%;background:var(--green)"></i></div><b>6.4 GW</b></div>
+          <div class="balance-row"><span>2026 sched.</span><div class="balance-track"><i style="width:37%;background:var(--cyan)"></i></div><b>13.6 GW</b></div>
+          <div class="balance-row"><span>2027 sched.</span><div class="balance-track"><i style="width:100%;background:var(--red)"></i></div><b>36.3 GW</b></div>
+          <p>Goldman says only about 60% of next-year scheduled capacity and roughly 50% two years out may materialize on time. IEA also warns grid constraints can delay planned projects.</p>
+        </div>
+      </div>
+      <div class="gap-callout"><b>Bottom line:</b> expected electricity demand is rising faster than proven delivery. The scheduled additions are large, but the key gap is not announced capacity; it is on-time energized capacity.</div>
     </section>
 
     <section class="section">
