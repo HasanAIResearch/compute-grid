@@ -1,0 +1,12 @@
+{
+  "task": "compute_grid_project_refresh",
+  "status": "completed",
+  "current_step": "done",
+  "total": 114,
+  "completed": 113,
+  "failed": 1,
+  "current_item": null,
+  "last_update": "2026-07-07T07:23:59+00:00",
+  "json": "/mnt/c/Users/hasan/.openclaw/workspace/github-pages/HasanAIResearch.github.io/compute-grid/data/latest.json",
+  "csv": "/mnt/c/Users/hasan/.openclaw/workspace/github-pages/HasanAIResearch.github.io/compute-grid/data/latest_market_rows.csv"
+}

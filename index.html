@@ -433,6 +433,43 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 12px;
     }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .project-card {
+      border: 1px solid rgba(124, 155, 200, .24);
+      border-radius: 10px;
+      padding: 12px;
+      background: rgba(11, 18, 32, .68);
+      min-height: 92px;
+    }
+    .project-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.3;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-weight: 850;
+    }
+    .project-card b {
+      display: block;
+      margin-top: 7px;
+      color: var(--ink);
+      font-size: 17px;
+      line-height: 1.2;
+      overflow-wrap: anywhere;
+    }
+    .project-card em {
+      display: block;
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 11px;
+      font-style: normal;
+      line-height: 1.35;
+    }
     .layer-card {
       padding: 15px;
       min-height: 230px;
@@ -800,6 +837,7 @@
       .power-math,
       .power-balance,
       .institutional-grid,
+      .project-grid,
       .source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     }
@@ -815,6 +853,7 @@
       .power-math,
       .power-balance,
       .institutional-grid,
+      .project-grid,
       .source-grid,
       .flow { grid-template-columns: 1fr; }
       .panel { padding: 14px; }
@@ -829,7 +868,7 @@
         <div class="brand"><span class="brand-mark"></span> Hasan AI Research</div>
         <div class="chips">
           <span class="chip">Research Dashboard</span>
-          <span class="chip">Updated 06 Jul 2026</span>
+          <span class="chip">Updated 07 Jul 2026</span>
           <span class="chip">Public Sources</span>
           <span class="chip">Not Investment Advice</span>
         </div>
@@ -862,10 +901,10 @@
         </div>
       </div>
       <div class="daily-pulse" aria-label="Daily pulse">
-        <div class="pulse-item"><span>Daily pulse</span><b data-pulse="date">06 Jul 2026</b></div>
-        <div class="pulse-item"><span>Pressure</span><b data-pulse="pressure">High / stable</b></div>
-        <div class="pulse-item"><span>Main change</span><b data-pulse="change">Power and interconnection remain the gating layer.</b></div>
-        <div class="pulse-item"><span>Market data</span><b data-pulse="market"><strong>YTD</strong> badges refreshed from public prices.</b></div>
+        <div class="pulse-item"><span>Daily pulse</span><b data-pulse="date">07 Jul 2026</b></div>
+        <div class="pulse-item"><span>Pressure</span><b data-pulse="pressure">High / rising</b></div>
+        <div class="pulse-item"><span>Main change</span><b data-pulse="change">Water / Fab Utilities leads the latest scan; Optical Modules / Photonics is the softest measured layer.</b></div>
+        <div class="pulse-item"><span>Market data</span><b data-pulse="market"><strong>107</strong> public tickers measured; <strong>20</strong> fresh theme headlines collected.</b></div>
       </div>
     </div>
   </header>
@@ -880,6 +919,24 @@
         </div>
       </div>
       <div class="quick-charts" id="quickCharts"></div>
+    </section>
+
+    <section class="section panel" aria-label="Compute Grid project refresh status">
+      <div class="section-head">
+        <div>
+          <span class="section-label">Project refresh</span>
+          <h2>Collected and measured by the Compute Grid refresh pipeline</h2>
+          <p>The page now has a repeatable collector: it scans public tickers, measures market movement by infrastructure layer, checks current theme headlines, writes data artifacts, then updates and uploads the latest page.</p>
+        </div>
+      </div>
+      <div class="project-grid">
+        <div class="project-card"><span>Freshness</span><b data-project="freshness">07 Jul 2026</b><em>Latest completed collector run.</em></div>
+        <div class="project-card"><span>Universe measured</span><b data-project="universe">107 / 109</b><em>Public tickers with usable market data.</em></div>
+        <div class="project-card"><span>Strongest layer</span><b data-project="strongest">Water / Fab Utilities</b><em>Best measured 20-day layer.</em></div>
+        <div class="project-card"><span>Softest layer</span><b data-project="softest">Optical Modules / Photonics</b><em>Weakest measured 20-day layer.</em></div>
+        <div class="project-card"><span>Theme headlines</span><b data-project="headlines">20</b><em>Google News RSS items collected.</em></div>
+        <div class="project-card"><span>Limitations</span><b data-project="limits">2 ticker gaps; public prices/RSS only</b><em>No private order flow or investment advice.</em></div>
+      </div>
     </section>
 
     <section class="section panel">
@@ -1217,115 +1274,115 @@
     ];
 
     const ytdMap = {
-      "ABB Ltd ABBN.SW": 41.1,
-      "AMAT": 124.8,
-      "AMD": 131.7,
-      "AMZN": 7.1,
-      "ANET": 19.8,
-      "APH": 18.2,
-      "ASE Technology ASX": 148.3,
-      "ASML": 52.6,
-      "AT&S ATS.VI": 481.1,
-      "AVGO": 4.1,
-      "Ajinomoto 2802.T": 84.2,
-      "Alfa Laval ALFA.ST": 27.7,
-      "Amkor AMKR": 62.6,
-      "Astera Labs ALAB": 126.3,
-      "BE Semiconductor BESI.AS": 70.7,
-      "Bel Fuse BELFB": 54.6,
-      "Bloom Energy BE": 174.5,
+      "ABB Ltd ABBN.SW": 40.4,
+      "AMAT": 121.0,
+      "AMD": 147.0,
+      "AMZN": 7.8,
+      "ANET": 29.7,
+      "APH": 19.8,
+      "ASE Technology ASX": 159.5,
+      "ASML": 57.4,
+      "AT&S ATS.VI": 447.6,
+      "AVGO": 8.0,
+      "Ajinomoto 2802.T": 76.4,
+      "Alfa Laval ALFA.ST": 26.1,
+      "Amkor AMKR": 63.1,
+      "Astera Labs ALAB": 141.0,
+      "BE Semiconductor BESI.AS": 68.7,
+      "Bel Fuse BELFB": 60.7,
+      "Bloom Energy BE": 199.0,
       "CARR": 32.0,
-      "CAT": 61.7,
-      "CEG": -34.5,
-      "CIEN": 71.7,
-      "CMI": 27.6,
-      "COHR": 71.5,
-      "CSCO": 49.0,
-      "DLR": 13.3,
+      "CAT": 62.8,
+      "CEG": -32.7,
+      "CIEN": 76.3,
+      "CMI": 30.8,
+      "COHR": 72.7,
+      "CSCO": 51.3,
+      "DLR": 13.6,
       "Danfoss private": null,
-      "Delta Electronics 2308.TW": 101.6,
-      "EME": 21.4,
-      "EQIX": 32.5,
-      "ETN": 22.5,
-      "Ecolab ECL": 8.5,
-      "Eoptolink 300502.SZ": 66.6,
-      "FIX": 73.7,
-      "FN": 4.2,
-      "Fluence FLNC": -26.1,
+      "Delta Electronics 2308.TW": 90.9,
+      "EME": 23.4,
+      "EQIX": 32.1,
+      "ETN": 27.1,
+      "Ecolab ECL": 8.6,
+      "Eoptolink 300502.SZ": 67.7,
+      "FIX": 78.8,
+      "FN": 4.4,
+      "Fluence FLNC": -22.6,
       "Freeport-McMoRan FCX": 18.0,
-      "Fuji Electric 6504.T": 12.6,
-      "Furukawa Electric 5801.T": 271.4,
-      "GEV": 64.1,
-      "GOOGL": 14.4,
-      "Generac GNRC": 79.1,
-      "HD Hyundai Electric 267260.KS": 14.1,
-      "HUBB": 5.8,
-      "Hanmi Semi 042700.KS": 57.2,
-      "Hitachi 6501.T": -4.6,
-      "Hyosung Heavy 298040.KS": 68.9,
-      "INTC": 205.6,
-      "Ibiden 4062.T": 199.4,
-      "Infineon IFX.DE": 99.2,
-      "J": -5.0,
-      "JCI": 15.8,
-      "Kulicke & Soffa KLIC": 152.2,
-      "Kurita Water 6370.T": 46.1,
-      "Kyocera 6971.T": 75.6,
-      "LITE": 88.6,
-      "LRCX": 90.3,
-      "Linde LIN": 28.2,
-      "Lynas LYC.AX": 47.8,
-      "META": -10.2,
-      "MOD": 64.0,
-      "MP Materials MP": -3.0,
-      "MRVL": 174.7,
-      "MSFT": -17.1,
-      "MTZ": 64.0,
-      "MU": 209.4,
-      "MYR Group MYRG": 91.0,
-      "Mitsubishi Electric 6503.T": 26.9,
-      "Mitsubishi Heavy 7011.T": -1.0,
-      "Munters MTRS.ST": -10.1,
-      "Murata 6981.T": 210.7,
-      "NEE": 10.7,
-      "NVDA": 3.3,
-      "Nan Ya PCB 8046.TW": 354.5,
-      "ON": 60.9,
-      "ORCL": -27.9,
-      "Organo 6368.T": 15.5,
-      "POWL": 109.8,
-      "PRIM": -32.4,
-      "PWR": 52.1,
-      "ROHM 6963.T": 155.9,
-      "Rolls-Royce RR.L": 24.5,
-      "SK Hynix 000660.KS": 246.8,
-      "STM": 150.7,
-      "STRL": 119.6,
-      "SUMCO 3436.T": 257.8,
-      "Samsung Electro-Mechanics 009150.KS": 577.0,
-      "Samsung Electronics 005930.KS": 148.0,
-      "Schneider SU.PA": 17.9,
-      "Shin-Etsu 4063.T": 51.3,
+      "Fuji Electric 6504.T": 10.4,
+      "Furukawa Electric 5801.T": 251.0,
+      "GEV": 69.8,
+      "GOOGL": 16.4,
+      "Generac GNRC": 82.7,
+      "HD Hyundai Electric 267260.KS": 10.4,
+      "HUBB": 7.6,
+      "Hanmi Semi 042700.KS": 46.1,
+      "Hitachi 6501.T": -1.9,
+      "Hyosung Heavy 298040.KS": 57.3,
+      "INTC": 210.3,
+      "Ibiden 4062.T": 178.4,
+      "Infineon IFX.DE": 96.5,
+      "J": -4.2,
+      "JCI": 17.4,
+      "Kulicke & Soffa KLIC": 148.6,
+      "Kurita Water 6370.T": 37.5,
+      "Kyocera 6971.T": 69.5,
+      "LITE": 89.4,
+      "LRCX": 89.6,
+      "Linde LIN": 26.4,
+      "Lynas LYC.AX": 38.4,
+      "META": -7.5,
+      "MOD": 67.0,
+      "MP Materials MP": -3.6,
+      "MRVL": 179.2,
+      "MSFT": -17.9,
+      "MTZ": 67.2,
+      "MU": 212.4,
+      "MYR Group MYRG": 95.3,
+      "Mitsubishi Electric 6503.T": 24.9,
+      "Mitsubishi Heavy 7011.T": -3.4,
+      "Munters MTRS.ST": -10.2,
+      "Murata 6981.T": 179.2,
+      "NEE": 9.6,
+      "NVDA": 3.6,
+      "Nan Ya PCB 8046.TW": 335.5,
+      "ON": 67.0,
+      "ORCL": -26.1,
+      "Organo 6368.T": 12.8,
+      "POWL": 111.3,
+      "PRIM": -30.8,
+      "PWR": 53.4,
+      "ROHM 6963.T": 137.2,
+      "Rolls-Royce RR.L": 23.8,
+      "SK Hynix 000660.KS": 225.8,
+      "STM": 161.9,
+      "STRL": 124.7,
+      "SUMCO 3436.T": 216.2,
+      "Samsung Electro-Mechanics 009150.KS": 510.4,
+      "Samsung Electronics 005930.KS": 130.8,
+      "Schneider SU.PA": 17.7,
+      "Shin-Etsu 4063.T": 46.0,
       "Shinko 6967.T": null,
-      "Siemens Energy ENR.DE": 35.7,
-      "Sumitomo Electric 5802.T": 56.3,
-      "TDK 6762.T": 57.1,
-      "TEL": -14.8,
-      "TSM": 36.5,
-      "TT": 20.7,
-      "Taiyo Yuden 6976.T": 406.1,
-      "Tokyo Electron 8035.T": 97.7,
-      "Tokyo Ohka Kogyo 4186.T": 75.0,
-      "Unimicron 3037.TW": 319.6,
-      "VRT": 71.2,
-      "VSH": 202.6,
-      "VST": -8.3,
+      "Siemens Energy ENR.DE": 31.1,
+      "Sumitomo Electric 5802.T": 47.2,
+      "TDK 6762.T": 50.6,
+      "TEL": -13.6,
+      "TSM": 42.1,
+      "TT": 23.0,
+      "Taiyo Yuden 6976.T": 350.2,
+      "Tokyo Electron 8035.T": 89.9,
+      "Tokyo Ohka Kogyo 4186.T": 68.1,
+      "Unimicron 3037.TW": 284.3,
+      "VRT": 81.4,
+      "VSH": 204.2,
+      "VST": -4.6,
       "Veolia VIE.PA": 29.1,
-      "Walsin 2492.TW": 347.4,
-      "Xylem XYL": -13.2,
-      "Yageo 2327.TW": 320.0,
-      "Zhongji Innolight 300308.SZ": 76.5,
-      "nVent NVT": 42.9
+      "Walsin 2492.TW": 303.2,
+      "Xylem XYL": -12.3,
+      "Yageo 2327.TW": 278.2,
+      "Zhongji Innolight 300308.SZ": 80.1,
+      "nVent NVT": 47.4
 };
 
     function tagClass(value) {
