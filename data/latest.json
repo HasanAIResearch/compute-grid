@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-08-01T07:50:10+00:00",
+  "generated_at": "2026-08-02T07:51:37+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -368,12 +368,12 @@
       "label": "AT&S ATS.VI",
       "symbol": "ATS.VI",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 134.4,
-      "ytd_pct": 309.8,
-      "return_5d_pct": -20.2,
-      "return_20d_pct": -29.1,
-      "return_60d_pct": 33.9
+      "latest_date": "2026-07-31",
+      "latest_close": 130.8,
+      "ytd_pct": 298.8,
+      "return_5d_pct": -17.5,
+      "return_20d_pct": -35.4,
+      "return_60d_pct": 30.0
     },
     {
       "label": "AVGO",
@@ -401,12 +401,12 @@
       "label": "Alfa Laval ALFA.ST",
       "symbol": "ALFA.ST",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 558.2,
-      "ytd_pct": 21.2,
-      "return_5d_pct": -3.2,
-      "return_20d_pct": -3.6,
-      "return_60d_pct": 1.3
+      "latest_date": "2026-07-31",
+      "latest_close": 563.6,
+      "ytd_pct": 22.3,
+      "return_5d_pct": -1.9,
+      "return_20d_pct": -4.3,
+      "return_60d_pct": -0.7
     },
     {
       "label": "Amkor AMKR",
@@ -434,12 +434,12 @@
       "label": "BE Semiconductor BESI.AS",
       "symbol": "BESI.AS",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 197.5,
-      "ytd_pct": 33.3,
-      "return_5d_pct": -14.1,
-      "return_20d_pct": -24.6,
-      "return_60d_pct": -22.5
+      "latest_date": "2026-07-31",
+      "latest_close": 198.25,
+      "ytd_pct": 33.8,
+      "return_5d_pct": -12.7,
+      "return_20d_pct": -27.4,
+      "return_60d_pct": -24.0
     },
     {
       "label": "Bel Fuse BELFB",
@@ -802,12 +802,12 @@
       "label": "Infineon IFX.DE",
       "symbol": "IFX.DE",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 59.47,
-      "ytd_pct": 56.6,
-      "return_5d_pct": -9.2,
-      "return_20d_pct": -22.1,
-      "return_60d_pct": -0.1
+      "latest_date": "2026-07-31",
+      "latest_close": 61.67,
+      "ytd_pct": 62.4,
+      "return_5d_pct": -4.3,
+      "return_20d_pct": -20.3,
+      "return_60d_pct": 0.0
     },
     {
       "label": "J",
@@ -1022,12 +1022,12 @@
       "label": "Munters MTRS.ST",
       "symbol": "MTRS.ST",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 168.75,
-      "ytd_pct": -12.4,
-      "return_5d_pct": -6.2,
-      "return_20d_pct": -1.1,
-      "return_60d_pct": -16.9
+      "latest_date": "2026-07-31",
+      "latest_close": 169.0,
+      "ytd_pct": -12.2,
+      "return_5d_pct": -5.9,
+      "return_20d_pct": -3.8,
+      "return_60d_pct": -19.5
     },
     {
       "label": "Murata 6981.T",
@@ -1154,12 +1154,12 @@
       "label": "Rolls-Royce RR.L",
       "symbol": "RR.L",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 1463.0,
-      "ytd_pct": 22.2,
-      "return_5d_pct": 7.7,
-      "return_20d_pct": -0.8,
-      "return_60d_pct": 14.4
+      "latest_date": "2026-07-31",
+      "latest_close": 1467.8,
+      "ytd_pct": 22.6,
+      "return_5d_pct": 3.7,
+      "return_20d_pct": -2.4,
+      "return_60d_pct": 14.7
     },
     {
       "label": "SK Hynix 000660.KS",
@@ -1231,12 +1231,12 @@
       "label": "Schneider SU.PA",
       "symbol": "SU.PA",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 284.6,
-      "ytd_pct": 21.9,
-      "return_5d_pct": 7.2,
-      "return_20d_pct": 3.2,
-      "return_60d_pct": 5.0
+      "latest_date": "2026-07-31",
+      "latest_close": 289.6,
+      "ytd_pct": 24.1,
+      "return_5d_pct": 8.0,
+      "return_20d_pct": 3.4,
+      "return_60d_pct": 7.9
     },
     {
       "label": "Shin-Etsu 4063.T",
@@ -1258,12 +1258,12 @@
       "label": "Siemens Energy ENR.DE",
       "symbol": "ENR.DE",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 146.16,
-      "ytd_pct": 19.5,
-      "return_5d_pct": -2.9,
-      "return_20d_pct": -11.9,
-      "return_60d_pct": -19.1
+      "latest_date": "2026-07-31",
+      "latest_close": 147.44,
+      "ytd_pct": 20.6,
+      "return_5d_pct": -2.6,
+      "return_20d_pct": -12.3,
+      "return_60d_pct": -17.2
     },
     {
       "label": "Sumitomo Electric 5802.T",
@@ -1401,12 +1401,12 @@
       "label": "Veolia VIE.PA",
       "symbol": "VIE.PA",
       "status": "ok",
-      "latest_date": "2026-07-30",
-      "latest_close": 35.8,
-      "ytd_pct": 24.0,
-      "return_5d_pct": -2.7,
-      "return_20d_pct": -1.9,
-      "return_60d_pct": 4.1
+      "latest_date": "2026-07-31",
+      "latest_close": 34.47,
+      "ytd_pct": 19.4,
+      "return_5d_pct": -5.8,
+      "return_20d_pct": -8.1,
+      "return_60d_pct": 0.4
     },
     {
       "label": "Walsin 2492.TW",
@@ -1492,19 +1492,6 @@
       ]
     },
     {
-      "category": "Water / Fab Utilities",
-      "tickers": 5,
-      "covered": 5,
-      "avg_ytd_pct": 11.9,
-      "avg_20d_pct": -3.4,
-      "positive_ytd_share": 0.8,
-      "top_20d": [
-        "Xylem XYL",
-        "Veolia VIE.PA",
-        "Ecolab ECL"
-      ]
-    },
-    {
       "category": "Networking / Interconnect",
       "tickers": 6,
       "covered": 6,
@@ -1518,11 +1505,24 @@
       ]
     },
     {
+      "category": "Water / Fab Utilities",
+      "tickers": 5,
+      "covered": 5,
+      "avg_ytd_pct": 10.9,
+      "avg_20d_pct": -4.7,
+      "positive_ytd_share": 0.8,
+      "top_20d": [
+        "Xylem XYL",
+        "Ecolab ECL",
+        "Kurita Water 6370.T"
+      ]
+    },
+    {
       "category": "Liquid Cooling / Thermal",
       "tickers": 11,
       "covered": 10,
-      "avg_ytd_pct": 27.4,
-      "avg_20d_pct": -6.6,
+      "avg_ytd_pct": 27.7,
+      "avg_20d_pct": -6.9,
       "positive_ytd_share": 0.9,
       "top_20d": [
         "JCI",
@@ -1573,7 +1573,7 @@
       "category": "Transformers / Switchgear",
       "tickers": 10,
       "covered": 10,
-      "avg_ytd_pct": 24.7,
+      "avg_ytd_pct": 25.0,
       "avg_20d_pct": -8.9,
       "positive_ytd_share": 0.9,
       "top_20d": [
@@ -1599,8 +1599,8 @@
       "category": "Backup / On-site Power",
       "tickers": 7,
       "covered": 7,
-      "avg_ytd_pct": 25.8,
-      "avg_20d_pct": -12.1,
+      "avg_ytd_pct": 25.9,
+      "avg_20d_pct": -12.4,
       "positive_ytd_share": 0.71,
       "top_20d": [
         "Mitsubishi Heavy 7011.T",
@@ -1612,8 +1612,8 @@
       "category": "Power Semiconductors",
       "tickers": 7,
       "covered": 7,
-      "avg_ytd_pct": 64.7,
-      "avg_20d_pct": -13.1,
+      "avg_ytd_pct": 65.6,
+      "avg_20d_pct": -12.9,
       "positive_ytd_share": 1.0,
       "top_20d": [
         "Fuji Electric 6504.T",
@@ -1664,8 +1664,8 @@
       "category": "Advanced Substrates",
       "tickers": 12,
       "covered": 11,
-      "avg_ytd_pct": 148.9,
-      "avg_20d_pct": -23.6,
+      "avg_ytd_pct": 148.0,
+      "avg_20d_pct": -24.4,
       "positive_ytd_share": 1.0,
       "top_20d": [
         "TSM",
@@ -1695,28 +1695,28 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+power+grid+interconnection+transformers+switchgear+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
+          "title": "Here’s how scarce electricity could hamper the AI investing boom - J.P. Morgan Private Bank",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYlVhdWhhMjRUTVFvYy13NEt5cjQ5dXp6MjdCeHJUTEdWeE1jSkhDNlc1TWMyaGVxR0ZfcVhkWnZJdEZfVlltaXhvQllIRi1FVkxWRktENDJsQWM1RTVvdTlqVi1yQ2xNYWhMZ0FNMHVSUFl6UWppU0hUMm9hUGF4cnRwMDlQcGZub3hyZ2hxdURrLVMxWUpIS0VWdVRLZzVKNnZIVTlUMjJHb1hPV1VXVGdLdlI0eHBJZ3VSazdXNEFPSFFjQzFQTnM4eUZqdzg?oc=5",
+          "source": "J.P. Morgan Private Bank",
+          "published_at": "2026-07-29T17:35:15+00:00"
+        },
+        {
           "title": "Power Is Redefining Data Center Site Selection — And Forcing Supply Chains to Evolve With it - Data Center Frontier",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVlRHWnZIRUlndjVURnVEaUdtTHlCYzVyRFpEdkhib2ZYTjFnSXRhSDhHNGhwVmRkRk9zSWYxY2FwaVdEVEFGX3dfaWpNeHNtQzk3a0V5RWJjSDhQcTRCaEN3UXY3amVtNnYtTHJJVjQtUlkyMGxsc2hsbG1jbkd4MHZwX3FRTXp4QWRwM1NrV05zMVFnYnEwUk1ZMGJHMmhwVG5aaGlFSHNhMUNjRE9NV1RyR295dFhlaTZLZ1hvcnNuaU1vNmM2c2FmYm8ydktqNHRRLVdsb0FDMlVfMnBJYWpwNFRVd2s?oc=5",
           "source": "Data Center Frontier",
           "published_at": "2026-07-29T10:47:24+00:00"
         },
         {
-          "title": "AI Infrastructure Stocks With Real Data Center Cash Flow Potential - simplywall.st",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUW1yOVlrMWVnS3d5Umc5X1cwRUdkOXVIQXlyVEtxeGhmUjZNT2V6VWhzeHBmU2VZTDdtSC1jYlVDMDJDcFdNbU14d3BIa1VEQk0zQUxoNS0tekNYRmpsZDQ0UXBUMkFsMWs3UmltaXRzVDNfQ2NfRFFaUFhvQWl6dmdIaGF4ZWJSRFZMUHZiaUI4YmphTTFaU2ZzM2l4NTdnZlh5RzBuSXkxV1NoLUdGQzFEdjc5T3NHdFFfWEJUNUhkWnZnYW9mMUlBdk05X2s0bFZtc0hR0gHbAUFVX3lxTE5ydGg5NTg0OHFuWlEtOVZHZThqeWc2M3pTYWhueE14a05kUFlTd0FzR004TENUUWZtRkE3ZmtlWjM1eUs2MlZxck4wcE5VM2dpWlBCTHc4UzlqY1kweERaTWt6V1FLSVZOU1RNbmxQZmp4Wll6UUR4MzVFR2ZRenVaaWVWUEdUVm9WNG9URzJHSDROUTVIdGVsRlluSHJJZ2ZKQmNFTkxyb0pxZXY4bzVxYkVTd2FyaFJJcGh1NVJtdjEtTFlZdFIwdGNHQlhCaUNwc0F1OVFGZUo5UQ?oc=5",
-          "source": "simplywall.st",
-          "published_at": "2026-07-26T05:31:04+00:00"
-        },
-        {
-          "title": "AI data centers have quietly become the biggest threat to grid stability America has ever built - Startup Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM3pLbTJSaHN1WlFPd3RaMXdYQmptZk9FbmxBTVVnZXlvVjQybUxlNm42SnRELU9fcFU0VmI2ZW9EZm5qblFfbnJuWTQ1SXdSdjhJaVUwVWc2aWJud1NLOFNCazZjSk9lR1VOdjhOREY4TTBhQkt1WUktOTNhVS1Jdm9vdGY2dHFoYU5NZG9XSHA0Z0hYbWdYRVBFaDluemJBVE5aOTNYOERlZFFfdWV1a1M0aVgteWJGeGRaX3ZvakQ?oc=5",
-          "source": "Startup Fortune",
-          "published_at": "2026-07-25T18:20:07+00:00"
-        },
-        {
           "title": "AI Energy Demand: 1000x Power Needs Drive Industrial Stock Boom 2026 - Intellectia AI",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZQmlCalJMTE9JODJ4Zm1oVnZ5SVlCbVdLd0gxZnBnTXBTRVZOckNfMlJqZzl5R1JYcVc1MTEwN3hzeTJmb2NiSkZ4Ylg5SUw4Mmo1V2x3YzFzeG53ZlMzSW1RVUN0Q3RXRk5OdnJkdFVqMzNBYXc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yYWs5ODh4QTJ5bUhUWFFFbU9uVnpZN0hPTXdWLW5tdVlaX1dYRlpMOTZzd0NSUWtBRzk2QS1vTWt1THZQR3lDTFlhXzdUMlhPVmdSRzU0SnB5WDN2Z2liMzJOZ2VYVnB2S1E2amhmMjNCUFllSmZRaEV1cUI?oc=5",
           "source": "Intellectia AI",
           "published_at": "2026-07-30T16:20:50+00:00"
+        },
+        {
+          "title": "Gas Insulated Switchgear Market Size, Forecasts Report 2035 - Global Market Insights Inc.",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbkh2aWxrUk5DN3BqUUdVR3loVDhVODlWU0xEU1hzeVdmV2dQTE1CTXJHREI0eS12TnNHVnlHbUM1dW5KVDhTWDRpbjJGcHlKRVZkN2hxaDNoUnVsQ2dHWHZ6MXg2Z2RRZkdKYlFfQTJrVmJzTHo1SVFoQUxJLVI5ZjdR?oc=5",
+          "source": "Global Market Insights Inc.",
+          "published_at": "2026-08-01T05:36:57+00:00"
         }
       ]
     },
@@ -1765,22 +1765,22 @@
           "published_at": "2026-07-28T15:53:59+00:00"
         },
         {
-          "title": "Flexing the Internal Data Center Muscle - Lightwave Online",
+          "title": "Flexing the Internal Data Center Muscle - lightwaveonline.com",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVldVVEFrMkFvWm9mWTJsb0VENks0aWVUZVRZa3Fza1U1cTRTU1BqbXM4Z0ZMX0JqZzRpTXpSa3lHUjlnNXNWVlhsZ0JEaTZEOW53Y00wbk1oU2EtSlViZ01ZdmRGWldka3BFTjVIUnduQkFxMGNiYlliU0FmZFNiVkhFQzkzYjlOZHN4Q1RuaVNQblJFbzlfSHRsT0ZpcFE?oc=5",
-          "source": "Lightwave Online",
+          "source": "lightwaveonline.com",
           "published_at": "2026-07-31T06:02:04+00:00"
         },
         {
-          "title": "Can STM Turn AI Data Centers Into a $2 Billion Business by 2027? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVmhyM0xBbGk4X1kwQ0JqZGVnVWtMVTVseFdfUzFZejhzS3NpX1RfelRObUZFZE9rMGdaSmJ6c2lsTjRVRGlNNmZZN2VUWS1LdW5kcXVqaVNqQndUWU5ZSmhOTmNUbTNZNE5jSTFENlhQcEdXbWRlSnNyUEZCM2FveHgwRV91NUNzbmhqSi1SRWVqalVWRFNFX0hySTVJZDBDNjRLSm5DSktLT2JKbDR1djhUdld5Q054amc?oc=5",
-          "source": "TradingView",
-          "published_at": "2026-07-28T15:24:00+00:00"
+          "title": "Credo Technology Group Holding Ltd - Investor Relations - Credo Technology Group Holding Ltd - Investor Relations",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycWpxcmFHWVNOeS1scHI3Vkhidjhyb2NWZmt4NlhYWlJxNE9fSXZZbXczMTBHRGtKcEhOTTBpakxVNEZCSkpUaUU2X0d4b1kwMm80MmJwcElwQnl2MTR1Y18tdw?oc=5",
+          "source": "Credo Technology Group Holding Ltd - Investor Relations",
+          "published_at": "2026-07-30T07:00:00+00:00"
         },
         {
-          "title": "Coherent (COHR) Could Be 37% Undervalued As AI Optics Demand Stays Strong - simplywall.st",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSkQ2b2gtZUxWdEVubzhBQW8ydkpRYi1QX2xEMWhUSUtKNFd4YWJlMkFfYUQtZVZhb3JyOVRCaFN6cW9rNWtuZ1NDOE9KaGtLUzR0eHZTX1kwVzV0N3NEWnpaYUtGTzk3YzJxYklOb3Brd2VrNjFLWjZfU0NWNDA5cmJkX1R1UllrODNjSWt6aWotU0tLR0VZcWlqeWZnWENFeVF0MURXbDU2TUduWWstYWxPOF9BZ3FmRG1Wa3dn0gHDAUFVX3lxTFBHWjk1d0NBNEo4d1I5cVg3RGtOOWtteGNZcy1VT0U0TjBDb083c0Z2aUVLdGJRVnVxMkc4ZGRKVFN2ano5LXBhcnpkRHVCUVFhbG5rNU9mOWpQbXU1bENINGZVVkpVS2tZX3VrbnlJMFl5SVBhWHRJQU1hMGNnRnpIYnFkME55MjZXemktU2dPZ0p6UEtKbkZDYWhPd05WT0NrdHdocTVrYl81Sk1xRmJLWVVFMTdJWGxRaDJTbERMYlhYdw?oc=5",
+          "title": "AI Infrastructure Stocks Facing Rising Energy Costs Investors Should Not Ignore - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQd1BTcl91WFlpMjVPOHhaeE9JZk9ZUUFkNFdqd3JRNlBLc0dSNS1oaXl3cXFwT0FfdGZPZ25LLTlVQnR2Qk9jOHFRcGV6ZnhqbEtrb1FZWEVDYVBwejQ1RFlPODdiV0NwRkZ1c010VmZQdTRyRlZDNHJEcUtDeTVCcVZHT2VkakVMbVgxTUFPRWtOQnM0S3g1aDl5dW1tLU9nai1xMlg2RklLZUltUE9yUmZTaFg5bGVqOEd3dEpCSXEyZ2dXUl92RXdzUjctN1FRQXUtadIB2gFBVV95cUxNS19WODREbk1PbnJEaTVaNlVfQVNFVWRkS2ZFMlBfNFFVdW5ETkxwMEZ4WGJjanFuV250MmpLME1iWElldWVqeVRGUExBY3JEd1ZBeXJ1U2pyV2QxRllPRUFHNUppSTdBVDlBZWF3Y1B4SWhvXzdodmNqQVRnQ3l4OVJNX2VsNFo5Wi1vTkJxc3BjeDB6RGJic3M0c1UtRVdfOVBFQmw3aWxEdDVhZ2pwb19TaTBPUWoyLV93RU13VWJjNjN1WW51WDlna2N6STNId2FYXzBvcWs3dw?oc=5",
           "source": "simplywall.st",
-          "published_at": "2026-07-29T08:23:55+00:00"
+          "published_at": "2026-08-02T07:20:55+00:00"
         }
       ]
     },
@@ -1803,16 +1803,16 @@
           "published_at": "2026-07-29T19:20:57+00:00"
         },
         {
-          "title": "How Data Centers Can Improve Sustainability as Power Demand Triples - IDTechEx",
+          "title": "How Data Centers Can Improve Sustainability as Power Demand Triples - idtechex.com",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNamFOVk9IdXFnaXNHV29OUXhWZ05FVlE3Y0x4aFYyOHQzOG9yZjhOaTFkRG5jUkVTWENKV2kxRnJKaHRrMktUeHNZTW1WNlNFWUxxdWxfNy13OGtUU1RSRXFJaFlmUjN6NWljLVJONE9kNUpiMFo0VXpUZElkY0Q3QUpTNXR4Wm9UcFVQUm9rWkJybFdHanRYVVNXdWt0cW5kV0pneUVVYWF2VjI0Zkxsa0Vvd1lucGFIZ0E?oc=5",
-          "source": "IDTechEx",
+          "source": "idtechex.com",
           "published_at": "2026-07-27T09:34:27+00:00"
         },
         {
-          "title": "Inside Schneider Electric’s AI Factories and Data Centres - Technology Magazine",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdnlFVGRqTGFrT1FSazFoZGROT0NMa1VXS3lONXk4c0hxeVJnM3V5Rzh1aFlkdFBRVmFnTEszNy1ZaUpycDNRdmtqbzJfeWtxcS00MUJYdlVoZDgyeWZYTWcwT2l2ZlhiVEE2QWEtZWxHTmVrV3o4NmxsaVgwalFUcms3X2xiUGl3Uk82QXRqdTRMaTc4TXN4dXFrTlE?oc=5",
-          "source": "Technology Magazine",
-          "published_at": "2026-07-28T17:00:47+00:00"
+          "title": "LG Electronics wins Korea's first Nvidia liquid cooling certification as AI data centers hit a heat wall - startupfortune.com",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVV8teGZkUHpqQUo0c0JhbEpUNWpuemU5R2t2Nm90V29uYkxLcTVxSnhTaUMzZF9MdVh4ZWF5TGI4d0FxdnptRXRZXzRIeFRHdlhfV0VhOEZxYmZzeTVwTWo5c3VDSldySW5GeUJjczZLLTAxeUdCV0JDbl92ajVvakVKQ3NjQkQyVURxNHlvbmRrXzVTb2MwNjRhanZJN0hCQ0I2ZjFTTnhsU0RaSDhDZ0hIZjFoQmpVM1hPZ2VranlQUHdhZWJkSE5tUQ?oc=5",
+          "source": "startupfortune.com",
+          "published_at": "2026-07-27T06:16:10+00:00"
         }
       ]
     },
@@ -1835,16 +1835,16 @@
           "published_at": "2026-07-26T18:30:00+00:00"
         },
         {
-          "title": "Big Tech AI spending spree tops $1tn - Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVnh4X1BCWTB5dFFVWWJWRzZKWmhLZl9BbmloMEFDQ2RobExYTHMxSUdyeTljSnFvdWZJSFVZXzZoU2lta1lHS0lkVnc5Sl9XY0VGcUp4VW9jNEdZMVZ2VHdkd0UzX2tUTHRUZjJrSVd3ZXNjX2c3X0dVQWZ1YVRsd1hEX2I?oc=5",
-          "source": "Financial Times",
-          "published_at": "2026-07-31T01:54:29+00:00"
-        },
-        {
           "title": "All eyes on the big-tech capex splurge - The Economist",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX1FrN3dTOTBaSXJHbFlIZU1sYnNkX0JvZDV1YkJybll3ZHJzc0VCeXpNTzhLRlMwWllpM2FBQWo0bUZQNUt5cmlmWXk4TzhmMUNhWDI0VUt3Z3F1WHFLdUVCQkRlbGsza05wRzF4cnBvT1lYZjZ3T0pBN1BZYW9jN3UyR0gwcFotalJ1bDVCVnhaQWNnYlQ0?oc=5",
           "source": "The Economist",
           "published_at": "2026-07-29T05:00:07+00:00"
+        },
+        {
+          "title": "Big Tech AI spending spree tops $1tn - Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVnh4X1BCWTB5dFFVWWJWRzZKWmhLZl9BbmloMEFDQ2RobExYTHMxSUdyeTljSnFvdWZJSFVZXzZoU2lta1lHS0lkVnc5Sl9XY0VGcUp4VW9jNEdZMVZ2VHdkd0UzX2tUTHRUZjJrSVd3ZXNjX2c3X0dVQWZ1YVRsd1hEX2I?oc=5",
+          "source": "Financial Times",
+          "published_at": "2026-07-31T01:54:29+00:00"
         }
       ]
     }
