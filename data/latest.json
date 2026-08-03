@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-08-02T07:51:37+00:00",
+  "generated_at": "2026-08-03T08:50:12+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -280,12 +280,12 @@
       "label": "ABB Ltd ABBN.SW",
       "symbol": "ABBN.SW",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 79.52,
-      "ytd_pct": 31.8,
-      "return_5d_pct": -0.6,
+      "latest_date": "2026-08-03",
+      "latest_close": 79.22,
+      "ytd_pct": 31.3,
+      "return_5d_pct": 0.3,
       "return_20d_pct": -9.0,
-      "return_60d_pct": -3.5
+      "return_60d_pct": -2.5
     },
     {
       "label": "AMAT",
@@ -368,12 +368,12 @@
       "label": "AT&S ATS.VI",
       "symbol": "ATS.VI",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 130.8,
-      "ytd_pct": 298.8,
-      "return_5d_pct": -17.5,
-      "return_20d_pct": -35.4,
-      "return_60d_pct": 30.0
+      "latest_date": "2026-08-03",
+      "latest_close": 135.6,
+      "ytd_pct": 313.4,
+      "return_5d_pct": -1.0,
+      "return_20d_pct": -29.7,
+      "return_60d_pct": 31.9
     },
     {
       "label": "AVGO",
@@ -390,23 +390,23 @@
       "label": "Ajinomoto 2802.T",
       "symbol": "2802.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 4965.0,
-      "ytd_pct": 50.2,
-      "return_5d_pct": -2.6,
-      "return_20d_pct": -17.8,
-      "return_60d_pct": 0.1
+      "latest_date": "2026-08-03",
+      "latest_close": 4896.0,
+      "ytd_pct": 48.1,
+      "return_5d_pct": -3.4,
+      "return_20d_pct": -20.6,
+      "return_60d_pct": -2.7
     },
     {
       "label": "Alfa Laval ALFA.ST",
       "symbol": "ALFA.ST",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 563.6,
-      "ytd_pct": 22.3,
-      "return_5d_pct": -1.9,
-      "return_20d_pct": -4.3,
-      "return_60d_pct": -0.7
+      "latest_date": "2026-08-03",
+      "latest_close": 562.6,
+      "ytd_pct": 22.1,
+      "return_5d_pct": -0.8,
+      "return_20d_pct": -3.5,
+      "return_60d_pct": 2.3
     },
     {
       "label": "Amkor AMKR",
@@ -434,12 +434,12 @@
       "label": "BE Semiconductor BESI.AS",
       "symbol": "BESI.AS",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 198.25,
-      "ytd_pct": 33.8,
-      "return_5d_pct": -12.7,
-      "return_20d_pct": -27.4,
-      "return_60d_pct": -24.0
+      "latest_date": "2026-08-03",
+      "latest_close": 198.8,
+      "ytd_pct": 34.2,
+      "return_5d_pct": -3.1,
+      "return_20d_pct": -23.0,
+      "return_60d_pct": -23.9
     },
     {
       "label": "Bel Fuse BELFB",
@@ -560,12 +560,12 @@
       "label": "Delta Electronics 2308.TW",
       "symbol": "2308.TW",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 1640.0,
-      "ytd_pct": 65.7,
-      "return_5d_pct": -8.1,
-      "return_20d_pct": -21.0,
-      "return_60d_pct": -27.7
+      "latest_date": "2026-08-03",
+      "latest_close": 1580.0,
+      "ytd_pct": 59.6,
+      "return_5d_pct": -10.0,
+      "return_20d_pct": -20.8,
+      "return_60d_pct": -27.8
     },
     {
       "label": "EME",
@@ -615,12 +615,12 @@
       "label": "Eoptolink 300502.SZ",
       "symbol": "300502.SZ",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 396.01,
-      "ytd_pct": 30.2,
-      "return_5d_pct": -16.8,
-      "return_20d_pct": -24.7,
-      "return_60d_pct": -1.4
+      "latest_date": "2026-08-03",
+      "latest_close": 394.08,
+      "ytd_pct": 29.6,
+      "return_5d_pct": -19.7,
+      "return_20d_pct": -22.3,
+      "return_60d_pct": 0.2
     },
     {
       "label": "FIX",
@@ -670,23 +670,23 @@
       "label": "Fuji Electric 6504.T",
       "symbol": "6504.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 14285.0,
-      "ytd_pct": 19.3,
-      "return_5d_pct": 10.5,
-      "return_20d_pct": 6.4,
-      "return_60d_pct": 1.8
+      "latest_date": "2026-08-03",
+      "latest_close": 14130.0,
+      "ytd_pct": 18.0,
+      "return_5d_pct": 8.8,
+      "return_20d_pct": 4.4,
+      "return_60d_pct": -4.5
     },
     {
       "label": "Furukawa Electric 5801.T",
       "symbol": "5801.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 3145.0,
-      "ytd_pct": 200.4,
-      "return_5d_pct": -7.2,
-      "return_20d_pct": -20.9,
-      "return_60d_pct": -32.1
+      "latest_date": "2026-08-03",
+      "latest_close": 3200.0,
+      "ytd_pct": 205.7,
+      "return_5d_pct": -2.3,
+      "return_20d_pct": -20.0,
+      "return_60d_pct": -28.7
     },
     {
       "label": "GEV",
@@ -725,12 +725,12 @@
       "label": "HD Hyundai Electric 267260.KS",
       "symbol": "267260.KS",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 684000.0,
-      "ytd_pct": -16.0,
+      "latest_date": "2026-08-03",
+      "latest_close": 673000.0,
+      "ytd_pct": -17.3,
       "return_5d_pct": -15.6,
-      "return_20d_pct": -29.4,
-      "return_60d_pct": -47.3
+      "return_20d_pct": -28.8,
+      "return_60d_pct": -51.5
     },
     {
       "label": "HUBB",
@@ -747,34 +747,34 @@
       "label": "Hanmi Semi 042700.KS",
       "symbol": "042700.KS",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 214500.0,
-      "ytd_pct": 48.9,
-      "return_5d_pct": 7.3,
-      "return_20d_pct": -2.3,
-      "return_60d_pct": -43.3
+      "latest_date": "2026-08-03",
+      "latest_close": 202500.0,
+      "ytd_pct": 40.6,
+      "return_5d_pct": -1.0,
+      "return_20d_pct": -12.9,
+      "return_60d_pct": -48.7
     },
     {
       "label": "Hitachi 6501.T",
       "symbol": "6501.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 5267.0,
-      "ytd_pct": 4.5,
-      "return_5d_pct": 8.6,
-      "return_20d_pct": 12.8,
-      "return_60d_pct": 8.6
+      "latest_date": "2026-08-03",
+      "latest_close": 5301.0,
+      "ytd_pct": 5.2,
+      "return_5d_pct": 5.5,
+      "return_20d_pct": 14.9,
+      "return_60d_pct": 7.4
     },
     {
       "label": "Hyosung Heavy 298040.KS",
       "symbol": "298040.KS",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 2417000.0,
-      "ytd_pct": 31.0,
-      "return_5d_pct": -9.8,
-      "return_20d_pct": -29.6,
-      "return_60d_pct": -42.8
+      "latest_date": "2026-08-03",
+      "latest_close": 2495000.0,
+      "ytd_pct": 35.2,
+      "return_5d_pct": -5.0,
+      "return_20d_pct": -24.9,
+      "return_60d_pct": -45.7
     },
     {
       "label": "INTC",
@@ -791,23 +791,23 @@
       "label": "Ibiden 4062.T",
       "symbol": "4062.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 16650.0,
-      "ytd_pct": 133.0,
-      "return_5d_pct": -4.1,
-      "return_20d_pct": -28.9,
-      "return_60d_pct": 1.7
+      "latest_date": "2026-08-03",
+      "latest_close": 15535.0,
+      "ytd_pct": 117.4,
+      "return_5d_pct": -7.0,
+      "return_20d_pct": -33.5,
+      "return_60d_pct": 0.1
     },
     {
       "label": "Infineon IFX.DE",
       "symbol": "IFX.DE",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 61.67,
-      "ytd_pct": 62.4,
-      "return_5d_pct": -4.3,
-      "return_20d_pct": -20.3,
-      "return_60d_pct": 0.0
+      "latest_date": "2026-08-03",
+      "latest_close": 62.23,
+      "ytd_pct": 63.9,
+      "return_5d_pct": 1.2,
+      "return_20d_pct": -19.4,
+      "return_60d_pct": 0.7
     },
     {
       "label": "J",
@@ -846,23 +846,23 @@
       "label": "Kurita Water 6370.T",
       "symbol": "6370.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 8742.0,
-      "ytd_pct": 34.5,
-      "return_5d_pct": -2.2,
-      "return_20d_pct": -3.9,
-      "return_60d_pct": 4.6
+      "latest_date": "2026-08-03",
+      "latest_close": 8723.0,
+      "ytd_pct": 34.2,
+      "return_5d_pct": -2.8,
+      "return_20d_pct": -7.2,
+      "return_60d_pct": 0.9
     },
     {
       "label": "Kyocera 6971.T",
       "symbol": "6971.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 3691.0,
-      "ytd_pct": 67.3,
-      "return_5d_pct": 0.1,
-      "return_20d_pct": -5.0,
-      "return_60d_pct": 29.5
+      "latest_date": "2026-08-03",
+      "latest_close": 3544.0,
+      "ytd_pct": 60.6,
+      "return_5d_pct": -6.6,
+      "return_20d_pct": -9.5,
+      "return_60d_pct": 25.9
     },
     {
       "label": "LITE",
@@ -901,12 +901,12 @@
       "label": "Lynas LYC.AX",
       "symbol": "LYC.AX",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 14.09,
-      "ytd_pct": 15.3,
-      "return_5d_pct": -4.7,
-      "return_20d_pct": -22.7,
-      "return_60d_pct": -29.3
+      "latest_date": "2026-08-03",
+      "latest_close": 14.04,
+      "ytd_pct": 14.9,
+      "return_5d_pct": -5.6,
+      "return_20d_pct": -22.3,
+      "return_60d_pct": -27.8
     },
     {
       "label": "META",
@@ -1000,45 +1000,45 @@
       "label": "Mitsubishi Electric 6503.T",
       "symbol": "6503.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 5912.0,
-      "ytd_pct": 24.1,
-      "return_5d_pct": 4.6,
-      "return_20d_pct": -0.0,
-      "return_60d_pct": -8.3
+      "latest_date": "2026-08-03",
+      "latest_close": 5536.0,
+      "ytd_pct": 16.2,
+      "return_5d_pct": -2.3,
+      "return_20d_pct": -6.9,
+      "return_60d_pct": -14.3
     },
     {
       "label": "Mitsubishi Heavy 7011.T",
       "symbol": "7011.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 3764.0,
-      "ytd_pct": -9.3,
-      "return_5d_pct": -4.6,
-      "return_20d_pct": -0.6,
-      "return_60d_pct": -16.9
+      "latest_date": "2026-08-03",
+      "latest_close": 3799.0,
+      "ytd_pct": -8.5,
+      "return_5d_pct": -2.4,
+      "return_20d_pct": 0.2,
+      "return_60d_pct": -15.8
     },
     {
       "label": "Munters MTRS.ST",
       "symbol": "MTRS.ST",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 169.0,
-      "ytd_pct": -12.2,
-      "return_5d_pct": -5.9,
-      "return_20d_pct": -3.8,
-      "return_60d_pct": -19.5
+      "latest_date": "2026-08-03",
+      "latest_close": 169.25,
+      "ytd_pct": -12.1,
+      "return_5d_pct": -2.7,
+      "return_20d_pct": -2.8,
+      "return_60d_pct": -19.6
     },
     {
       "label": "Murata 6981.T",
       "symbol": "6981.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 7416.0,
-      "ytd_pct": 124.8,
-      "return_5d_pct": -10.8,
-      "return_20d_pct": -31.8,
-      "return_60d_pct": 31.3
+      "latest_date": "2026-08-03",
+      "latest_close": 7161.0,
+      "ytd_pct": 117.1,
+      "return_5d_pct": -11.6,
+      "return_20d_pct": -35.4,
+      "return_60d_pct": 22.4
     },
     {
       "label": "NEE",
@@ -1066,12 +1066,12 @@
       "label": "Nan Ya PCB 8046.TW",
       "symbol": "8046.TW",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 920.0,
-      "ytd_pct": 289.0,
-      "return_5d_pct": -17.1,
-      "return_20d_pct": -22.4,
-      "return_60d_pct": -2.6
+      "latest_date": "2026-08-03",
+      "latest_close": 953.0,
+      "ytd_pct": 303.0,
+      "return_5d_pct": -11.3,
+      "return_20d_pct": -11.3,
+      "return_60d_pct": 11.8
     },
     {
       "label": "ON",
@@ -1099,12 +1099,12 @@
       "label": "Organo 6368.T",
       "symbol": "6368.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 14680.0,
-      "ytd_pct": 8.6,
-      "return_5d_pct": -3.0,
-      "return_20d_pct": -8.3,
-      "return_60d_pct": -12.8
+      "latest_date": "2026-08-03",
+      "latest_close": 14645.0,
+      "ytd_pct": 8.3,
+      "return_5d_pct": -2.4,
+      "return_20d_pct": -9.2,
+      "return_60d_pct": -17.4
     },
     {
       "label": "POWL",
@@ -1143,34 +1143,34 @@
       "label": "ROHM 6963.T",
       "symbol": "6963.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 4331.0,
-      "ytd_pct": 91.6,
-      "return_5d_pct": -7.6,
-      "return_20d_pct": -16.9,
-      "return_60d_pct": 16.1
+      "latest_date": "2026-08-03",
+      "latest_close": 4328.0,
+      "ytd_pct": 91.5,
+      "return_5d_pct": -6.5,
+      "return_20d_pct": -27.3,
+      "return_60d_pct": 11.0
     },
     {
       "label": "Rolls-Royce RR.L",
       "symbol": "RR.L",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 1467.8,
-      "ytd_pct": 22.6,
-      "return_5d_pct": 3.7,
-      "return_20d_pct": -2.4,
-      "return_60d_pct": 14.7
+      "latest_date": "2026-08-03",
+      "latest_close": 1511.8,
+      "ytd_pct": 26.3,
+      "return_5d_pct": 6.9,
+      "return_20d_pct": 0.5,
+      "return_60d_pct": 23.9
     },
     {
       "label": "SK Hynix 000660.KS",
       "symbol": "000660.KS",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 1718000.0,
-      "ytd_pct": 154.3,
-      "return_5d_pct": -2.3,
-      "return_20d_pct": -21.4,
-      "return_60d_pct": 18.7
+      "latest_date": "2026-08-03",
+      "latest_close": 1567000.0,
+      "ytd_pct": 131.9,
+      "return_5d_pct": -13.7,
+      "return_20d_pct": -35.4,
+      "return_60d_pct": -2.1
     },
     {
       "label": "STM",
@@ -1198,56 +1198,56 @@
       "label": "SUMCO 3436.T",
       "symbol": "3436.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 3357.0,
-      "ytd_pct": 132.3,
-      "return_5d_pct": -7.3,
-      "return_20d_pct": -26.7,
-      "return_60d_pct": 11.0
+      "latest_date": "2026-08-03",
+      "latest_close": 3457.0,
+      "ytd_pct": 139.2,
+      "return_5d_pct": -8.1,
+      "return_20d_pct": -32.1,
+      "return_60d_pct": -3.1
     },
     {
       "label": "Samsung Electro-Mechanics 009150.KS",
       "symbol": "009150.KS",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 1142000.0,
-      "ytd_pct": 323.0,
-      "return_5d_pct": -13.9,
-      "return_20d_pct": -40.7,
-      "return_60d_pct": 24.4
+      "latest_date": "2026-08-03",
+      "latest_close": 1181000.0,
+      "ytd_pct": 337.4,
+      "return_5d_pct": -10.9,
+      "return_20d_pct": -40.6,
+      "return_60d_pct": 29.5
     },
     {
       "label": "Samsung Electronics 005930.KS",
       "symbol": "005930.KS",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 262500.0,
-      "ytd_pct": 104.9,
-      "return_5d_pct": 5.2,
-      "return_20d_pct": -8.2,
-      "return_60d_pct": 13.0
+      "latest_date": "2026-08-03",
+      "latest_close": 239500.0,
+      "ytd_pct": 87.0,
+      "return_5d_pct": -5.7,
+      "return_20d_pct": -22.6,
+      "return_60d_pct": -9.9
     },
     {
       "label": "Schneider SU.PA",
       "symbol": "SU.PA",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 289.6,
-      "ytd_pct": 24.1,
-      "return_5d_pct": 8.0,
-      "return_20d_pct": 3.4,
-      "return_60d_pct": 7.9
+      "latest_date": "2026-08-03",
+      "latest_close": 288.85,
+      "ytd_pct": 23.8,
+      "return_5d_pct": 8.8,
+      "return_20d_pct": 3.8,
+      "return_60d_pct": 5.2
     },
     {
       "label": "Shin-Etsu 4063.T",
       "symbol": "4063.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 5800.0,
-      "ytd_pct": 18.3,
-      "return_5d_pct": -13.5,
-      "return_20d_pct": -17.4,
-      "return_60d_pct": -24.8
+      "latest_date": "2026-08-03",
+      "latest_close": 5845.0,
+      "ytd_pct": 19.3,
+      "return_5d_pct": -4.9,
+      "return_20d_pct": -16.0,
+      "return_60d_pct": -21.9
     },
     {
       "label": "Shinko 6967.T",
@@ -1258,34 +1258,34 @@
       "label": "Siemens Energy ENR.DE",
       "symbol": "ENR.DE",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 147.44,
-      "ytd_pct": 20.6,
-      "return_5d_pct": -2.6,
-      "return_20d_pct": -12.3,
-      "return_60d_pct": -17.2
+      "latest_date": "2026-08-03",
+      "latest_close": 147.26,
+      "ytd_pct": 20.4,
+      "return_5d_pct": -0.8,
+      "return_20d_pct": -13.6,
+      "return_60d_pct": -17.5
     },
     {
       "label": "Sumitomo Electric 5802.T",
       "symbol": "5802.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 2184.0,
-      "ytd_pct": 31.6,
-      "return_5d_pct": -11.5,
-      "return_20d_pct": -18.8,
-      "return_60d_pct": -23.0
+      "latest_date": "2026-08-03",
+      "latest_close": 2062.5,
+      "ytd_pct": 24.3,
+      "return_5d_pct": -12.4,
+      "return_20d_pct": -22.6,
+      "return_60d_pct": -27.0
     },
     {
       "label": "TDK 6762.T",
       "symbol": "6762.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 3008.0,
-      "ytd_pct": 35.0,
-      "return_5d_pct": -0.4,
-      "return_20d_pct": -17.8,
-      "return_60d_pct": 3.9
+      "latest_date": "2026-08-03",
+      "latest_close": 3092.0,
+      "ytd_pct": 38.7,
+      "return_5d_pct": 2.7,
+      "return_20d_pct": -16.4,
+      "return_60d_pct": 5.8
     },
     {
       "label": "TEL",
@@ -1324,45 +1324,45 @@
       "label": "Taiyo Yuden 6976.T",
       "symbol": "6976.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 10225.0,
-      "ytd_pct": 181.5,
-      "return_5d_pct": -10.4,
-      "return_20d_pct": -49.9,
-      "return_60d_pct": 54.2
+      "latest_date": "2026-08-03",
+      "latest_close": 9915.0,
+      "ytd_pct": 172.9,
+      "return_5d_pct": -14.1,
+      "return_20d_pct": -51.8,
+      "return_60d_pct": 48.8
     },
     {
       "label": "Tokyo Electron 8035.T",
       "symbol": "8035.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 55500.0,
-      "ytd_pct": 51.7,
-      "return_5d_pct": -11.4,
-      "return_20d_pct": -23.9,
-      "return_60d_pct": 7.3
+      "latest_date": "2026-08-03",
+      "latest_close": 54990.0,
+      "ytd_pct": 50.3,
+      "return_5d_pct": -12.4,
+      "return_20d_pct": -24.9,
+      "return_60d_pct": 4.8
     },
     {
       "label": "Tokyo Ohka Kogyo 4186.T",
       "symbol": "4186.T",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 8882.0,
-      "ytd_pct": 48.4,
-      "return_5d_pct": -11.6,
-      "return_20d_pct": -16.5,
-      "return_60d_pct": -8.5
+      "latest_date": "2026-08-03",
+      "latest_close": 8872.0,
+      "ytd_pct": 48.3,
+      "return_5d_pct": -10.8,
+      "return_20d_pct": -18.3,
+      "return_60d_pct": -8.1
     },
     {
       "label": "Unimicron 3037.TW",
       "symbol": "3037.TW",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 787.0,
-      "ytd_pct": 260.1,
-      "return_5d_pct": -6.2,
-      "return_20d_pct": -18.6,
-      "return_60d_pct": -12.0
+      "latest_date": "2026-08-03",
+      "latest_close": 865.0,
+      "ytd_pct": 295.8,
+      "return_5d_pct": 2.0,
+      "return_20d_pct": -5.7,
+      "return_60d_pct": 6.0
     },
     {
       "label": "VRT",
@@ -1401,23 +1401,23 @@
       "label": "Veolia VIE.PA",
       "symbol": "VIE.PA",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 34.47,
-      "ytd_pct": 19.4,
-      "return_5d_pct": -5.8,
-      "return_20d_pct": -8.1,
-      "return_60d_pct": 0.4
+      "latest_date": "2026-08-03",
+      "latest_close": 34.31,
+      "ytd_pct": 18.8,
+      "return_5d_pct": -4.8,
+      "return_20d_pct": -7.5,
+      "return_60d_pct": -0.9
     },
     {
       "label": "Walsin 2492.TW",
       "symbol": "2492.TW",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 218.0,
-      "ytd_pct": 76.0,
-      "return_5d_pct": -20.4,
-      "return_20d_pct": -61.1,
-      "return_60d_pct": 37.0
+      "latest_date": "2026-08-03",
+      "latest_close": 239.5,
+      "ytd_pct": 93.4,
+      "return_5d_pct": -11.9,
+      "return_20d_pct": -56.8,
+      "return_60d_pct": 54.3
     },
     {
       "label": "Xylem XYL",
@@ -1434,23 +1434,23 @@
       "label": "Yageo 2327.TW",
       "symbol": "2327.TW",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 502.0,
-      "ytd_pct": 109.8,
-      "return_5d_pct": -21.8,
-      "return_20d_pct": -52.0,
-      "return_60d_pct": 36.1
+      "latest_date": "2026-08-03",
+      "latest_close": 552.0,
+      "ytd_pct": 130.7,
+      "return_5d_pct": -11.7,
+      "return_20d_pct": -45.1,
+      "return_60d_pct": 42.9
     },
     {
       "label": "Zhongji Innolight 300308.SZ",
       "symbol": "300308.SZ",
       "status": "ok",
-      "latest_date": "2026-07-31",
-      "latest_close": 902.01,
-      "ytd_pct": 44.8,
-      "return_5d_pct": -13.8,
-      "return_20d_pct": -19.2,
-      "return_60d_pct": 2.8
+      "latest_date": "2026-08-03",
+      "latest_close": 902.5,
+      "ytd_pct": 44.9,
+      "return_5d_pct": -16.2,
+      "return_20d_pct": -17.9,
+      "return_60d_pct": 1.9
     },
     {
       "label": "nVent NVT",
@@ -1508,8 +1508,8 @@
       "category": "Water / Fab Utilities",
       "tickers": 5,
       "covered": 5,
-      "avg_ytd_pct": 10.9,
-      "avg_20d_pct": -4.7,
+      "avg_ytd_pct": 10.7,
+      "avg_20d_pct": -5.4,
       "positive_ytd_share": 0.8,
       "top_20d": [
         "Xylem XYL",
@@ -1521,26 +1521,13 @@
       "category": "Liquid Cooling / Thermal",
       "tickers": 11,
       "covered": 10,
-      "avg_ytd_pct": 27.7,
-      "avg_20d_pct": -6.9,
+      "avg_ytd_pct": 27.1,
+      "avg_20d_pct": -6.7,
       "positive_ytd_share": 0.9,
       "top_20d": [
         "JCI",
         "Schneider SU.PA",
         "nVent NVT"
-      ]
-    },
-    {
-      "category": "Connectors / Cables",
-      "tickers": 5,
-      "covered": 5,
-      "avg_ytd_pct": 58.8,
-      "avg_20d_pct": -7.2,
-      "positive_ytd_share": 0.8,
-      "top_20d": [
-        "TEL",
-        "Bel Fuse BELFB",
-        "APH"
       ]
     },
     {
@@ -1554,6 +1541,19 @@
         "ETN",
         "PWR",
         "HUBB"
+      ]
+    },
+    {
+      "category": "Connectors / Cables",
+      "tickers": 5,
+      "covered": 5,
+      "avg_ytd_pct": 58.4,
+      "avg_20d_pct": -7.8,
+      "positive_ytd_share": 0.8,
+      "top_20d": [
+        "TEL",
+        "Bel Fuse BELFB",
+        "APH"
       ]
     },
     {
@@ -1573,8 +1573,8 @@
       "category": "Transformers / Switchgear",
       "tickers": 10,
       "covered": 10,
-      "avg_ytd_pct": 25.0,
-      "avg_20d_pct": -8.9,
+      "avg_ytd_pct": 25.2,
+      "avg_20d_pct": -8.3,
       "positive_ytd_share": 0.9,
       "top_20d": [
         "Hitachi 6501.T",
@@ -1599,47 +1599,21 @@
       "category": "Backup / On-site Power",
       "tickers": 7,
       "covered": 7,
-      "avg_ytd_pct": 25.9,
-      "avg_20d_pct": -12.4,
+      "avg_ytd_pct": 26.5,
+      "avg_20d_pct": -11.8,
       "positive_ytd_share": 0.71,
       "top_20d": [
-        "Mitsubishi Heavy 7011.T",
         "Rolls-Royce RR.L",
+        "Mitsubishi Heavy 7011.T",
         "CMI"
-      ]
-    },
-    {
-      "category": "Power Semiconductors",
-      "tickers": 7,
-      "covered": 7,
-      "avg_ytd_pct": 65.6,
-      "avg_20d_pct": -12.9,
-      "positive_ytd_share": 1.0,
-      "top_20d": [
-        "Fuji Electric 6504.T",
-        "ON",
-        "ROHM 6963.T"
-      ]
-    },
-    {
-      "category": "Memory / Packaging",
-      "tickers": 9,
-      "covered": 9,
-      "avg_ytd_pct": 81.8,
-      "avg_20d_pct": -13.2,
-      "positive_ytd_share": 1.0,
-      "top_20d": [
-        "Hanmi Semi 042700.KS",
-        "TSM",
-        "ASML"
       ]
     },
     {
       "category": "Optical Modules / Photonics",
       "tickers": 8,
       "covered": 8,
-      "avg_ytd_pct": 45.2,
-      "avg_20d_pct": -13.3,
+      "avg_ytd_pct": 45.1,
+      "avg_20d_pct": -12.8,
       "positive_ytd_share": 0.88,
       "top_20d": [
         "AVGO",
@@ -1648,37 +1622,63 @@
       ]
     },
     {
+      "category": "Power Semiconductors",
+      "tickers": 7,
+      "covered": 7,
+      "avg_ytd_pct": 64.5,
+      "avg_20d_pct": -15.5,
+      "positive_ytd_share": 1.0,
+      "top_20d": [
+        "Fuji Electric 6504.T",
+        "Mitsubishi Electric 6503.T",
+        "ON"
+      ]
+    },
+    {
       "category": "Fab Materials / Inputs",
       "tickers": 7,
       "covered": 7,
-      "avg_ytd_pct": 31.9,
-      "avg_20d_pct": -16.5,
+      "avg_ytd_pct": 33.0,
+      "avg_20d_pct": -17.2,
       "positive_ytd_share": 0.86,
       "top_20d": [
         "Freeport-McMoRan FCX",
         "Linde LIN",
-        "Tokyo Ohka Kogyo 4186.T"
+        "Shin-Etsu 4063.T"
+      ]
+    },
+    {
+      "category": "Memory / Packaging",
+      "tickers": 9,
+      "covered": 9,
+      "avg_ytd_pct": 76.3,
+      "avg_20d_pct": -17.6,
+      "positive_ytd_share": 1.0,
+      "top_20d": [
+        "TSM",
+        "ASML",
+        "Hanmi Semi 042700.KS"
       ]
     },
     {
       "category": "Advanced Substrates",
       "tickers": 12,
       "covered": 11,
-      "avg_ytd_pct": 148.0,
-      "avg_20d_pct": -24.4,
+      "avg_ytd_pct": 153.5,
+      "avg_20d_pct": -21.9,
       "positive_ytd_share": 1.0,
       "top_20d": [
+        "Unimicron 3037.TW",
         "TSM",
-        "ASE Technology ASX",
-        "Ajinomoto 2802.T"
+        "Nan Ya PCB 8046.TW"
       ]
     },
     {
       "category": "MLCC / Passive Components",
       "tickers": 7,
       "covered": 7,
-      "avg_ytd_pct": 131.1,
-      "avg_20d_pct": -36.9,
+      "avg_ytd_pct": 135.8,
+      "avg_20d_pct": -36.5,
       "positive_ytd_share": 1.0,
       "top_20d": [
         "Kyocera 6971.T",
@@ -1708,7 +1708,7 @@
         },
         {
           "title": "AI Energy Demand: 1000x Power Needs Drive Industrial Stock Boom 2026 - Intellectia AI",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yYWs5ODh4QTJ5bUhUWFFFbU9uVnpZN0hPTXdWLW5tdVlaX1dYRlpMOTZzd0NSUWtBRzk2QS1vTWt1THZQR3lDTFlhXzdUMlhPVmdSRzU0SnB5WDN2Z2liMzJOZ2VYVnB2S1E2amhmMjNCUFllSmZRaEV1cUI?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZQmlCalJMTE9JODJ4Zm1oVnZ5SVlCbVdLd0gxZnBnTXBTRVZOckNfMlJqZzl5R1JYcVc1MTEwN3hzeTJmb2NiSkZ4Ylg5SUw4Mmo1V2x3YzFzeG53ZlMzSW1RVUN0Q3RXRk5OdnJkdFVqMzNBYXc?oc=5",
           "source": "Intellectia AI",
           "published_at": "2026-07-30T16:20:50+00:00"
         },
@@ -1745,10 +1745,10 @@
           "published_at": "2026-07-28T11:03:12+00:00"
         },
         {
-          "title": "Intel vs TSMC: How CoWoS Constraints Could Benefit Intel Foundry - Beth Kindig – Medium",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaG9kTFBrUC1pbWs5aGlCTGY1b0tTXzBjRHpVUkFmeGJsSWp3amNJZzNjYVhNLWYxdS1KUlBFRGhBLXdza25lQ1dVaHlpdkJ2LXh5X0UzRmZvck1UaU1FNkZILWZWcXpoT0FRN210NDJnRFNKUWRfVENTd1ByYVdOMDBGMlQtckZfeEJBSF9hY3g1QWhMRTQ2MDFjUWU5VG52aHFWSFJ2SUkxNnc?oc=5",
-          "source": "Beth Kindig – Medium",
-          "published_at": "2026-07-28T21:29:08+00:00"
+          "title": "Laser processing: Powering next-gen semiconductors - Laser Focus World",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNN3hYYWZjNzVaME9WcXdEU3JtRUtENFpXd09wR2FvblJqc3R4Z3pRNzZCMEZpb2haLVZodTF2cXJMZFY3d0ZjR21LcEpMN0s4ZXgtMjdjbTR0SDZiUHdIbEc2QWJWN2tBT3RxV0RhMkJ0Y2diaTZIWUtNWkJrSGtVdzNOSGM3QUl3T2MxamloZUp4czZKWktsZmVYLWpQM0JHRWhpYVZ0VFh0WEtlYUpHOVBrSWNRZ0ItNUVzem13UkJnV2VLR2RXeTF3MHJaNndSbDhBbWRfSTE5bzR4ZF9ESzNGN1ROejNRcXFleWMzb3k?oc=5",
+          "source": "Laser Focus World",
+          "published_at": "2026-07-29T04:00:11+00:00"
         }
       ]
     },
@@ -1765,6 +1765,12 @@
           "published_at": "2026-07-28T15:53:59+00:00"
         },
         {
+          "title": "Data Center Transceiver Market Size, Share & Forecast 2035 - Global Market Insights Inc.",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZk9DU2NiZVU3emZCbDJDTlYyV2wyal9PVFBDMklMNWtpTUM5MFFtMTF6eEdDY1c5VFZMU0tDTFhqcnhaTjRIYUMxUG9rYlJ5SXJYTldvaEcwNjF0TFA2cjVIU3ZLdi1mMkw1RUdvNmdZamlWSVRMdHVnbk5NbXNIZQ?oc=5",
+          "source": "Global Market Insights Inc.",
+          "published_at": "2026-08-03T07:14:33+00:00"
+        },
+        {
           "title": "Flexing the Internal Data Center Muscle - lightwaveonline.com",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVldVVEFrMkFvWm9mWTJsb0VENks0aWVUZVRZa3Fza1U1cTRTU1BqbXM4Z0ZMX0JqZzRpTXpSa3lHUjlnNXNWVlhsZ0JEaTZEOW53Y00wbk1oU2EtSlViZ01ZdmRGWldka3BFTjVIUnduQkFxMGNiYlliU0FmZFNiVkhFQzkzYjlOZHN4Q1RuaVNQblJFbzlfSHRsT0ZpcFE?oc=5",
           "source": "lightwaveonline.com",
@@ -1775,12 +1781,6 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycWpxcmFHWVNOeS1scHI3Vkhidjhyb2NWZmt4NlhYWlJxNE9fSXZZbXczMTBHRGtKcEhOTTBpakxVNEZCSkpUaUU2X0d4b1kwMm80MmJwcElwQnl2MTR1Y18tdw?oc=5",
           "source": "Credo Technology Group Holding Ltd - Investor Relations",
           "published_at": "2026-07-30T07:00:00+00:00"
-        },
-        {
-          "title": "AI Infrastructure Stocks Facing Rising Energy Costs Investors Should Not Ignore - simplywall.st",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQd1BTcl91WFlpMjVPOHhaeE9JZk9ZUUFkNFdqd3JRNlBLc0dSNS1oaXl3cXFwT0FfdGZPZ25LLTlVQnR2Qk9jOHFRcGV6ZnhqbEtrb1FZWEVDYVBwejQ1RFlPODdiV0NwRkZ1c010VmZQdTRyRlZDNHJEcUtDeTVCcVZHT2VkakVMbVgxTUFPRWtOQnM0S3g1aDl5dW1tLU9nai1xMlg2RklLZUltUE9yUmZTaFg5bGVqOEd3dEpCSXEyZ2dXUl92RXdzUjctN1FRQXUtadIB2gFBVV95cUxNS19WODREbk1PbnJEaTVaNlVfQVNFVWRkS2ZFMlBfNFFVdW5ETkxwMEZ4WGJjanFuV250MmpLME1iWElldWVqeVRGUExBY3JEd1ZBeXJ1U2pyV2QxRllPRUFHNUppSTdBVDlBZWF3Y1B4SWhvXzdodmNqQVRnQ3l4OVJNX2VsNFo5Wi1vTkJxc3BjeDB6RGJic3M0c1UtRVdfOVBFQmw3aWxEdDVhZ2pwb19TaTBPUWoyLV93RU13VWJjNjN1WW51WDlna2N6STNId2FYXzBvcWs3dw?oc=5",
-          "source": "simplywall.st",
-          "published_at": "2026-08-02T07:20:55+00:00"
         }
       ]
     },
@@ -1797,22 +1797,22 @@
           "published_at": "2026-07-29T15:02:12+00:00"
         },
         {
+          "title": "Supermicro Expands DCBBS with Precision-Engineered AI Rack Series to Accelerate Deployment and Time-to-Online - Supermicro",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQSXdPbEcwbW82YmJ1ZUswWkJINURITnVMNDh3dzFxcUhMcmZXdzhKZHdVZUZBSGI1WGtBbzRIcVNzVzlvWk56REViR1dTRzJfTHFOcG5vR3RrOHhOS1l4cEx2bE1DOXczV3htb3o4TXBxOUhIN0xhVGxoXzdveWh6OXVMZGQ4b0VKb3NWV3RvQzdRc2hxTlhYbWpIMlZ0bDhYV0xBa3kwMkd5QzY5N1RzUUxDZXZ4aUtfUGlsczZXZjlPOHRpVGVldEQ2S3FvWjNQYXE1aWk2b0FXZ3lDV0pHYnNhemplbTNOM1h2d1R1STktLXFxQmE2WENUeHNiWEZl?oc=5",
+          "source": "Supermicro",
+          "published_at": "2026-07-30T20:08:59+00:00"
+        },
+        {
           "title": "Scaling Liquid-Cooled AI Infrastructure: Water, Efficiency & Operational Resiliency - Data Center Frontier",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbTBSZGs0UzBnU0JDamFnb0tqSGpZQkg0bDRJX3QyS1hlcGEtV0JvSi1ObzRqb2k2Y19JcDhiYy1lQWstVVZVVDlheW1PZkV2STNHTlRjRElSS041V1RUQ1d6dVA4bEgxdThUMzZZVWJRT0FMWC0wNmlJaXlIb1JBSUNKbHlCMkUySjZVYW5MakxqVnoxQ1Jad1k1dm1lQ0NLbEdRNnVUQUR0Q09ST054OTJaQ3RNTkZ2X28tNWN0X044UE1zR0NmUGFFejNFVGJmVXdKYTR3?oc=5",
           "source": "Data Center Frontier",
           "published_at": "2026-07-29T19:20:57+00:00"
         },
         {
-          "title": "How Data Centers Can Improve Sustainability as Power Demand Triples - idtechex.com",
+          "title": "How Data Centers Can Improve Sustainability as Power Demand Triples - IDTechEx",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNamFOVk9IdXFnaXNHV29OUXhWZ05FVlE3Y0x4aFYyOHQzOG9yZjhOaTFkRG5jUkVTWENKV2kxRnJKaHRrMktUeHNZTW1WNlNFWUxxdWxfNy13OGtUU1RSRXFJaFlmUjN6NWljLVJONE9kNUpiMFo0VXpUZElkY0Q3QUpTNXR4Wm9UcFVQUm9rWkJybFdHanRYVVNXdWt0cW5kV0pneUVVYWF2VjI0Zkxsa0Vvd1lucGFIZ0E?oc=5",
-          "source": "idtechex.com",
+          "source": "IDTechEx",
           "published_at": "2026-07-27T09:34:27+00:00"
-        },
-        {
-          "title": "LG Electronics wins Korea's first Nvidia liquid cooling certification as AI data centers hit a heat wall - startupfortune.com",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVV8teGZkUHpqQUo0c0JhbEpUNWpuemU5R2t2Nm90V29uYkxLcTVxSnhTaUMzZF9MdVh4ZWF5TGI4d0FxdnptRXRZXzRIeFRHdlhfV0VhOEZxYmZzeTVwTWo5c3VDSldySW5GeUJjczZLLTAxeUdCV0JDbl92ajVvakVKQ3NjQkQyVURxNHlvbmRrXzVTb2MwNjRhanZJN0hCQ0I2ZjFTTnhsU0RaSDhDZ0hIZjFoQmpVM1hPZ2VranlQUHdhZWJkSE5tUQ?oc=5",
-          "source": "startupfortune.com",
-          "published_at": "2026-07-27T06:16:10+00:00"
         }
       ]
     },
@@ -1829,12 +1829,6 @@
           "published_at": "2026-07-28T12:00:01+00:00"
         },
         {
-          "title": "Big Tech earnings slam into a market in revolt over AI spending - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT3RZajdfZVBqRTR4TFVYZlh1bUMwUEZtRnRORzlQVk9jcnJMVTdqRl9aN19YS0JNZjl1SWVFUFJSUlBQel9HeTVLeV8wSDRvS1NpR3dyXzZfckVIUWtKeUFkZnZpTE45OTc5T3poNVpMQ2JWeDVtTnFtMWQ1c0k5YlFvNTNpX0NnS3VLMG5lTnRvQ25TYmw0WjVZTWd6RnRxbi1GNWZ3?oc=5",
-          "source": "Fortune",
-          "published_at": "2026-07-26T18:30:00+00:00"
-        },
-        {
           "title": "All eyes on the big-tech capex splurge - The Economist",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX1FrN3dTOTBaSXJHbFlIZU1sYnNkX0JvZDV1YkJybll3ZHJzc0VCeXpNTzhLRlMwWllpM2FBQWo0bUZQNUt5cmlmWXk4TzhmMUNhWDI0VUt3Z3F1WHFLdUVCQkRlbGsza05wRzF4cnBvT1lYZjZ3T0pBN1BZYW9jN3UyR0gwcFotalJ1bDVCVnhaQWNnYlQ0?oc=5",
           "source": "The Economist",
@@ -1845,6 +1839,12 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVnh4X1BCWTB5dFFVWWJWRzZKWmhLZl9BbmloMEFDQ2RobExYTHMxSUdyeTljSnFvdWZJSFVZXzZoU2lta1lHS0lkVnc5Sl9XY0VGcUp4VW9jNEdZMVZ2VHdkd0UzX2tUTHRUZjJrSVd3ZXNjX2c3X0dVQWZ1YVRsd1hEX2I?oc=5",
           "source": "Financial Times",
           "published_at": "2026-07-31T01:54:29+00:00"
+        },
+        {
+          "title": "Microsoft keeps capex forecast unchanged, becoming one of the first data center giants to hold the line on AI spending - Business Insider",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaXpnVl9jUlRXaHctcHJVdDlBWE9oLU5VYnlHT1NDT0UxdGlkcWNpR3VmdzM3clFseXg2T3RQQmM5bVBMcjJ3bk1QZ0ItY3FOTkNsWWtGaVNoSDI1bzZ4SGRCd1FzNTJZMFEtN0RkX2lZOXZlZGhRcncyU0huaXdVNXFsUUlpX3BOakxqTDlROEcxcGYwR1FIV0xzWk5sT09pNHFR?oc=5",
+          "source": "Business Insider",
+          "published_at": "2026-07-29T22:04:00+00:00"
         }
       ]
     }
