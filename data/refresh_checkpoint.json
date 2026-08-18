@@ -3,10 +3,10 @@
   "status": "completed",
   "current_step": "done",
   "total": 114,
-  "completed": 108,
-  "failed": 6,
+  "completed": 113,
+  "failed": 1,
   "current_item": null,
-  "last_update": "2026-08-17T06:03:54+00:00",
+  "last_update": "2026-08-18T05:58:11+00:00",
   "json": "/home/runner/work/compute-grid/compute-grid/data/latest.json",
   "csv": "/home/runner/work/compute-grid/compute-grid/data/latest_market_rows.csv"
 }
