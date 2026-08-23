@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-08-22T05:57:00+00:00",
+  "generated_at": "2026-08-23T05:58:43+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -280,12 +280,12 @@
       "label": "ABB Ltd ABBN.SW",
       "symbol": "ABBN.SW",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 79.6,
-      "ytd_pct": 31.9,
-      "return_5d_pct": -4.4,
-      "return_20d_pct": -0.3,
-      "return_60d_pct": -4.6
+      "latest_date": "2026-08-21",
+      "latest_close": 80.2,
+      "ytd_pct": 32.9,
+      "return_5d_pct": -3.1,
+      "return_20d_pct": 0.2,
+      "return_60d_pct": -4.1
     },
     {
       "label": "AMAT",
@@ -368,12 +368,12 @@
       "label": "AT&S ATS.VI",
       "symbol": "ATS.VI",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 143.0,
-      "ytd_pct": 336.0,
-      "return_5d_pct": -14.8,
-      "return_20d_pct": -15.1,
-      "return_60d_pct": 2.0
+      "latest_date": "2026-08-21",
+      "latest_close": 140.6,
+      "ytd_pct": 328.7,
+      "return_5d_pct": -18.8,
+      "return_20d_pct": -11.3,
+      "return_60d_pct": -0.3
     },
     {
       "label": "AVGO",
@@ -401,12 +401,12 @@
       "label": "Alfa Laval ALFA.ST",
       "symbol": "ALFA.ST",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 548.4,
-      "ytd_pct": 19.0,
-      "return_5d_pct": -2.6,
-      "return_20d_pct": -4.9,
-      "return_60d_pct": 2.2
+      "latest_date": "2026-08-21",
+      "latest_close": 561.2,
+      "ytd_pct": 21.8,
+      "return_5d_pct": 0.7,
+      "return_20d_pct": -2.3,
+      "return_60d_pct": 8.2
     },
     {
       "label": "Amkor AMKR",
@@ -434,12 +434,12 @@
       "label": "BE Semiconductor BESI.AS",
       "symbol": "BESI.AS",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 210.8,
-      "ytd_pct": 42.3,
-      "return_5d_pct": -10.4,
-      "return_20d_pct": -8.3,
-      "return_60d_pct": -26.7
+      "latest_date": "2026-08-21",
+      "latest_close": 212.8,
+      "ytd_pct": 43.6,
+      "return_5d_pct": -8.9,
+      "return_20d_pct": -6.3,
+      "return_60d_pct": -25.2
     },
     {
       "label": "Bel Fuse BELFB",
@@ -802,12 +802,12 @@
       "label": "Infineon IFX.DE",
       "symbol": "IFX.DE",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 55.41,
-      "ytd_pct": 45.9,
-      "return_5d_pct": -11.3,
-      "return_20d_pct": -15.4,
-      "return_60d_pct": -30.8
+      "latest_date": "2026-08-21",
+      "latest_close": 55.97,
+      "ytd_pct": 47.4,
+      "return_5d_pct": -9.3,
+      "return_20d_pct": -13.1,
+      "return_60d_pct": -31.0
     },
     {
       "label": "J",
@@ -1022,12 +1022,12 @@
       "label": "Munters MTRS.ST",
       "symbol": "MTRS.ST",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 177.0,
-      "ytd_pct": -8.1,
-      "return_5d_pct": -5.5,
-      "return_20d_pct": -1.7,
-      "return_60d_pct": -13.9
+      "latest_date": "2026-08-21",
+      "latest_close": 179.25,
+      "ytd_pct": -6.9,
+      "return_5d_pct": -3.5,
+      "return_20d_pct": -0.2,
+      "return_60d_pct": -7.2
     },
     {
       "label": "Murata 6981.T",
@@ -1154,12 +1154,12 @@
       "label": "Rolls-Royce RR.L",
       "symbol": "RR.L",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 1499.4,
-      "ytd_pct": 25.3,
-      "return_5d_pct": -1.7,
-      "return_20d_pct": 10.3,
-      "return_60d_pct": 14.1
+      "latest_date": "2026-08-21",
+      "latest_close": 1502.2,
+      "ytd_pct": 25.5,
+      "return_5d_pct": -2.5,
+      "return_20d_pct": 6.1,
+      "return_60d_pct": 12.3
     },
     {
       "label": "SK Hynix 000660.KS",
@@ -1231,12 +1231,12 @@
       "label": "Schneider SU.PA",
       "symbol": "SU.PA",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 294.3,
-      "ytd_pct": 26.1,
-      "return_5d_pct": -4.8,
-      "return_20d_pct": 10.9,
-      "return_60d_pct": 10.1
+      "latest_date": "2026-08-21",
+      "latest_close": 296.8,
+      "ytd_pct": 27.2,
+      "return_5d_pct": -3.1,
+      "return_20d_pct": 10.7,
+      "return_60d_pct": 9.9
     },
     {
       "label": "Shin-Etsu 4063.T",
@@ -1258,12 +1258,12 @@
       "label": "Siemens Energy ENR.DE",
       "symbol": "ENR.DE",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 152.58,
-      "ytd_pct": 24.8,
-      "return_5d_pct": -5.1,
-      "return_20d_pct": 1.4,
-      "return_60d_pct": -8.5
+      "latest_date": "2026-08-21",
+      "latest_close": 153.36,
+      "ytd_pct": 25.4,
+      "return_5d_pct": -4.6,
+      "return_20d_pct": 1.3,
+      "return_60d_pct": -6.1
     },
     {
       "label": "Sumitomo Electric 5802.T",
@@ -1401,12 +1401,12 @@
       "label": "Veolia VIE.PA",
       "symbol": "VIE.PA",
       "status": "ok",
-      "latest_date": "2026-08-20",
-      "latest_close": 34.28,
-      "ytd_pct": 18.7,
+      "latest_date": "2026-08-21",
+      "latest_close": 34.09,
+      "ytd_pct": 18.0,
       "return_5d_pct": 0.2,
       "return_20d_pct": -6.8,
-      "return_60d_pct": -0.8
+      "return_60d_pct": -1.8
     },
     {
       "label": "Walsin 2492.TW",
@@ -1544,16 +1544,16 @@
       ]
     },
     {
-      "category": "Backup / On-site Power",
-      "tickers": 7,
-      "covered": 7,
-      "avg_ytd_pct": 24.6,
-      "avg_20d_pct": -1.8,
-      "positive_ytd_share": 0.71,
+      "category": "Advanced Substrates",
+      "tickers": 12,
+      "covered": 11,
+      "avg_ytd_pct": 183.1,
+      "avg_20d_pct": -1.6,
+      "positive_ytd_share": 1.0,
       "top_20d": [
-        "Rolls-Royce RR.L",
-        "Bloom Energy BE",
-        "Generac GNRC"
+        "Unimicron 3037.TW",
+        "Ibiden 4062.T",
+        "Ajinomoto 2802.T"
       ]
     },
     {
@@ -1570,23 +1570,10 @@
       ]
     },
     {
-      "category": "Advanced Substrates",
-      "tickers": 12,
-      "covered": 11,
-      "avg_ytd_pct": 183.6,
-      "avg_20d_pct": -2.2,
-      "positive_ytd_share": 1.0,
-      "top_20d": [
-        "Unimicron 3037.TW",
-        "Ibiden 4062.T",
-        "Ajinomoto 2802.T"
-      ]
-    },
-    {
       "category": "Transformers / Switchgear",
       "tickers": 10,
       "covered": 10,
-      "avg_ytd_pct": 26.2,
+      "avg_ytd_pct": 26.5,
       "avg_20d_pct": -2.3,
       "positive_ytd_share": 0.9,
       "top_20d": [
@@ -1596,16 +1583,29 @@
       ]
     },
     {
+      "category": "Backup / On-site Power",
+      "tickers": 7,
+      "covered": 7,
+      "avg_ytd_pct": 24.6,
+      "avg_20d_pct": -2.4,
+      "positive_ytd_share": 0.71,
+      "top_20d": [
+        "Bloom Energy BE",
+        "Rolls-Royce RR.L",
+        "Generac GNRC"
+      ]
+    },
+    {
       "category": "Liquid Cooling / Thermal",
       "tickers": 11,
       "covered": 10,
-      "avg_ytd_pct": 29.2,
-      "avg_20d_pct": -4.4,
+      "avg_ytd_pct": 29.8,
+      "avg_20d_pct": -4.0,
       "positive_ytd_share": 0.9,
       "top_20d": [
         "Schneider SU.PA",
         "nVent NVT",
-        "JCI"
+        "Munters MTRS.ST"
       ]
     },
     {
@@ -1625,7 +1625,7 @@
       "category": "Water / Fab Utilities",
       "tickers": 5,
       "covered": 5,
-      "avg_ytd_pct": 6.7,
+      "avg_ytd_pct": 6.6,
       "avg_20d_pct": -6.3,
       "positive_ytd_share": 0.8,
       "top_20d": [
@@ -1638,8 +1638,8 @@
       "category": "Power Semiconductors",
       "tickers": 7,
       "covered": 7,
-      "avg_ytd_pct": 58.9,
-      "avg_20d_pct": -7.1,
+      "avg_ytd_pct": 59.1,
+      "avg_20d_pct": -6.8,
       "positive_ytd_share": 1.0,
       "top_20d": [
         "Fuji Electric 6504.T",
@@ -1701,22 +1701,22 @@
           "published_at": "2026-08-16T21:13:31+00:00"
         },
         {
+          "title": "“From Stake Sales to Prime Site Acquisitions” Massive Capital Pours into Data Centers Amid AI Boom, Fueling M&A Frenzy in South Korea and the US - economy.ac",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpQ0x5TWtVUXpLc0NxbVVQZ0lMZTI2SUoyeE9sZWsycWZTaDgzLXRVa3RxRWlXLWVrMkRFWEpYa1ZWcFNvc041dmhZbmZBWWdCZlVGNUpqSQ?oc=5",
+          "source": "economy.ac",
+          "published_at": "2026-08-19T08:01:37+00:00"
+        },
+        {
           "title": "Morgan Stanley Says AI Data Centers Face a 38-Gigawatt Power Gap. These Industrial Stocks Fill It. - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNcVB5YlVOYUVOaUtzU09lZ0VNMU9sLUdwZXliTnNLSVYyNUJUV0VfamdZTThMSFBDWUFia1dmdGpiS081YzR1NWhfX0hfdkUyei10OGtYTmk4Ylg5dEdwMVF5VkJ3cUZJVFozOWhtQW9aRXNhTGU4VUdrQjhjQ19zeEFDcTBsRHVmYzliLVFLaGNCbjV5akZDdjB4eHNsV1dZSHJxNlAtcnhpbjNVQnhvY284TjJ5c2lvMFk3WTMzeV8xdUVNSXJUSXlpa1R6MmxUZXVrX3N6Szl0eE96X2pfOTR4ampSbEY0dzFKMG5vTjJteGoyMTJYNWtwUzFHRHUwSU0xd2xCdklaMmRl?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNU2tYRFdzMmJhdks0T2pOd0FfQXpwUlZrSmtvOXBYcTljWFNlZnE1cEdBUURxV1dDUjNqX0htdk43WHdkWWRQSlJNZGFzc2xyUnREc3ZGSXZwQTZrOXBFd21NNTNJempYa0MwMGpxaENYRnQ5ZGtQZFZtdzVCTmMzWjJLdFRCbER0bFhZQ1JHOFRwamwyNW5yRERmbFRLWUxoX25nNXpVQlhtdTl6QmZDM1p0aXJqNjJpek1zQ0VQcUpLRVJ0RjlEdG5fZGlUN2FVRjZFREpNTFBBdUJsNkNFeHV1SVUxWmxtamRiMkJ2WEhraU14ZktvRGFEQ2ZyaTJ1Q2NsOUpDY3BnZTE0?oc=5",
           "source": "The Globe and Mail",
-          "published_at": "2026-08-20T12:47:23+00:00"
+          "published_at": "2026-08-20T12:25:00+00:00"
         },
         {
           "title": "South Korea's Big Three Power Equipment Makers Set for Q3 Combined Operating Profit of ₩829 Billion as North America Boom Continues - finance.biggo.com",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JQU12RXAyd2xkMHVTQTBEVzBMOC0xQ2g3WTdoUDVDa3ktbnNhQ0U1UDhNbXV2d1p3RUdrYVJQV01SUE9OSHpNYVhYWS1qZV9pb1RycF9LUW51eTJmZEdNbmo5cVRHTm5hMVBOQy1rNmxSYW1wN3c?oc=5",
           "source": "finance.biggo.com",
           "published_at": "2026-08-18T22:06:00+00:00"
-        },
-        {
-          "title": "Morgan Stanley Says AI Data Centers Face a 38-Gigawatt Power Gap. These Industrial Stocks Fill It. - AOL.ca",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mb3hfVllvN1IyTlQwTE9hTjI3NkZ0MnIyWENFejMzYUNyb29EaktTSmp5REpFNjdMOXM0VUUyVGhXZTBhak9QMXN6Y19vdmF2OElYNjM2b2lqdlNmMlEtUDdDM3JJTHlsQmdabG5Vc1ZvUWR1U0xxQjNn?oc=5",
-          "source": "AOL.ca",
-          "published_at": "2026-08-20T12:25:00+00:00"
         }
       ]
     },
@@ -1765,10 +1765,10 @@
           "published_at": "2026-08-18T15:00:00+00:00"
         },
         {
-          "title": "Credo Technology Group Holding Ltd - Investor Relations - Credo Technology Group Holding Ltd - Investor Relations",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycWpxcmFHWVNOeS1scHI3Vkhidjhyb2NWZmt4NlhYWlJxNE9fSXZZbXczMTBHRGtKcEhOTTBpakxVNEZCSkpUaUU2X0d4b1kwMm80MmJwcElwQnl2MTR1Y18tdw?oc=5",
-          "source": "Credo Technology Group Holding Ltd - Investor Relations",
-          "published_at": "2026-08-18T07:00:00+00:00"
+          "title": "AI data center optical interconnect market to hit $144 billion by 2030, an over ten-fold increase from 2024 figures, according to new projections — silicon photonics expected to account for nearly two-thirds of revenue, driven by co-packaged optics - Tom's Hardware",
+          "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxPVXphMGU4T09TU1NWZkR5RFlmN2U2Ylh3YjBzeW9HaXMyTDFTOFNSdFE3VU52VXZFVlNoZ3NMVVJzM0kyZjRQMk84cFAySU1uVk5vVVFCcDdkMVA5V2hHVGxXMEZVelI2bG1vYzFGRlBhd21iLVgzVG4ydFlvOUk3MHZmZzJqcnpjUnhLd0Q1TnFnLXlNbEJyaDFzNUhWazV5eFAxdUtQMXRxT3FWdWhPMkQzRjJSRGh1ZnlPNDJwREZIZGs0MnZRd1phQzRBUjJTMVBxU3Uybjk3RjdaM0ZJMS1pY1F6Skh3azdFUlZWM1dPQlBKX0kyTkRPeXM4TUdpQ1lZekphVGlIVDRsTmZfM2hJT3FaZW9yRU52TXlsZE5BZTZNc255V0tscERfYlN6RGh1X3Awb0pSVDZFekxDTTBPVGJZdXJna01RZEl2RVJMR1NlcUR1V2xIYzBuZURqbDZwMVVuN3Z1YVhsRGRIOUNfMDVTckVhcVZFY2VHbk9iRGVDWkZySHZic1ctUVYyT3hCUGUzVlZPanRxWC1LUl9STlNnOXBKZEE?oc=5",
+          "source": "Tom's Hardware",
+          "published_at": "2026-08-17T11:20:00+00:00"
         },
         {
           "title": "AAOI vs. Lumentum: Which Optical Networking Stock Is the Better Buy? - TradingView",
@@ -1777,10 +1777,10 @@
           "published_at": "2026-08-19T16:53:00+00:00"
         },
         {
-          "title": "AI data center optical interconnect market to hit $144 billion by 2030, an over ten-fold increase from 2024 figures, according to new projections — silicon photonics expected to account for nearly two-thirds of revenue, driven by co-packaged optics - Tom's Hardware",
-          "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxPVXphMGU4T09TU1NWZkR5RFlmN2U2Ylh3YjBzeW9HaXMyTDFTOFNSdFE3VU52VXZFVlNoZ3NMVVJzM0kyZjRQMk84cFAySU1uVk5vVVFCcDdkMVA5V2hHVGxXMEZVelI2bG1vYzFGRlBhd21iLVgzVG4ydFlvOUk3MHZmZzJqcnpjUnhLd0Q1TnFnLXlNbEJyaDFzNUhWazV5eFAxdUtQMXRxT3FWdWhPMkQzRjJSRGh1ZnlPNDJwREZIZGs0MnZRd1phQzRBUjJTMVBxU3Uybjk3RjdaM0ZJMS1pY1F6Skh3azdFUlZWM1dPQlBKX0kyTkRPeXM4TUdpQ1lZekphVGlIVDRsTmZfM2hJT3FaZW9yRU52TXlsZE5BZTZNc255V0tscERfYlN6RGh1X3Awb0pSVDZFekxDTTBPVGJZdXJna01RZEl2RVJMR1NlcUR1V2xIYzBuZURqbDZwMVVuN3Z1YVhsRGRIOUNfMDVTckVhcVZFY2VHbk9iRGVDWkZySHZic1ctUVYyT3hCUGUzVlZPanRxWC1LUl9STlNnOXBKZEE?oc=5",
-          "source": "Tom's Hardware",
-          "published_at": "2026-08-17T11:20:00+00:00"
+          "title": "Ciena vs. Coherent: Which AI Optical Networking Stock is a Better Buy? - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUHZHdWFMNnZjWVUyNUFyNEFsOE8weG5QX2JraW9CZVRvQzlVdmFmV3hvcTlaSzFtV1ExY21LWFhGZ0xGMTg4MllCZmh2WjY1M25yNlZRcS1ZYmlJaEVVT0dONnZxWmFaTE4wNUQ5UVlFQm5XSTBDY1RKbUQxQWNCV2cyVW9LaGc0QW15aEdaQ3RWRUpHanBfVzFpTVg2cXdBajY1OG04VXZJZ2pXLW1vcHZadzFfbUprd2w1djg5NmdSdE1ZTU5Yd3VONkd5NkJQNFJfS3RhYWJTVTNicHFBeWtLelVqYlE?oc=5",
+          "source": "The Globe and Mail",
+          "published_at": "2026-08-20T14:42:00+00:00"
         }
       ]
     },
@@ -1790,6 +1790,12 @@
       "ok": true,
       "url": "https://news.google.com/rss/search?q=AI+data+center+liquid+cooling+rack+density+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
+        {
+          "title": "Molex Invests In CAEPlus To Advance Active Liquid Cooling For AI Data Centers - Pulse 2.0",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcnZDcGVkeVMtZEFQNDd5NzR2MjVocTVya1dRR0Jtc1VtbjZkQlRMb3lJYjJRdzBSWEtsSlpjZURKUkluMnpMVk1YOXN3REFucF9TbUZHTXYtUW96QWRQNDI4U195R0tiVC1jYUlEUml4S0JiY09Ob3NKUHA3dGgzTFk4d3BVdUF4VnJpb1ozM3d0R0FpWUVJYXJId0J5UdIBowFBVV95cUxNSVE3bVUwOHdoaFloaXE5M0lOQ2hFVDUyUHhyMG5fM29mTXpDQjFFN1hfTFBGSVFQMFJBUVNlWHRlZWwzemxycnFCM1ZCa2s0OEtCSFYzaW12dEhoaEhnbDF1WThuanF3ai0xblowNTNCeDB0V0R5MlBhY2p5VEhiUmxqRDFaVmlkS2FFcWVYeUdpODBDeXlzdlBvS0VramhuUU9j?oc=5",
+          "source": "Pulse 2.0",
+          "published_at": "2026-08-21T19:52:06+00:00"
+        },
         {
           "title": "AI Data Center Localized Hotspot Cooling Systems Market - Future Market Insights",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTzExWUE5a19jcVluUEY2V09QZE50enVJUXY4bzNnQ1VXME5yekVKd2RrazVjcV9Oc2hSdDk5THJvYUZWOW82TEhlb2ctaVI3R0xHUjJLemt4R2RUN1UzenV1b082QWc1dXFuZngxUHU3a3ItMXFVcnhXdm5vSUh2YWxPVGRFQ1B5N2VUSlV4SV9EaHJmeEEwbDhubjlDVU56eWc?oc=5",
@@ -1801,12 +1807,6 @@
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONVJFTTJ1VGZyNmppaXVhZkp0R0d6ZEFEZnEyQk9tQWF3c3dDajh5aFY1eFZaU0NnQmxCRUhmN2hWR3ROMzQ1a1hjOUtwUFN4eGVveW5mbWVlMkFTVkpsdkJQbHZNLWlHMlA5VUR3d0wwb0pzZVBlNlNZdWNSU05tMUI3WGRwRmFMOXpFVElTd0NRU044?oc=5",
           "source": "Data Center Dynamics",
           "published_at": "2026-08-21T09:25:10+00:00"
-        },
-        {
-          "title": "Molex Invests In CAEPlus To Advance Active Liquid Cooling For AI Data Centers - Pulse 2.0",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcnZDcGVkeVMtZEFQNDd5NzR2MjVocTVya1dRR0Jtc1VtbjZkQlRMb3lJYjJRdzBSWEtsSlpjZURKUkluMnpMVk1YOXN3REFucF9TbUZHTXYtUW96QWRQNDI4U195R0tiVC1jYUlEUml4S0JiY09Ob3NKUHA3dGgzTFk4d3BVdUF4VnJpb1ozM3d0R0FpWUVJYXJId0J5UdIBowFBVV95cUxNSVE3bVUwOHdoaFloaXE5M0lOQ2hFVDUyUHhyMG5fM29mTXpDQjFFN1hfTFBGSVFQMFJBUVNlWHRlZWwzemxycnFCM1ZCa2s0OEtCSFYzaW12dEhoaEhnbDF1WThuanF3ai0xblowNTNCeDB0V0R5MlBhY2p5VEhiUmxqRDFaVmlkS2FFcWVYeUdpODBDeXlzdlBvS0VramhuUU9j?oc=5",
-          "source": "Pulse 2.0",
-          "published_at": "2026-08-21T19:52:06+00:00"
         },
         {
           "title": "Ron Vokoun: Navigating Change at the Speed of AI - Data Center Richness | Substack",
