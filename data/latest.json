@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-09-19T09:42:26+00:00",
+  "generated_at": "2026-09-20T10:03:35+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -370,7 +370,7 @@
       "status": "ok",
       "latest_date": "2026-09-18",
       "latest_close": 175.8,
-      "ytd_pct": 382.3,
+      "ytd_pct": 436.0,
       "return_5d_pct": 3.0,
       "return_20d_pct": 22.9,
       "return_60d_pct": -12.1
@@ -560,12 +560,12 @@
       "label": "Delta Electronics 2308.TW",
       "symbol": "2308.TW",
       "status": "ok",
-      "latest_date": "2026-09-18",
+      "latest_date": "2026-09-20",
       "latest_close": 1735.0,
       "ytd_pct": 75.3,
       "return_5d_pct": 7.1,
-      "return_20d_pct": -0.9,
-      "return_60d_pct": -4.1
+      "return_20d_pct": 0.0,
+      "return_60d_pct": -8.9
     },
     {
       "label": "EME",
@@ -1066,12 +1066,12 @@
       "label": "Nan Ya PCB 8046.TW",
       "symbol": "8046.TW",
       "status": "ok",
-      "latest_date": "2026-09-18",
+      "latest_date": "2026-09-20",
       "latest_close": 1100.0,
       "ytd_pct": 365.1,
-      "return_5d_pct": 1.9,
+      "return_5d_pct": 4.3,
       "return_20d_pct": -3.1,
-      "return_60d_pct": -2.2
+      "return_60d_pct": 1.9
     },
     {
       "label": "ON",
@@ -1357,12 +1357,12 @@
       "label": "Unimicron 3037.TW",
       "symbol": "3037.TW",
       "status": "ok",
-      "latest_date": "2026-09-18",
+      "latest_date": "2026-09-20",
       "latest_close": 981.0,
       "ytd_pct": 348.9,
-      "return_5d_pct": 0.4,
-      "return_20d_pct": -9.6,
-      "return_60d_pct": 0.8
+      "return_5d_pct": 1.1,
+      "return_20d_pct": -8.7,
+      "return_60d_pct": 0.7
     },
     {
       "label": "VRT",
@@ -1412,12 +1412,12 @@
       "label": "Walsin 2492.TW",
       "symbol": "2492.TW",
       "status": "ok",
-      "latest_date": "2026-09-18",
+      "latest_date": "2026-09-20",
       "latest_close": 309.5,
       "ytd_pct": 149.9,
-      "return_5d_pct": -0.6,
-      "return_20d_pct": 16.4,
-      "return_60d_pct": -42.4
+      "return_5d_pct": 1.3,
+      "return_20d_pct": 16.8,
+      "return_60d_pct": -39.5
     },
     {
       "label": "Xylem XYL",
@@ -1434,12 +1434,12 @@
       "label": "Yageo 2327.TW",
       "symbol": "2327.TW",
       "status": "ok",
-      "latest_date": "2026-09-18",
+      "latest_date": "2026-09-20",
       "latest_close": 550.0,
       "ytd_pct": 129.9,
-      "return_5d_pct": 1.1,
-      "return_20d_pct": -0.7,
-      "return_60d_pct": -45.8
+      "return_5d_pct": 0.9,
+      "return_20d_pct": -0.2,
+      "return_60d_pct": -47.1
     },
     {
       "label": "Zhongji Innolight 300308.SZ",
@@ -1496,7 +1496,7 @@
       "tickers": 7,
       "covered": 7,
       "avg_ytd_pct": 154.3,
-      "avg_20d_pct": 3.7,
+      "avg_20d_pct": 3.8,
       "positive_ytd_share": 1.0,
       "top_20d": [
         "Walsin 2492.TW",
@@ -1521,7 +1521,7 @@
       "category": "Advanced Substrates",
       "tickers": 12,
       "covered": 11,
-      "avg_ytd_pct": 185.1,
+      "avg_ytd_pct": 190.0,
       "avg_20d_pct": 1.2,
       "positive_ytd_share": 1.0,
       "top_20d": [
@@ -1639,7 +1639,7 @@
       "tickers": 11,
       "covered": 10,
       "avg_ytd_pct": 23.6,
-      "avg_20d_pct": -5.0,
+      "avg_20d_pct": -4.9,
       "positive_ytd_share": 0.9,
       "top_20d": [
         "nVent NVT",
@@ -1727,9 +1727,9 @@
       "url": "https://news.google.com/rss/search?q=AI+HBM+advanced+packaging+semiconductor+substrate+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
-          "title": "AI Chip Packaging Pushes Beyond Reticle Limits, with CoWoS-L Set to Remain the Mainstream Advanced Packaging Solution Through 2028, Says TrendForce - trendforce.com",
+          "title": "AI Chip Packaging Pushes Beyond Reticle Limits, with CoWoS-L Set to Remain the Mainstream Advanced Packaging Solution Through 2028, Says TrendForce - TrendForce",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtYUN5WnNuUTB6ZUZ0bEQ5Mld6Nm5DZmkyWFc0SHNpVlhjcDU5Z3RibGhYRjQ2ZlRMbTg2RWM4MVdJdEVCeEZjVmxEWU9hR1BxNU1qaUFNeGZ3eWZHQ2VjNUFBeWI1cnFXbjRFSlhQVVc?oc=5",
-          "source": "trendforce.com",
+          "source": "TrendForce",
           "published_at": "2026-09-18T09:09:41+00:00"
         },
         {
@@ -1777,10 +1777,10 @@
           "published_at": "2026-09-15T08:24:00+00:00"
         },
         {
-          "title": "Telxius boosts global network capacity and efficiency with Nokia 800G Coherent Pluggable deployment - Fierce Network",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdGlta1ExNmFqOUxKdGpFV3p6X0JqdnVVcFJ6Yk43SjNCVUNHeUoxVkpIdmtmNl9sQWYza252al9IQnFaQXJiaTZucTNjLTNwWVNMVXJFX1V5YzlXSDM3REFvVERFNXJITHpDa0Z4STY2UzJxeUNra2hJVGo4Tm8weTMza3BkZnRMRjd5UDVUSTZOc2hoUEZ2Y1ROSE5JN3ptbmpqNGhCbmtFZVJDUUtpZ1ZfMzJadkltd2E5b0Fqc0c?oc=5",
-          "source": "Fierce Network",
-          "published_at": "2026-09-15T16:39:18+00:00"
+          "title": "Ethernet Alliance Brings 1.6T Ethernet Interoperability Demo to ECOC 2026 - The Fast Mode",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcTFBdmdlOGNEcjRiQlYyRlpnU1VxTTAyMXJPbWtRbnJhbm5ZTl82a1h2QkRCUGVKUGhmRGdoVXVON2tPNWsxZm90cWVBRU41SFdHUUhKQ3VoNmJ5TFEwdUxueEZSdzI0eE9KQUk2RmdEdWJRajZNWWZiWlZKWlFmM0tTVkJIdnlEaEx2dHhqa2xuUVNjOFlPUjlobG01M3Y3TGRocElWcW1qdFpEQ1A3dXJWdW04eUtnM2ctWnlqN2lNbGd2UWVR?oc=5",
+          "source": "The Fast Mode",
+          "published_at": "2026-09-15T02:49:33+00:00"
         }
       ]
     },
@@ -1797,12 +1797,6 @@
           "published_at": "2026-09-15T16:41:48+00:00"
         },
         {
-          "title": "From pilot to production: Direct liquid cooling deployment risks in AI data center cooling - Data Center Dynamics",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeldEQ2oxQ1RFU3BvUGRiOHd3ZEZnNklydjRNdDI4cHdkSHpFYlRrRVdUUEluaVY4QXVjd25MaUd4eDNIWXF5eTNKcTRXNUx1dVgyY3A0RjhQazZaV3ZTUGU2ZFNhQXBBakR5MWlUWlppS1h5dkItSkwxeDlhM1RaenpOYVlFZU1SVDhKU2dwXzZibFVhaUcwZ2pJdU1DQ1IyRUN6c0JoZzgtQWlnOElEZGJmX1BzVUlFNTFzdEFFa3cweG50YnkxT1o2TkxOZVM5YW40?oc=5",
-          "source": "Data Center Dynamics",
-          "published_at": "2026-09-13T08:36:08+00:00"
-        },
-        {
           "title": "Why AI Data Centers Need Board-Level Protection for High-Density Compute - Electronic Design",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVlJmOFB3NEI5ZF9qRDlJZUdBa3ZISkxDTlA5WlB3T0QzWkFNMlA3cVFIel9va1ZvUlVUM0JYNEl2UTg2Z2VpbU9kam56Tk9LZHpkS2hUYXhmM29KenVMdm50d3dMd2dKQklRY2s0R1NoR0ZUb09ZdnMzRkFDdUxQcEw5QXRNYXpqX2pSYWhya2ZnV3hmeEhTakpwQlNEQWtxaVQ3ZURsZUpDTmcwT2k3cGdrMEdfRE45aHFFbGloT2lsU1ZLSVROU054bEkwRE9TX1hjQlk3Q3o4eFhkZWFjMUdBdm5iRFM0NkE?oc=5",
           "source": "Electronic Design",
@@ -1813,6 +1807,12 @@
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNXYzZTlORWVzQ1B2S0VCdlU3S0hnNk4xY1ZGYUFXNFhkMWpvZjhGQ2owTGNZMFlKcjVPNlpwZEZUdEVIRzk1R0pXTGJsNXpkMnlSV25ORHBuSE5CWFhvZ0pueTNtZzhJejg5Q1FPbnFDRXFkTDdncXp6TGNRQXdwbzNjblV0ZHpvM2ZKbTUzY0pQdEZHR3Z0TklnRkl1bzBRVk9pSlRFVnk4aG9WeXRrZWtzMXlDblN3TE1pb1gyMW9aNVBpM2RF?oc=5",
           "source": "Data Center Frontier",
           "published_at": "2026-09-18T14:41:08+00:00"
+        },
+        {
+          "title": "INVT to Showcase Power and Liquid-Cooling Solutions for Data Center Modernization at Data Centre World Asia 2026 - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTXdJaHRfNE1UZHB6djFsTnF1SnQ5N2tMTm94WTFlaEJNU1ZORHZ1cHU5TG44dU5uV0ZWd09XRjY0SVVfQU9kWUlOWUk1ZnlOd2k1QTB1Wi1DelZPX2tzVmcycHhjNnljZUc5SGptUGEtN0ZOVzhXUHB2Wl9CcDUxWGM4QndSaWZ0V25HR2ZKd2dyZ2ZRNC1TU0RyQQ?oc=5",
+          "source": "Yahoo Finance",
+          "published_at": "2026-09-17T07:48:00+00:00"
         }
       ]
     },
@@ -1823,9 +1823,9 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+capex+Microsoft+Amazon+Meta+Google+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
-          "title": "US Data Center Power Consumption by State (2026) - ElectricChoice.com",
+          "title": "US Data Center Power Consumption by State (2026) - electricchoice.com",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9acDEzM3A0SWNlUWl6NjN3UXUyZkxpRE9hZ3BtNVJkMUZ2M2dyVWkyQ0RESC1OLWZHY2oxYzlXMW1vSHdXUjNHWjZIMmNLRjhtU2d4dk53?oc=5",
-          "source": "ElectricChoice.com",
+          "source": "electricchoice.com",
           "published_at": "2026-09-14T03:08:18+00:00"
         },
         {
@@ -1841,9 +1841,9 @@
           "published_at": "2026-09-17T11:49:09+00:00"
         },
         {
-          "title": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models - 247wallst.com",
+          "title": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models - 24/7 Wall St.",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQM1M2THVBN0IxTUo5NE1TRHc2MG9XbUVPRVhTemh6ZnVyMHVRTHhxR3dJQ09JWjBURUIwZ1dRU1lDWjhCclJfU3NsQzVrNHFWWmtKRXd4LTJwbXZJQmdQdEZIMG1FZF83WFFRa1d5MXFTc1g3M0xFaU5nX0hraHhhZ0lSbUhGNld3SGczV2ZhWFI1LVJaVTVZS1VVZUd4MkdQS0JmdEFLOXVJc25yWmpQYklVMlFxUWMyVVZlM2s0QUZFenpVOU9ZeUstdE9uRXhiTEd5ZURVbU1rUTRjbzJZZWJCLU01a21lWURB?oc=5",
-          "source": "247wallst.com",
+          "source": "24/7 Wall St.",
           "published_at": "2026-09-14T14:24:00+00:00"
         }
       ]
