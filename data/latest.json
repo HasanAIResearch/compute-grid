@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-10-03T10:34:25+00:00",
+  "generated_at": "2026-10-04T11:15:56+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -1695,9 +1695,9 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+power+grid+interconnection+transformers+switchgear+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
-          "title": "Strengthening America’s Grid Supply Chain - energy.gov",
+          "title": "Strengthening America’s Grid Supply Chain - Department of Energy (.gov)",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSEk0dkVyZGxtMTJZZ3ZIRk9RYnVrVW5tN2V1U0dRU01kaDFoTHlVVFotY1g3M1QyTkg5bzRyQjB1VEhVem9HR2djSFh3T1A3RS1XMmJXRDlwekp1blU5RVhFZlNwTjFzSHVqVTcxQjhDQVZFY2RyajRRV09HM2tRWQ?oc=5",
-          "source": "energy.gov",
+          "source": "Department of Energy (.gov)",
           "published_at": "2026-09-30T19:31:24+00:00"
         },
         {
@@ -1707,10 +1707,10 @@
           "published_at": "2026-10-02T12:46:55+00:00"
         },
         {
-          "title": "Saudi AI Data Centres: The Power Deals Behind the Build-Out - vision2030.ai",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUmZpa3U3LUhKSDRqMmlNRVZqTlI5U0tmVWI4cGFHbzNNcTl3eXM1X2NxTXczWkpYeG9YY3lfUWFTakN1X3JBRkdJcXhUWFpxTmpfSlZYd3k1cHZHMVZQVk16SkdWREMtMWJqSmpUbHdDZDJyX191RC1VT0NEbFBKOWgyT21KSWVfLWxOLQ?oc=5",
-          "source": "vision2030.ai",
-          "published_at": "2026-09-27T07:00:00+00:00"
+          "title": "Global Demand for Power is growing Faster Than Grids can support - Energy News Beat",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbGFKdWZ4MXBlTHJHQUdDeko1cG52dzIwcVpnZWdHNXNoSkwzb3BkQ2FsMUhYLXdzV0JIQU5QNmI2U3drbF80ckJJckpXNW15dW93c0Nla3pyYjRralg1TnlrRnlQajF3ME1RM1BMZU85VDNpSVRKYWpobUt6ck9OSDloYnc1STdMLUoxOFZYb0hvSFYySFpRdkRHRWFsV1g5Rkt2QmV3Tnk?oc=5",
+          "source": "Energy News Beat",
+          "published_at": "2026-10-03T14:42:28+00:00"
         },
         {
           "title": "NVIDIA AI Factory Power Demand Is Forcing Utilities to Rethink Grid Planning - remio",
@@ -1733,10 +1733,10 @@
           "published_at": "2026-09-28T22:46:00+00:00"
         },
         {
-          "title": "How Does Taiwan Semiconductor Manufacturing (TSM) Fit Into The New AI Supply Chain? - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbld3LVpSOGhxQ2Zsb0hsVk03RUd4RUF5R0MwV2RLRl9lN1pRUm5SNVZRVWxlUWZNVGdpMzFRejlUQzR5bHF0bXEzSm9iZGg1QnBFTW1MenBqclBDUmxjMkpFYXN4UVk2bDhNRHVodmFXdzVnVGxCQml5WElfVFc0NjhCRGpLdEdxY1pVd0lMX1YzVmk0TFpiaEg3MFBpdDVCRlVraHFZUmlMTWc?oc=5",
-          "source": "Yahoo Finance",
-          "published_at": "2026-09-29T17:09:34+00:00"
+          "title": "Advanced Packaging Market Size, Share & Growth Report [2034] - Fortune Business Insights",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92eUJjY2V4OFA3TnN4dlNQRjMwX092Ykh6bWVZTF95Zm9fUFVfMkc5WWJUbzJYcXQwdHlCblg4b0cyUmFlR1dzcklBMUdiSDhmSURFZlFsOFJDTlp6U09VSFNKdmVHRi1CVlF0WnlYU1p0V1NhbGdnSUFTUm0?oc=5",
+          "source": "Fortune Business Insights",
+          "published_at": "2026-09-29T07:00:00+00:00"
         },
         {
           "title": "TSMC Expands Advanced Semiconductor Capacity to Support AI Demand- Spherical Insights Analysis - Spherical Insights",
@@ -1745,10 +1745,10 @@
           "published_at": "2026-10-02T07:35:33+00:00"
         },
         {
-          "title": "Vietnam begins to benefit from race to expand AI chip production - Theinvestor",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMF9ib2pROHhsMEdNSWpnaWRDMmsycU5fal9LQWVlZnR3RklIQmJWZVdEbzEwT3V3V1hDRGdfNWNRdjRfTmhkbW84dW9TSnNiYTZoeC1UNjl2TmVhWVRkbFVJWGNya0lnLU9ZNDBtejc1RHJzOFhsZ0FXQ3VvenBab2ZoVExDRlRURVIxNVdaZ1lyZzhKcTh3c0dsc3hXYTdC?oc=5",
-          "source": "Theinvestor",
-          "published_at": "2026-10-02T01:17:00+00:00"
+          "title": "One Substrate No Longer Rules Them All - Semiconductor Engineering",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KMzZJSkJBdkdlX3dCb1FmLWEtcHp3T3ZmWnUxdURZUzRPWGtORE12S2VpZnNwVEJuZ241M2w2dFdqbXlXWno2aFAzT0xKNE54aWhrQjBrVG00X2ctYmZkM2RKTnlxOGozRUdxWEE0YkUzX1ZqZ1E?oc=5",
+          "source": "Semiconductor Engineering",
+          "published_at": "2026-09-28T07:46:12+00:00"
         }
       ]
     },
@@ -1762,7 +1762,7 @@
           "title": "Credo Technology Group Holding Ltd - Investor Relations - Credo Investor Relations",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycWpxcmFHWVNOeS1scHI3Vkhidjhyb2NWZmt4NlhYWlJxNE9fSXZZbXczMTBHRGtKcEhOTTBpakxVNEZCSkpUaUU2X0d4b1kwMm80MmJwcElwQnl2MTR1Y18tdw?oc=5",
           "source": "Credo Investor Relations",
-          "published_at": "2026-09-30T07:00:00+00:00"
+          "published_at": "2026-10-02T07:00:00+00:00"
         },
         {
           "title": "800G Optical Module Market Size, Share & Growth, 2026-2035 - SNS Insider",
@@ -1771,16 +1771,16 @@
           "published_at": "2026-09-28T18:30:00+00:00"
         },
         {
+          "title": "AI-driven network upgrades expose hidden complexity in the shift to 400G and 800G infrastructure - Digital Journal",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVDgtUHBLZGVGNGNKVmtLVkZBbXVTbFFlUUZMdk0xWXNyajkxSk1yM0JDQm93aG5lQ2ltU2dNMUp0VklwYjlEa2ppdkNvRGZOVkxZYlJfQm5VZ05kV1hnaU9BV1RSTE9HUjhneGw0YWQwTFVseEVTY3JDNnJFcXBjWkhZNVpjSjhhWm92VzliSERiUFZ4UHRGbXVTeV9uNnZQUVh3b3RwdGJveUMteE9yX0EzNnB3VHlSRGdmTHVQTG5UaGE0UFVxUWZnTWFVcm5ZN2c?oc=5",
+          "source": "Digital Journal",
+          "published_at": "2026-10-03T20:12:39+00:00"
+        },
+        {
           "title": "[News] Marvell to Showcase Industry-First 2nm Optical Technology Demos for AI Data Center Infrastructure at ECOC 2026 - LEDinside",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xVm5mVTVBX0NKLTdNd0R3WUczOF9Za3ItN3F1ZzNJUURENTNId1dlaUNsMDN3cnY4MmZOeFpZZ1JSdmppZHpnSkVUeC1uSUZmNnMxbk5rNVZSM05VNlFsTzVR?oc=5",
           "source": "LEDinside",
           "published_at": "2026-10-02T07:49:26+00:00"
-        },
-        {
-          "title": "After Trump-Xi Meeting, Bipartisan Group in Congress Push to Decouple China Tech from Federal Communications and Data Networks - Coalition For A Prosperous America",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS2VnZFo2OGhDMmF5SWxuNEgxUTdUdmhvMHhmQlZmTEk2ODJnY1U3cFo0cmhtQXN3b1NBTDdfSGt0X0p2WUI4Zks3SjlFM2pZTlRnQ0IxS1F4Ml9jSkF0a2ViZHhuX0FhWHNLZDk1RUJuMTdsQ3hQNWJrakI4Y3NSOTdjLXh2N2lZdTFWc2J5eHBqZnNCVmpyX184Z0xBRDVVUWtiZ3F1NGxrbXU2V1V4X2JGV2lzampQMjlrYmFsYk15dUZ6WVluZ0x4cF9BcDN5NTFlM2hQS0tfRF8wRVpOc21HcGRjdEdlSFBlWA?oc=5",
-          "source": "Coalition For A Prosperous America",
-          "published_at": "2026-10-01T15:04:56+00:00"
         }
       ]
     },
@@ -1797,15 +1797,15 @@
           "published_at": "2026-09-30T17:16:53+00:00"
         },
         {
-          "title": "[AI infrastructure insight] Why power and cooling have become the next challenge for AI data centers - news.skhynix.com",
+          "title": "[AI infrastructure insight] Why power and cooling have become the next challenge for AI data centers - SK hynix",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xdENpZ0VDTWxjNC1LM2VuNlBwOWl5OGtURG55TzhZbm1pSm5Ua0ZPYk9ScVdGSE1GWmVrbTVqY3ozRllSWlFVSGcxaXpOVC1yVDZGY1N5UmdUai1wNUpWTlRMRG9wZEl3dUE?oc=5",
-          "source": "news.skhynix.com",
+          "source": "SK hynix",
           "published_at": "2026-09-30T08:13:53+00:00"
         },
         {
-          "title": "Clivet Targets High-Density AI Data Centers With Next-Gen Cooling at AI Infra Summit 2026 - datacenterknowledge.com",
+          "title": "Clivet Targets High-Density AI Data Centers With Next-Gen Cooling at AI Infra Summit 2026 - DataCenterKnowledge",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQXQxVTlaTHgyQ2RwWDJ2djlVY09TU1NrZFEzRkpMaG5veWRUaEFGd3pkZHloT3ZfSloxMkJQbEY5WDFxZjUtSGtSakJYWmZJWURDaUVXVjZRZTRQdTJBeVNpQ1FQampjTHhVX1VDY2psSmZldERMRXZrNGM5UnlpWkFhM0tGZmtCWW4xME5aZ0xkaHlPejhmcGZTVDVJOHc5WjU3d3U3Q01FaktYVEtRWmIxSUdwMVQ4c0Frakw1X1MyZ2xHZU9tclVzS1RJdw?oc=5",
-          "source": "datacenterknowledge.com",
+          "source": "DataCenterKnowledge",
           "published_at": "2026-09-30T14:50:15+00:00"
         },
         {
@@ -1823,9 +1823,9 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+capex+Microsoft+Amazon+Meta+Google+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
-          "title": "New Innovation Is Required to Fund AI’s $6 Trillion Buildout - Bain",
+          "title": "New Innovation Is Required to Fund AI’s $6 Trillion Buildout - bain.com",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWmNJSUUwWlduc2VTOEpYdnhJcDVtN3BjbXpKN3gtMzdYOVVGbkpmVUlPelR6aERSNkhmbHBSdVdEaWxqV3Npd3VyVktsWkI5UERQbEFOc1NZQjZEVmoyVEdBdjNjaDkydW9DSWtyU0lFLUIzUHFXZVhrQVRZRTNIOFQ1YU1CVE42SW5Sb3huaHNUUk0zZ0FBanpYV0pWME9OWTJKNHNldEJPaDZ1SmZEN0RB?oc=5",
-          "source": "Bain",
+          "source": "bain.com",
           "published_at": "2026-09-29T17:48:01+00:00"
         },
         {
