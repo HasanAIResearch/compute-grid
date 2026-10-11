@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-10-10T11:20:48+00:00",
+  "generated_at": "2026-10-11T11:34:23+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -1733,22 +1733,22 @@
           "published_at": "2026-10-09T20:23:40+00:00"
         },
         {
-          "title": "TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal - The Register",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRDgzUGh3d0RUUTBQMDFuRTlHbjJBSXp1Q1hJRjM2VmE3SEZiQi1HRnJiSk9UNGt6bHBRQkVSa0xjVU9uc3NHNHZkdW1xTkxrQUlmeW02NHNkdlRpMW13WEtKV3lNVTUyekN6U1lLTEwwMXhPV2YzbFR0dXNsQWgtcGtKMU1FZXZFVl9xVWJmYUk2SVRDVFpNRDF1aHRpX2dIOVlhSEowMEp5Vy1TR0h0dGJsbHh2QXhINFh4WjlqeUtxU2FkUnF6WjNfQlhQS2N6?oc=5",
-          "source": "The Register",
-          "published_at": "2026-10-08T17:22:32+00:00"
-        },
-        {
-          "title": "Samsung, SK Hynix Compete in Advanced Packaging with HBM Bonding and Durability Patents - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hWGk3Q2w0ZkJKc0ZQa2g3VzA0SzAzS29xbWU0TGFRSUN1em9NRWZFM3NBNGd2RlFsNUE5ZE5IT0hMcjdTTWNpT2Mta1d6T2R0Rm56R09rOVBNd0huUVEwX0VfclJiaURBQmtlamRPLTBpQzlxNmc?oc=5",
-          "source": "BigGo Finance",
-          "published_at": "2026-10-06T22:05:00+00:00"
-        },
-        {
           "title": "Why Advanced Packaging Is the New Bottleneck for AI Chips in Asia? - Asia Business Outlook",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSlpMbEJYZXltbjk2dnB2Zk5hbTdRdXh1MzVoV1ZyWmNlTjJaVFRveGRaaFVLdHd4dGlpcElKNXI3bnBSU0hsVlA2ZUcwTDZvTUE3MUxvcVFWamlja2wyZDE1RlgzaVBlVlUtYnZhMWZvRDVfX2lOaGFhc2wzR29id3lpVzhFbTQyRU1SUWdRVUU2WldaYUhiZHpRYlc5YVpmeG1jNnk3bjdnMTBOck9QcFZPblM3TXNSbGwtOG9RQjR6MW54ZFRJZg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbE5MWEhKMlNiU3hFQXhxV1BEVUtrMTR6QzdrQVRsdW84RjZ5Z0VuYWpLQjlEX2FKZ0hjX2ZWTFJOYXBDZDJBQkwxdHA5dGRrSmo0TTFTLUprODFxSnQ5Z2ZWbWRnaGctcmFsM3N2SnQ4RUY1cktzbnp6ZnRxRU90QlMxbmlkeUZlVUdWcjBqdkpxRklGVUk2MTcxVGEwTUMtTTltT0pFRENvMDRPNHBVMXVhdG5RTnQ1cm5na09NZ2NzOFBUa1doWm9hQQ?oc=5",
           "source": "Asia Business Outlook",
-          "published_at": "2026-10-09T11:28:43+00:00"
+          "published_at": "2026-10-09T05:57:47+00:00"
+        },
+        {
+          "title": "AMD’s Taiwan Capacity Push: Why Lisa Su Is Locking In the Supply Chain for the Next AI Cycle - semivision",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcTBqSG5PS09GN1dCODhMZnhrZzhybFQ0WnAwOFZQU2dPeDYyeVJTZ1RIT0o3Y0tjVXRabWJGNmk5NEpYeGxBY25nUFRwZkE1RnV0UHJneGxKdGt6dHNlZDhxNlpLaTlEVUsxdnBicU1GS0p6QjV1RGlmaVNDTnNyYw?oc=5",
+          "source": "semivision",
+          "published_at": "2026-10-08T01:18:47+00:00"
+        },
+        {
+          "title": "AMD's Lisa Su Makes Whirlwind Taiwan Visit to Lock in Capacity, Reportedly Meets TSMC and Top Server ODMs - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GODg5STZibGtHZFJOUjRhR19OTjFUQkluVjhFbFBHRzd3X1cyUUxlWktGQmFwdF9CLTFiZUNMQm94TzJiZ3FnSGJhOGlwV1Zla1U5TmZUNEJhWlh1MzZrdDlERXdnbDVKRDRIYkxlWF9jUzhCaUE?oc=5",
+          "source": "BigGo Finance",
+          "published_at": "2026-10-06T01:36:00+00:00"
         }
       ]
     },
@@ -1759,10 +1759,10 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+networking+800G+optics+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
-          "title": "Credo Technology Group Holding Ltd - Investor Relations - Credo Investor Relations",
+          "title": "Credo Technology Group Holding Ltd - Investor Relations - Credo Technology Group Holding Ltd - Investor Relations",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycWpxcmFHWVNOeS1scHI3Vkhidjhyb2NWZmt4NlhYWlJxNE9fSXZZbXczMTBHRGtKcEhOTTBpakxVNEZCSkpUaUU2X0d4b1kwMm80MmJwcElwQnl2MTR1Y18tdw?oc=5",
-          "source": "Credo Investor Relations",
-          "published_at": "2026-10-06T07:00:00+00:00"
+          "source": "Credo Technology Group Holding Ltd - Investor Relations",
+          "published_at": "2026-10-09T07:00:00+00:00"
         },
         {
           "title": "Eric Litvin’s Luma Optics Cuts Per-Link Power for AI GPU Clusters - Knoxville News Sentinel",
@@ -1791,10 +1791,10 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+liquid+cooling+rack+density+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
-          "title": "Global Data Center Cooling Market Analysis and Forecast, 2026-2036 | AI and High-Density Computing Propel Liquid Cooling Market to $141.19 Billion by 2036 - Supply Chain Digital",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HVkVRM3RjS0pmaEFBa05seEhTUXpEWkF1bGY5cGFYbDBrX0laNzRGYkQ2RHlNemlGd1FYbHJVOVhOSjlBczNGUGNydm50Wms3bWlaX1NicU9XTEVlNDBTRUJB?oc=5",
-          "source": "Supply Chain Digital",
-          "published_at": "2026-10-07T00:18:01+00:00"
+          "title": "Why do liquid-cooled AI data centers require different backup power strategy? - Data Center Dynamics",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU09CdVBscmFyMnN3WUxwbEszOFFhbVRtSHVzYWkzVGhCY2k2YldyeUlZMHJJRmJVUjhjQ1QzUFpyUXlycWlSS0RUbUtWTkNkVW90Q0VXUy1XT2I3a3lPRmFLcklkTS04UlVObG1LakgwRnA1MFlROGM1Vnp0N0hQQWdRSTM2UlRoQ0pPWUVqMWRKVXdzUGNWV3ZaUTQtRGtWQzV2dkQyYmhMdVRMMUR0TnFKVWZidl90OUQxTnJHOGdsZw?oc=5",
+          "source": "Data Center Dynamics",
+          "published_at": "2026-10-10T15:25:46+00:00"
         },
         {
           "title": "Powering AI-ready data centers with N9000 support for ORv3 - Cisco Blogs",
@@ -1823,12 +1823,6 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+capex+Microsoft+Amazon+Meta+Google+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
-          "title": "Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B - Stocktwits",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2ZDQkRWWGZaNVdBV1UwS0FEY0RvVVJqUFUxNXd2eHpWM1haeXltLUNpaXB2TW5kcHlJRFo0WFNOQWZFaGNDZ2p3WlcwZjhPVndrYkQwWVAxR0tVVnotaFdDNnZHT1IxZ1BJVHJXZXFpVG5ROUlMcGZoR29iczhkOGM4VG9UMEVWWHJoUEY5TlBCN0RiTEotLTFWNVdFZHZpUmVBOHBuYWVaN0xYMEJzSkgtSno4WHhuc2x4TmpMUkV5bHJDaTNqVHFKalBIMl9pZ01MSjF2a0hpczUtYjMxUHk1OGt0VUxxbHRuaHZ3Nkt4ekRLTl9YZzVQX04wYjFUS25wLUZwWUJwTFU?oc=5",
-          "source": "Stocktwits",
-          "published_at": "2026-10-08T16:05:33+00:00"
-        },
-        {
           "title": "Big Tech Will Spend Over $700 Billion On AI This Year. Follow The Money, Not The Hype - Forbes",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNDF2LXFsM0t2dWhlSWVzenhTbnpjQlZDYmFlbUJKNHpIZ0ZhckV2ZGJEMkhpUVBNdGZwLW5WVzgtRFo2SzRZNlhWMU93QjF5d091bUZBdUZwNFVDU01mSzZKd0VQYmFUd2pGa2NuVldUYUwzY3V3alN0TWVhT2R6WFR0N3VhckN5amhjMXBMbXc5YlhHYzdXOW1oRkQxSTl1VUsyMjdVTjZJTTNDOWlhSHh1NWhFaWxXTHpkTTBBd19QQ3l4c0VZR0YwdUl0Q2lT?oc=5",
           "source": "Forbes",
@@ -1839,6 +1833,12 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9acDEzM3A0SWNlUWl6NjN3UXUyZkxpRE9hZ3BtNVJkMUZ2M2dyVWkyQ0RESC1OLWZHY2oxYzlXMW1vSHdXUjNHWjZIMmNLRjhtU2d4dk53?oc=5",
           "source": "ElectricChoice.com",
           "published_at": "2026-10-08T02:48:56+00:00"
+        },
+        {
+          "title": "Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2ZDQkRWWGZaNVdBV1UwS0FEY0RvVVJqUFUxNXd2eHpWM1haeXltLUNpaXB2TW5kcHlJRFo0WFNOQWZFaGNDZ2p3WlcwZjhPVndrYkQwWVAxR0tVVnotaFdDNnZHT1IxZ1BJVHJXZXFpVG5ROUlMcGZoR29iczhkOGM4VG9UMEVWWHJoUEY5TlBCN0RiTEotLTFWNVdFZHZpUmVBOHBuYWVaN0xYMEJzSkgtSno4WHhuc2x4TmpMUkV5bHJDaTNqVHFKalBIMl9pZ01MSjF2a0hpczUtYjMxUHk1OGt0VUxxbHRuaHZ3Nkt4ekRLTl9YZzVQX04wYjFUS25wLUZwWUJwTFU?oc=5",
+          "source": "Stocktwits",
+          "published_at": "2026-10-08T16:05:33+00:00"
         },
         {
           "title": "Tech companies tap debt, equity to fund AI and cloud expansion - Reuters",
