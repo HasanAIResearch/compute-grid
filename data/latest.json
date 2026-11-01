@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-10-31T11:09:43+00:00",
+  "generated_at": "2026-11-01T11:59:37+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -1337,10 +1337,10 @@
       "status": "ok",
       "latest_date": "2026-10-30",
       "latest_close": 9514.0,
-      "ytd_pct": 34.6,
+      "ytd_pct": 31.0,
       "return_5d_pct": 0.6,
       "return_20d_pct": -24.4,
-      "return_60d_pct": -11.3
+      "return_60d_pct": -13.7
     },
     {
       "label": "Tokyo Ohka Kogyo 4186.T",
@@ -1651,7 +1651,7 @@
       "category": "Memory / Packaging",
       "tickers": 9,
       "covered": 9,
-      "avg_ytd_pct": 62.9,
+      "avg_ytd_pct": 62.5,
       "avg_20d_pct": -21.8,
       "positive_ytd_share": 1.0,
       "top_20d": [
@@ -1701,22 +1701,22 @@
           "published_at": "2026-10-27T09:00:00+00:00"
         },
         {
-          "title": "This $6 Billion Investment Could Open a Relief Valve for America’s AI and Power-Grid Boom - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclYtTWpXZ241MVNia01tTmRQdTlWSnA5TlZOR3N2a3lxRGRQS1UwTE5Pcl9FMG5qS2JNdEprYWN4RDJKX0l6NlVVbDE3dlJVblFpODNCdHJSNlM0NnBsNGxYVmtpN09IYnUtYmFBVGpvSzhDM0dibUlKbHJCT1AxYUxMMEVKNExDeW1jRXFrOHNVRkxKeHp2cE02WlFRWlc4THM4NXY5UkNVLXFaay1YdndORFVGMWVFc0Jsal9Ga1hnZ21FR3ZyWjdoTQ?oc=5",
-          "source": "24/7 Wall St.",
-          "published_at": "2026-10-24T13:35:00+00:00"
-        },
-        {
           "title": "NTT Global Data Centers Report Reveals What It Will Take to Power the Next Wave of AI - NTT Data",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVGFzTGlJNm81WUFvbDQ2SGEyUkRrSXpLX2VBd1JPUDQzTjZ4VkI2bHU2TmViY19FYnFPemtBcG01WFBneGs4dDBGWVhTRnVKZm5sb1lTZHZKTEIyaEY3R1dQOTdIaXpTRXgwWWxBdklEOC01ZzhJTEs4YUhMUEhLZHoyX3FldGtwZ0trNGVJVGN2bHVIbmVZTVJyNjJEaDNycmdadFRVQ0VqSDRnbzQxbnUyamdwUnFjWU94VWNUdXRKa3M?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQWNlcDduME9FOHBjYVRGM3NfeG9MYVRNNUxVU3RkOWFBOFNZMjdwM0trdWk1UmRKX0U0Z240S01YR253aXNVcm5EQ1U2bTVLeFpQeUhhS3R6TGljMGZWVmVpdTlESjlhUTNTM3FuV25lZHgwUXZvbkpJS1BEaEZDZ0loWHpDRWtqVDg0T2F6VGhOWmNTY2tLaUxVbnJzWC1kelg0TWlsS0ZRbmExbW1fTE9xOFgzTlg1aFQ1X0VLZ21uZ1U?oc=5",
           "source": "NTT Data",
-          "published_at": "2026-10-30T10:52:11+00:00"
+          "published_at": "2026-10-27T19:01:35+00:00"
         },
         {
           "title": "The $760 Billion AI Infrastructure Trap: Delayed Returns - Grid Constraints and the Emerging Geopolitics of Industrial Concentration - https://debuglies.com",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbjlIS2poQkFEbTdEcFdNTE1fa3lpNEF6eTZWUS1qOWV3NVVmWFJIYmQ5M2JINFA1OFNhXzVqWXM1bnJFemd3VVJOYnlFNFdJVzVKRmdCYmZFME9OVXJqWWZESnR6REVPZy14UVNPUllnRGhVci1ITlRlTFRPbEtqVFFJNElIeHNqdVNyWWhsVk1JaEJDOFBGOW9VYlBOR1BaNWQxeTNjLU9mYVJlX0RsbTg3TVZMY3R2aHAzNVl1ektKbzg2NDdwN2RzSGFGcVFGR0l3eVJxb0xZZlRmTzRWVDE3YUlPeHFHT0dITktIWEc0RnFE?oc=5",
           "source": "https://debuglies.com",
           "published_at": "2026-10-25T18:05:48+00:00"
+        },
+        {
+          "title": "AI data centres drive investment in microgrid technology - Energize",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTFlkX1JlOWJDRlZTN1hiVHRSRm1pOUQ0TmpLZGc5akhjaVdnZ2l3aUJVYmdFY1lMX3RQWU1fNXVKX2pURG1wSWg2eHZFWFBNRnRlSTVCT2V4aG5kMmpJc3BrQjZJcUhXYWJ4cHRPTThKN1pFbHJGMDJ4NlBydkNtWi12NkVxMGU1UHN3?oc=5",
+          "source": "Energize",
+          "published_at": "2026-10-27T13:26:15+00:00"
         }
       ]
     },
@@ -1733,10 +1733,10 @@
           "published_at": "2026-10-27T11:00:00+00:00"
         },
         {
-          "title": "Chip Industry Week In Review - Semiconductor Engineering",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Ql8tSTFkZEZFelhhTlZWLWVKRFUzR2gxbHlDYm1CSG95eW1nZkFlLUk1UGgyYnV4OXBiNjIxQXN3TktpSHZRU0VCWDRHNWplU2hUanB4aFRyNHY4XzVJTW9DU1lPSVFfMkgtTUpn?oc=5",
-          "source": "Semiconductor Engineering",
-          "published_at": "2026-10-30T07:31:55+00:00"
+          "title": "Intel EMIB Yield Challenges and CSP Capital Spending: Structural Shifts in the AI Advanced Packaging Supply Chain - semivision",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbWNUWjk5Z1FjMW55bTUyMFhZS3Y3XzFjbG05bVY2bHR1Wlh0c3lBTnJPWXd1NU45VVpIbzV6ZkVvVElRU3c3VHNzcko2VnRqZ2RpckFuTFJjRlRVQTkzRnpnTDF1X0JIV2Fta1pWSnhob0l5SnRxZ2NZaUpobFVSblNn?oc=5",
+          "source": "semivision",
+          "published_at": "2026-11-01T02:13:02+00:00"
         },
         {
           "title": "The landscape of chip manufacturing has been reshaped. - 36Kr",
@@ -1745,10 +1745,10 @@
           "published_at": "2026-10-27T08:22:28+00:00"
         },
         {
-          "title": "The Hidden Engineering Behind 10,000-GPU AI Clusters: Why Semiconductor Reliability Is Becoming the Next Battleground - semivision",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX3dmeThFMnZWWnRhb3hQSUdNLUFySEJGNnVKeVN1M1B1NndhMXRycnJ5bzJaSHpvR0JMVzhXb3pwV2twd05ZMGxzdXNISWRYVmllcUdtbURNdGhvV2xCMnhjRFNZemg1cnVSZC1qQjQ3M2g4M2FCMkJKVmF6blEtc0hR?oc=5",
-          "source": "semivision",
-          "published_at": "2026-10-30T07:58:34+00:00"
+          "title": "Samsung Lee in Japan: 3 Packaging Takeaways [2026] - shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUVZEM0luTXZrM2kySjJsNk5PMkxyUms5SWJnaE1BUEtYdWFBLXZqR2JvUms0alo2WDVkNFJFaDY1bVlDX1NGYzlCSV8xRlNjYzB4NWhXY0o2ekxVWHBJdklvYU1aV3Rnc3lNbDN4RllYVEdvMkNFbGFlaFZGRWQxclB4LTlUZDRWWHR0RXZ1dWN6b2NEN1Uw?oc=5",
+          "source": "shattered.io",
+          "published_at": "2026-11-01T08:46:58+00:00"
         }
       ]
     },
@@ -1823,28 +1823,28 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+capex+Microsoft+Amazon+Meta+Google+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
+          "title": "Cracks are emerging in the AI spending boom - TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN3RLejV2bml3REY1cnN2SUpGQV9VOEpKT2FDVUxhcEVESm5PNE1xdEZqTHJ6QUJIY2NIWGNOdXZVZmRXZFFfcko0X19lVE8yUTkwUlVfODdpV1FUTVdIQU9fQ1FaeW5RdENzZlIzUWhZQjJYY2htMlVBWjRseVQwM3hxRHE?oc=5",
+          "source": "TechCrunch",
+          "published_at": "2026-10-30T21:17:40+00:00"
+        },
+        {
           "title": "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch. - CNBC",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBZNHVhb2N1VHhYN2hEc1pibmFxYUpRc19YazNmd2t2S1UweGJLN0hra1F1S2JHNU1MeDd1VV94N3VleXRaMmxHX0ZZV0doNFFrUkVrY1pJMjFNSVdHSmt6SFBXeGZTU1Z4alp5emxrcW0zN1HSAXhBVV95cUxOVGR4c0JHMzVmajhYcHV6T3djck95TXROZGU4cmRobTJsZ3pRczlQcmVHZ3IzVkIwdTBjTnpwWGJnX0FnZVg2bWh1bGZqd20teXEzR3pZdWVjWXYzTmt4YXhfdnJUNlJYNHJlUFE0R2ZDTDVlSWJwcUc?oc=5",
           "source": "CNBC",
           "published_at": "2026-10-27T19:57:35+00:00"
         },
         {
-          "title": "Big Tech Data Center Spending Tops $720B [2026] - https://tech-insider.org/",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaU5tTlBpLVNRMGZpTXVIVkF6cGVzVlpmOXdtdnpTZ3RsUld1c0E2UDA0dUxrV3B2YVFMLW8zSXFVaXRxRVRKd2ZCTnRfaDhyQzBudVlRZFhMWnV6ZEhGdkxTdVN1NXVkWEFaTmhuREM4dUxOYU5YQ21UcUZ4R0pDUmJjSzNDSTRoV0dLQkQ4Q3I?oc=5",
-          "source": "https://tech-insider.org/",
-          "published_at": "2026-10-31T06:51:56+00:00"
+          "title": "Wall Street wipes $1 trillion from the stock market as tech’s $828 billion AI spending spree sparks market fears - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WaEdkUjE4cFJlX1hGUk9qODZTalAyR0hmci1pdXpQaWQzeU1xbmdqSFZBUXdpWXY4VGVMV3BQaFNEcFFOQWpsUk5YenhBLTJDVGl1dUNHOHZIM3F4UTlKVmEyV0dmZm9rcjM4WHhvdDN1dFlU?oc=5",
+          "source": "Fortune",
+          "published_at": "2026-10-31T11:44:00+00:00"
         },
         {
           "title": "Big Tech’s $720B Data Center Blitz Burns Cash [2026] - shattered.io",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNblNFVm82c2FSclZLNDFTNjBwSmRFcjJJOWtkX2JDWVp5WlJVTUN6T1VtcU1KSE9uYnBtRExFVW9EMXlXa2JpOGRVTko1bVZxOXR2T0hRWmpaQlRJVU1SLTlNV3N6eDZYVXBld3hrc0MzVVhiblh2NjhEcmpuUzhYaXRyRW5oSGxYQngwTkVaSmJ1dTBT?oc=5",
           "source": "shattered.io",
           "published_at": "2026-10-30T04:36:09+00:00"
-        },
-        {
-          "title": "Cracks are emerging in the AI spending boom - TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN3RLejV2bml3REY1cnN2SUpGQV9VOEpKT2FDVUxhcEVESm5PNE1xdEZqTHJ6QUJIY2NIWGNOdXZVZmRXZFFfcko0X19lVE8yUTkwUlVfODdpV1FUTVdIQU9fQ1FaeW5RdENzZlIzUWhZQjJYY2htMlVBWjRseVQwM3hxRHE?oc=5",
-          "source": "TechCrunch",
-          "published_at": "2026-10-30T21:17:40+00:00"
         }
       ]
     }
