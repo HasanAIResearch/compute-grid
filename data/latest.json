@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-11-14T12:27:38+00:00",
+  "generated_at": "2026-11-15T12:56:14+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -1695,6 +1695,12 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+power+grid+interconnection+transformers+switchgear+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
+          "title": "NTT Global Data Centers Report Reveals What It Will Take to Power the Next Wave of AI - NTT Data",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa25vWUJPaldtLXB0TFZmOXJOTXhPREZiYTFBaXFrdDZjdE4tWU9Ta2F2RUhWRDB4UjJJekZxLVRuM2RZV01IQjVGNG1INlBHZW9xLXNDWHdLYTFlUFV5OVNpZE9KSkJNYnRfSzFMSXVqeldfVmJHTnlSSUpzaHI5UHdkbERRRTdlTHRscG5JSnp4RXN2TUFBQktSSHZhclpubW5vUVlmNjg5ck5zdVIxNndCRDdXNDlIVWxudG1maHFnZEk?oc=5",
+          "source": "NTT Data",
+          "published_at": "2026-11-08T18:26:19+00:00"
+        },
+        {
           "title": "Transformer Stations Market To 2035: Grid Upgrades and Renewables Fuel Growth - News and Statistics - IndexBox",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTFlQMWV2blB5cjJ4bnBTZWNKanZmamJoM29nOEtuT3lrTTJiQ0VKQml4QTJOeENRb21UT2pObjlnbzlmc0FCUmlNR29XWkVkeUNPd2R1YnRobS1ZOTBrTTZLc3hkU3hSdTM1VlAtdFlUc0Iybk9FWUZKVzU1QVZJMFJLV0ptTmt5czdhSTladlR1bUZEWktJYTB0dmJaMXpvUU90ckFkel95RF9UU3h1Ulo2dXJJVU9vRzdQbEZXQUJVcGxtaHpBelBRMnJSYUhZ?oc=5",
           "source": "IndexBox",
@@ -1711,12 +1717,6 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc21QallOVXVyRXFkTFhiT29VZGxzRHptWFZsTEpxVkthOHVyZ0VpLXMxeElaUDBDd0NhbWZicVpvV1V3MkJLYXBGMlY2cV9QaHF0YzQyMUc5cnRqQzIzcm5ZWmpwU2ZqbGdtM2RZU3dYNEVMR2k4c0ZvOHNza1piT2xhMlJ2dk5VQnJFRHlkb2ZsZ3NUVkRBZDBDTzFBalcx?oc=5",
           "source": "Construction Review",
           "published_at": "2026-11-09T05:10:49+00:00"
-        },
-        {
-          "title": "FPS Declines 42% in a Month: Time to Buy the Stock Now? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNUh3S3BiY1c2dHBERzlBX0lpZENFRHM3MGRBVmNnSFRhLUVvYW5QUkRQbVpzSC05SUthbXY2cS1STV9VZGJVTTZNOEs1aVRSSVpLVC1UdHQ4dUpPeWU0Y3BpaHZSRV9SZHBQdTJQaFN6TGtRODlqelhCZnlQVHE4UEpQYlpDV2ZrZVd2MUk2R0RxaWRvdHU1RmhMWVdoMlVmVEc5RzdYZDZXME5M?oc=5",
-          "source": "TradingView",
-          "published_at": "2026-11-11T19:17:54+00:00"
         }
       ]
     },
@@ -1759,14 +1759,8 @@
       "url": "https://news.google.com/rss/search?q=AI+data+center+networking+800G+optics+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "items": [
         {
-          "title": "Credo Technology Group Holding Ltd - Investor Relations - Credo Technology Group Holding Ltd - Investor Relations",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycWpxcmFHWVNOeS1scHI3Vkhidjhyb2NWZmt4NlhYWlJxNE9fSXZZbXczMTBHRGtKcEhOTTBpakxVNEZCSkpUaUU2X0d4b1kwMm80MmJwcElwQnl2MTR1Y18tdw?oc=5",
-          "source": "Credo Technology Group Holding Ltd - Investor Relations",
-          "published_at": "2026-11-11T08:00:00+00:00"
-        },
-        {
           "title": "AAOI Stock Rises 7% Post Q3 Earnings: Should You Buy, Sell or Hold? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYzhCbE9hZ2lJMFhMUEhIc0V5Mm9ybHVOMTl5Z1VzUFdWcWEzNjNEdTBUR1E4aWNTN0k0NXNndHkwSThJZjlfb2p5QlNtUy13NFJRdFMzTC1VSU81VUVNVlpjbGhsVF92emJHcVdnRE5IWTlNTTBoWjdQYUI5VHljZTJ3T3gxNzNTMThIS1NfQzRYc3hrS3dIYjVrbDFNVmZYT2tEVTdGbkpkaHNLUkZjcUlpWGx3eWp0MkE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaXlBenVUYkpQR2NPQVJKSzJhMWxlWGx4NmUxZkw1T3pmRDRYMDE1QWdHaFIxNFpSSHRQQ1k4UjVmaGItemJad05CcTFGcUM2aXZVVHFxTWZTZGZzRkM1U2pyUFpLaDFOd1NmNHVpaTIzdzJHSm9SU1dWNTlWazlBVFhFaXp4REVZbXJBcl9ldEJmMlY2NXpVU2N2TFV4RWo5dXpkS1ZjU0F3cC1Nek1zVUdOZU1sOHFOcFF3?oc=5",
           "source": "TradingView",
           "published_at": "2026-11-09T13:25:00+00:00"
         },
@@ -1781,6 +1775,12 @@
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQUdlUFU5Z2g3a2JKUjhxVUJrcGFleHRVdUxGSC1uMVdtZjg0bEFhTWRiOUhNYTREMnpjQlY3emNDYUFDN2tzVEh2VnhudExPaVlQY3ZHcHhfS1NmaGxwcUxMeks0YmZfTWpUQkhLZFhLWHRmZzE1V3Z6WkZSNHZjOFJoWE1reTV6NDRPNnpTdkpPb1RKa0p3dWppZjdlUUhnaHZFRGhES1NNOVFTaDA5UlNITU9mVERqeVFlbdIBvAFBVV95cUxQQUdlUFU5Z2g3a2JKUjhxVUJrcGFleHRVdUxGSC1uMVdtZjg0bEFhTWRiOUhNYTREMnpjQlY3emNDYUFDN2tzVEh2VnhudExPaVlQY3ZHcHhfS1NmaGxwcUxMeks0YmZfTWpUQkhLZFhLWHRmZzE1V3Z6WkZSNHZjOFJoWE1reTV6NDRPNnpTdkpPb1RKa0p3dWppZjdlUUhnaHZFRGhES1NNOVFTaDA5UlNITU9mVERqeVFlbQ?oc=5",
           "source": "Simply Wall St",
           "published_at": "2026-11-12T14:31:04+00:00"
+        },
+        {
+          "title": "Taiwan's Gemtek Q3 Gross Margin Rebounds to 13.4%, Quarterly EPS of NT$0.25 Ends Losing Streak; Shares Surge Over 7% Intraday - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GTHdvUHRxTXZGQTNhaFlwbzhvRmZxQWlvZ2NfYm1JMjBXNHpLUVpDaklOUWxMLXRhYlhPYzhyd25NRVRDemdzS0hhRXRqWTZBX1c0WDlVeE1GcEhTaGNiNFFXYm5vZVNsUFBmak9nVjlaeTRTblE?oc=5",
+          "source": "BigGo Finance",
+          "published_at": "2026-11-10T02:25:00+00:00"
         }
       ]
     },
@@ -1835,16 +1835,16 @@
           "published_at": "2026-11-12T15:08:00+00:00"
         },
         {
-          "title": "AI Spending Is Now Outrunning Big Tech’s Cash Flow - Technology Org",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNVY3VXk2MzFMd2o4aHVCNmxvU2FDcHBJY3ptTUlnXzUzMmsxdVJOMHBtYmVLWmFYNWx3a05PLTVNYy01bjRVNkZGekkxWHkzaWNnbGNnNnNBZXZlQ2Y0NUI2N2NEdW1IRVBUdDhNUzFKQTNBaktDeFZTcDcxTXdJbFRxcU1BYUd2cmZjZA?oc=5",
-          "source": "Technology Org",
-          "published_at": "2026-11-09T16:44:00+00:00"
+          "title": "Billionaire Bill Ackman Says There’s a Huge Disconnect in Wall Street’s Expectations for Amazon, Microsoft, Meta, and Alphabet - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNFdXYzhMcUk4NXZGelVIVlE5eGdPV2ViclRzeFduYWZ3SnF2eXRvZXE1eUxsMGkzc1o0RXMwSkNTUG8xdUkwbV84TFNOM2Q3THoyeDk4azI1WHdJYWVSeUE5bmRuX2RoS25ITUZvT2pzSmdKdXRQLW01TXdtSXYwak5yYU9KUG5FU2NabjRWTXZQdV9CZ0ZTUXdERVJzYUY0QllKV1lSYnFPTWtaeXpDQ0xB?oc=5",
+          "source": "The Motley Fool",
+          "published_at": "2026-11-14T14:45:00+00:00"
         },
         {
-          "title": "Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest - The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj?oc=5",
-          "source": "The Motley Fool",
-          "published_at": "2026-11-10T04:51:00+00:00"
+          "title": "Billionaire Bill Ackman Says There’s a Huge Disconnect in Wall Street’s Expectations for Amazon, Microsoft, Meta, and Alphabet - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPakIxeTRWbHJGUlpobV9kLVpKSlVBajQwYU9vNU9ZR2RyQ3UzRGxlOFpQalpXMGZORUJ5dGZkdW12VjdVZG5SMzlUeDZReFhBS09NeWJRTkM1Nk5OcjYtWG9LQi1WZ2tHOVNLaVVtM0VpckRfS0MtcDZwOWxWT2Z6Sy1lSWZIekR0YUdfRE9TNWZGRFNEMGFYMUF0QmxYaTQ5a0JibTh2a2g0MXluSEQ1SjBzVEZ3SF8zRUxKQTkwMTQ3UmU4d1BMcVdHZC1tdThqdnJCc1dYcG1XUFA0QlVaanFsLVFWcHlwMERudnhEcFNxT2JfbkR6N3JucUxOcmtkRUgzcWJuWl9JR1B6cDJHbW91dTV5VjhxR0ZScFFmWnJ5anNadUJ0d055Mzl4WXZHbEE?oc=5",
+          "source": "The Globe and Mail",
+          "published_at": "2026-11-14T15:09:21+00:00"
         }
       ]
     }
