@@ -1,13 +1,13 @@
-[2026-11-15T12:55:44+00:00] loaded page labels=109 categories=17
-[2026-11-15T12:55:47+00:00] market progress 10/114 failed=0
-[2026-11-15T12:55:50+00:00] market progress 20/114 failed=0
-[2026-11-15T12:55:52+00:00] market progress 30/114 failed=0
-[2026-11-15T12:55:54+00:00] market progress 40/114 failed=0
-[2026-11-15T12:55:57+00:00] market progress 50/114 failed=0
-[2026-11-15T12:55:59+00:00] market progress 60/114 failed=0
-[2026-11-15T12:56:01+00:00] market progress 70/114 failed=0
-[2026-11-15T12:56:04+00:00] market progress 80/114 failed=0
-[2026-11-15T12:56:07+00:00] market progress 90/114 failed=1
-[2026-11-15T12:56:09+00:00] market progress 100/114 failed=1
-[2026-11-15T12:56:11+00:00] collecting news topics
-[2026-11-15T12:56:14+00:00] completed ok=113 failed=1 json=/home/runner/work/compute-grid/compute-grid/data/latest.json
+[2026-11-16T13:56:25+00:00] loaded page labels=109 categories=17
+[2026-11-16T13:56:29+00:00] market progress 10/114 failed=0
+[2026-11-16T13:56:31+00:00] market progress 20/114 failed=0
+[2026-11-16T13:56:34+00:00] market progress 30/114 failed=0
+[2026-11-16T13:56:37+00:00] market progress 40/114 failed=0
+[2026-11-16T13:56:40+00:00] market progress 50/114 failed=0
+[2026-11-16T13:56:42+00:00] market progress 60/114 failed=0
+[2026-11-16T13:56:45+00:00] market progress 70/114 failed=0
+[2026-11-16T13:56:48+00:00] market progress 80/114 failed=0
+[2026-11-16T13:56:52+00:00] market progress 90/114 failed=1
+[2026-11-16T13:56:55+00:00] market progress 100/114 failed=1
+[2026-11-16T13:56:57+00:00] collecting news topics
+[2026-11-16T13:57:32+00:00] completed ok=108 failed=6 json=/home/runner/work/compute-grid/compute-grid/data/latest.json
