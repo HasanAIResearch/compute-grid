@@ -1,6 +1,6 @@
 {
   "task": "compute_grid_project_refresh",
-  "generated_at": "2026-11-21T13:41:00+00:00",
+  "generated_at": "2026-11-22T13:34:21+00:00",
   "page": "/home/runner/work/compute-grid/compute-grid/index.html",
   "labels": [
     "ABB Ltd ABBN.SW",
@@ -1691,162 +1691,42 @@
     {
       "topic": "Power / Grid",
       "query": "AI data center power grid interconnection transformers switchgear latest",
-      "ok": true,
+      "ok": false,
       "url": "https://news.google.com/rss/search?q=AI+data+center+power+grid+interconnection+transformers+switchgear+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "items": [
-        {
-          "title": "Industry Opportunities In Global Power Grid Construction – Analysis - Eurasia Review",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ1AwTktmckEwYWtNSm1oaU9yWU9kLUZpZzZUZHN0VkFEdDBlMnh3eGpQcnVwOFd4VVRVQXpVRG1ULUk1OVVhSGdNWTdmRTFDVk1Kdk9HajFzNUtOZTJTOXJKbmo4ZktEcDZLWWU2MlJNSGxkbDdkdHM0WjZ2amRNN0FVbmZNbzFucDdtZEZmX3BYTDU1WWd1NF9fT2I3bjBzZ1p5QmRsbVc?oc=5",
-          "source": "Eurasia Review",
-          "published_at": "2026-11-20T02:44:53+00:00"
-        },
-        {
-          "title": "GE Vernova’s SF₆-Free Switchgear Targets AI Grid Bottleneck - The Futurum Group",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc25PVFZTcmlVQ1paN0NLdjdaaHo3YTJzV2tNeHRiR0tGYi1KdzJsUzJueUxxcEVoa05IQXdib0kyR1pvclJheVB1Y2szZGRacWRwbGFSR2ZrWkpCZnlVV3U4YWQ4LWNZMzBuQlRiSWhYWHN1UFNfQ2N5cjEyX3E4UUhlUnBMb01JUHZXNkFKQ1dmNnVVbG1V?oc=5",
-          "source": "The Futurum Group",
-          "published_at": "2026-11-17T15:51:58+00:00"
-        },
-        {
-          "title": "ElectroIQ Brings Project, Lead-Time and Procurement Intelligence to the Power Transformer Market - markets.businessinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbl9Dem4zT3JNbEtmWFR0R0JtRU5PeWJpdXJubUNzOFdzalliU2VWdTRtaVFhVUc3MlhEeXA3a0RYcUhob09hRFBWekxOMnh0Uk5LWnJ5dHN1Rzl6ZlVRUTNtYUt6ZXFkWEpSdjAySTlfTGNZREhvczFtaFdJWnN4U1NpQTluWmxhNTdlUUhoZmtyRFpQV2V0emtKeEFlZzg2OFBqMEo5OFllUXl5MVdmNnJqRzJMRWZTZkYzZXljNW9EMVBFclcwSExNZUNTX2NmbXNrQnQ0aTFtLVlzUzhlVVk5d21TSVpNVVE?oc=5",
-          "source": "markets.businessinsider.com",
-          "published_at": "2026-11-19T10:57:17+00:00"
-        },
-        {
-          "title": "Tesla’s Powercore could change how data centers get power - Teslarati",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaENJdnI1aXpoNHV4Uzk1NElKSG5TOGhaV1M3dDJmbXdHRWlfdXdvRHM1X1U0LXNEU3paTUhGcENBenZNLVhCNUV6dDhQQXZFMDg4V3Z2QV9jYnV3OVBuSUFib1BVb3R6SnZVOWpDY1dEVE5EaVI3elVvOG1rMzYxbEo5N2g5enB0MGt4QUMtUQ?oc=5",
-          "source": "Teslarati",
-          "published_at": "2026-11-18T06:46:18+00:00"
-        }
-      ]
+      "error": "<HTTPError 503: 'Service Unavailable'>",
+      "items": []
     },
     {
       "topic": "Memory / Packaging",
       "query": "AI HBM advanced packaging semiconductor substrate latest",
-      "ok": true,
+      "ok": false,
       "url": "https://news.google.com/rss/search?q=AI+HBM+advanced+packaging+semiconductor+substrate+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "items": [
-        {
-          "title": "The New 16nm Divide: How U.S. Export Controls Are Redrawing the Global Semiconductor Manufacturing Map - semivision",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13dFNvaWN5TDZFSFVzMzRfZXBlNDdfMUtQYkVWSWJJNEs4RG0wd2xVVW1oTjkzVmZncWc3Rm5uVUxCWXVsU0RDYWtaRlNjTGJWQ3FIazZLcUNabTZWS2FNZWRkMUQzNFRudUU1VEZFLUNCTE0td3liUVBqYmhabGs?oc=5",
-          "source": "semivision",
-          "published_at": "2026-11-20T08:46:24+00:00"
-        },
-        {
-          "title": "The homework handed to South Korean semiconductors: \"HBM alone won't cut it — build up packaging and foundry\" - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzOFBJUzE0SWdhaVo1U3l4Ykx2NWlsRmNHRGY2MXJZaG5lcElnUDREZTRwbDVXbG00dmxQaUNjbURCRjhaYUxBR1lYWHV1Rjk4N3U5NmpMTnJmMTZnZERIMklGNkZIbjBVM0JweUphdVlfd0ZYVGc?oc=5",
-          "source": "BigGo Finance",
-          "published_at": "2026-11-19T09:56:00+00:00"
-        },
-        {
-          "title": "Chip Industry Week In Review - Semiconductor Engineering",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kc3IxRENSWnBOWjVuOVJRc2Z4aG4zTklKekcwX3BENmJIYklnZDZlVE02bXctcFltTGFna0VkZmFobnV4Zm1JQmpfT05qaUIzT0QyN042VGRfWkh1dTRRSW9CX2pOZDZaT2JEYzB3?oc=5",
-          "source": "Semiconductor Engineering",
-          "published_at": "2026-11-20T08:34:19+00:00"
-        },
-        {
-          "title": "AST completes Singapore's first high-end FC-BGA substrate facility to meet growing AI chip demand - Singapore Economic Development Board (EDB)",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaVVCWXBKT05SWHR6a0hmMnkwRmtUT2ZDUUx6STdDWjZsSi1BOFhXYjBSVW0xc2NWdUFWNVJHN1BIaFFHNVc4cV9OQkRwRkRXN3hRenExbEhvdGZCeXJ6eUlPWW9XUzhqV0tXdElLQmFfaGNYYnp2VUpsQjFwTmUwV0dyaFpybTVFOVhNc01YV1ptR3hqTms2aVRPbDlBdHdsa3BldlhQTjBfcFJEMVl1TnBkR08za1hYX3ZZMmFjamJNMWRIT1JZY20zSEh4TFp1dGtqTm1n?oc=5",
-          "source": "Singapore Economic Development Board (EDB)",
-          "published_at": "2026-11-19T08:00:00+00:00"
-        }
-      ]
+      "error": "<HTTPError 503: 'Service Unavailable'>",
+      "items": []
     },
     {
       "topic": "Networking / Interconnect",
       "query": "AI data center networking 800G optics latest",
-      "ok": true,
+      "ok": false,
       "url": "https://news.google.com/rss/search?q=AI+data+center+networking+800G+optics+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "items": [
-        {
-          "title": "Credo Technology Group Holding Ltd - Investor Relations - Credo Technology Group Holding Ltd - Investor Relations",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycWpxcmFHWVNOeS1scHI3Vkhidjhyb2NWZmt4NlhYWlJxNE9fSXZZbXczMTBHRGtKcEhOTTBpakxVNEZCSkpUaUU2X0d4b1kwMm80MmJwcElwQnl2MTR1Y18tdw?oc=5",
-          "source": "Credo Technology Group Holding Ltd - Investor Relations",
-          "published_at": "2026-11-19T08:00:00+00:00"
-        },
-        {
-          "title": "AAOI Rides on AI-Led Optical Demand: Can It Beat Fabrinet and Coherent? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdE14U1BRUHhvUHFXR2VnMHUxSHRCTXRVQnRtRkpUYldsUjZHMmRwM1dkcFR3RGNaNC1CZDhnNFcxbldCYXFvQmx6OXdrX0JhMjZKUWxIc1ExemxfSktGcFV3TS0xMjVfWWVxajlYeGJRX0lFQ2ZCaHNEVlQyanNjcFp1LWRSZVRENEoyT2l0aWZBTGxjUVVNbmVRRW1HLVNnRmN6SEFwTV81WHVyV1pPTGRZRFlWenlPUWhORDg3b2p4Z3M?oc=5",
-          "source": "TradingView",
-          "published_at": "2026-11-18T16:47:00+00:00"
-        },
-        {
-          "title": "Nvidia Isn’t the Whole AI Story. This Stock Could Prove It - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeHFrM0xtaFdVLU1aZnJlVVNucFNIakZFS0hIUzVqUnlwbFFEd1dVcTlvbldsMlo2eGt6T1dQNkM3MEdjNE8xeU1NWnVtcmNoRF9KRzZ5ZUNXWkZCNzN0WVdMYWZRdEJ4T200TDZsU3BYVHpFUFBXZG1fRDRDaXdCVE1XZXdYNUZvMHFlQV9pT0pmSlFPZHRLWjNCNC1IV0N4YWc?oc=5",
-          "source": "24/7 Wall St.",
-          "published_at": "2026-11-17T15:33:00+00:00"
-        },
-        {
-          "title": "Coherent Surges 10%, Lumentum Rises 8% Pre-Market as US Plans to Restrict Chinese Optical Module Imports - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeUE5UU9Fd0xpNzhPR1A1cjd4U3JYaVBoU0YzQkYyZW45RE9UWHQtbzJuX2hSV3NFVEtjems1RlpYdk9KRGRKYzhYWnlmYVlCa1hwRzNCUFplakpBQWxEbjV4eGk0b05TRF9fSDEtbUZWc3pNV0NlMXJPQ3hhdGx5aTBfbDFqdmFKaFBrZW43cElwQkRrVWg4T0ZBY203NjJEc2ptVlZTX1l4OFZLNUphYTRVdG42Y0JtQVVFZWE1WHBrWGI4Vm9VY0Q4aXE0RHUyVFZ6Q1RWbmJmQ0RoZTZ0RA?oc=5",
-          "source": "TradingKey",
-          "published_at": "2026-11-17T13:31:49+00:00"
-        }
-      ]
+      "error": "<HTTPError 503: 'Service Unavailable'>",
+      "items": []
     },
     {
       "topic": "Cooling / Thermal",
       "query": "AI data center liquid cooling rack density latest",
-      "ok": true,
+      "ok": false,
       "url": "https://news.google.com/rss/search?q=AI+data+center+liquid+cooling+rack+density+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "items": [
-        {
-          "title": "DCF Video: CoolIT's 3 MW CDU Brings Smart Monitoring and Fanless Cooling to AI Infrastructure - Data Center Frontier",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxON2ZPOFJ4SVhNTlhMQnpqV0FBdXVoTVNuRm56NGFuel9ncmd3c0tEcTdNeDl3YUcwZy1SZUo2SlA3Mm0zZTB3NnRDSUJYaEJuZzFsLWg5N1Ztb3NxdE40OHJpQzE4Z3ZreUlURnVsM1pnTk1rT3cwdWZSa2xyX284QVpUOXhDOS1UWUlva05OX3lDV0hoeFJDcl9YbzBISkUyeG9OM25EYXpxWVJ4dG1ZSWJScFFlOXBfSFRZMzdIMnRWc2dJdUYzM0NTSHpWbUNVN3QycVEwSFFrTHNYVEFZSl9rVQ?oc=5",
-          "source": "Data Center Frontier",
-          "published_at": "2026-11-18T15:59:10+00:00"
-        },
-        {
-          "title": "Beyond cooling: Why heat and noise matter in sustainable AI data center design - Data Center Dynamics",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWlJuZ2djMTk4Qk1YY28taGR0eWI3VEE4M2FfR1lBQ0NvOWVhd3ZSU2EtMGJNUEk2Q21WZmxNWjhMTU94eDhwWVVUMU1ITHRVY3ZCQnV5dHJzRGFoOHVtRzMtaTJWNE9ndzJUWHlycWFWakQ5NnZKYnVVN1Jld2VSSUloRl9fcHNjbk1SSWdDV1hTLUp1Nzd0MWlIbEdraGpzREhmaFhDMENzQWhsaFZUZEVuUE5BTXpXNmFXNG1rTC1KdEE?oc=5",
-          "source": "Data Center Dynamics",
-          "published_at": "2026-11-18T16:04:43+00:00"
-        },
-        {
-          "title": "Chatsworth Products Introduces New Rack, Power and Liquid Cooling Solutions - Refindustry",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWswaXU4MlFkdWtXb3poc2Vhak9xVkV4X2lKcXRYRlkzd0o5aFFVaDhNZjJKU0swdWRMQ3lWNW93aEJMLU53SWNkekpPMHpTbGdGXy10Z2NqcW9hbXRUd09xWHRwcmVOQ1FtS0xuWjRzSW5weEtTUDdMeWVqVVc3eXdKeUkySFk1S01abzFFWEJCbjg4Y2s0VktkUjJjM3dXV1RJYmdjZw?oc=5",
-          "source": "Refindustry",
-          "published_at": "2026-11-16T12:30:00+00:00"
-        },
-        {
-          "title": "AI Data Center Liquid Cooling Market Size, Forecasts Report 2026-2035 - Global Market Insights Inc.",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNnZTaUpRTjhUUkxheG9Cd1pRRWNvWFhUbTU1VnQ0V2trcHNIN0w0ZUlKNXlUalRZUEVDczFmNlpOYjdzWkxKZy1QalRXYzFxZXJadTR5MlBqT09DMUY2ZGljWHgtZmd5UEg5WXNXSWVxSGFYZVBvRG9pNndtS0ltNlVQSU1tZW5h?oc=5",
-          "source": "Global Market Insights Inc.",
-          "published_at": "2026-11-16T08:00:00+00:00"
-        }
-      ]
+      "error": "<HTTPError 503: 'Service Unavailable'>",
+      "items": []
     },
     {
       "topic": "Hyperscaler Capex",
       "query": "AI data center capex Microsoft Amazon Meta Google latest",
-      "ok": true,
+      "ok": false,
       "url": "https://news.google.com/rss/search?q=AI+data+center+capex+Microsoft+Amazon+Meta+Google+latest+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "items": [
-        {
-          "title": "19 charts that explain the state of AI - Understanding AI | Timothy B. Lee",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BdEYzLWI0UDM3NjRTM1NGSjVsaFFSblZaY2sxRDJHcEJfeXZPUENRYmhVZ0ZiSjBEV2NydmtGcG1ZdmktN1dNRFQ2OHF2UVBLS0l5ZzRNWGpyaEZDYm9DVDdHNlE0aTZOOEx4a2FqYUxMOVlB?oc=5",
-          "source": "Understanding AI | Timothy B. Lee",
-          "published_at": "2026-11-18T21:34:00+00:00"
-        },
-        {
-          "title": "Morgan Stanley Says These 4 Companies Will Spend $1.6 Trillion on AI Infrastructure in 2027 - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmxUb3dMMUxfZ3Nwb0xKRFNEbG9XUmZSTUIxRU5jQ2ZkR2UxYVVDdnhDUTYzbXh3RTNPQkw1UXBQelQzbHJUS21SYVlpWE45b3dGZnZJanB1Yll4OEhiOF82SnQwVGVMcVlENVduQTVSNDhkczBzUlJocGJkMldQNUZwLWNjSmNrSjVISDljb2d4MDYyeTByZHBkYw?oc=5",
-          "source": "Yahoo Finance",
-          "published_at": "2026-11-18T23:41:46+00:00"
-        },
-        {
-          "title": "Billionaire Bill Ackman Says There’s a Huge Disconnect in Wall Street’s Expectations for Amazon, Microsoft, Meta, and Alphabet - The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNFdXYzhMcUk4NXZGelVIVlE5eGdPV2ViclRzeFduYWZ3SnF2eXRvZXE1eUxsMGkzc1o0RXMwSkNTUG8xdUkwbV84TFNOM2Q3THoyeDk4azI1WHdJYWVSeUE5bmRuX2RoS25ITUZvT2pzSmdKdXRQLW01TXdtSXYwak5yYU9KUG5FU2NabjRWTXZQdV9CZ0ZTUXdERVJzYUY0QllKV1lSYnFPTWtaeXpDQ0xB?oc=5",
-          "source": "The Motley Fool",
-          "published_at": "2026-11-14T14:45:02+00:00"
-        },
-        {
-          "title": "Beyond the Headlines: What NVIDIA’s Selloff Reveals About the AI Investment Cycle | by Abhay Patil | Nov, 2026 - DataDrivenInvestor",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVHJ3OC1qZjFFUGZSZ2NzYkRnTWhsYl9LT0x5ekw4TzlyLVFDWTBwekd1MmVJNkdmQnAzcldyQWpwX3lWcms3VXBJTmRQR2M2bWp5My1VTUxQWU1qbENJVTlNTXc4ajRmYmNrWUZhOW9JcHFWZFZfcGZvUkNhblAzTDhsbU1xUE5GUk4wbTlUZXVxUDFtQWtjcTZwUjZSR2ZLSkM0ODRmM0VrNnFoamg0VWxJX28ybTVYUkN1Q0MxWW84b3hzaTB6ejFn?oc=5",
-          "source": "DataDrivenInvestor",
-          "published_at": "2026-11-20T13:17:09+00:00"
-        }
-      ]
+      "error": "<HTTPError 503: 'Service Unavailable'>",
+      "items": []
     }
   ],
   "sources": [
